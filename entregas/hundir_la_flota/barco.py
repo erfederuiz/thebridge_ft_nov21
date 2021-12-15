@@ -1,0 +1,105 @@
+from utils import *
+
+class Barco():
+    def __init__(self, eslora, orientacion, celdas):
+        self.eslora = eslora
+        self.celdas = {}
+        self.estado = 'F'
+        self.orientacion = orientacion
+        for celda in celdas:
+            self.celdas[celda] = caracter_barco(orientacion)
+
+    def celdas_barco(self):
+        return self.celdas.keys()
+
+    def comprobar_disparo(self, disparo):
+        if disparo in list(self.celdas.keys()):
+            if self.celdas[disparo]==caracter_barco(self.orientacion):
+                self.celdas[disparo]=tocado
+
+            valoresAciertos = list(filter(lambda x : x == tocado or x == hundido ,self.celdas.values() ))
+
+            if len(valoresAciertos) == self.eslora:
+                self.celdas[disparo] = hundido
+                self.estado='H'
+                return hundido
+            else:
+                self.estado = 'T'
+                return tocado
+        else:
+            return agua
+
+
+class Posiciones_barco:
+    def __init__(self, eslora, orientacion, coordenadas):
+        self.eslora = eslora
+        self.orientacion = orientacion
+        self.inicio = coordenadas
+        self.celdas = []
+        self.celdas.append(self.inicio)
+
+    def calcular_posiciones(self):
+        for i in range(1, self.eslora):
+            last_celda = self.celdas[-1]
+            if self.orientacion == 'h':
+                self.celdas.append((last_celda[0], last_celda[1] + 1) if check_coordenadas(last_celda) else (-1, -1))
+            else:
+                self.celdas.append((last_celda[0] + 1, last_celda[1]) if check_coordenadas(last_celda) else (-1, -1))
+
+            if self.celdas[-1] == (-1, -1):
+                self.celdas = (-1, -1)
+                break
+        return tuple(self.celdas)
+
+class Fronteras_barco:
+    def __init__(self, eslora, orientacion, coordenadas):
+        self.eslora = eslora
+        self.orientacion = orientacion
+        self.inicio = coordenadas
+        self.celdas = []
+
+    def celdas_contar(self, direccion):
+        if direccion == 'derecha':
+            return self.eslora + 1 if self.orientacion == 'h' else 2
+        elif direccion == 'abajo':
+            return 3 if self.orientacion == 'h' else self.eslora + 2
+        elif direccion == 'izquierda':
+            return self.eslora + 2 if self.orientacion == 'h' else 3
+        elif direccion == "arriba":
+            return 3 if self.orientacion == 'h' else self.eslora + 2
+        else:
+            return 0
+
+    def frontera_superior(self):
+        celda_inicial = self.celdas[-1]
+        for i in range(1, self.celdas_contar("derecha")):
+            next_celda = (celda_inicial[0], celda_inicial[1] + i)
+            self.celdas.append(next_celda)
+
+    def frontera_derecha(self):
+        celda_inicial = self.celdas[-1]
+        for i in range(1, self.celdas_contar("abajo")):
+            next_celda = (celda_inicial[0] + i, celda_inicial[1])
+            self.celdas.append(next_celda)
+
+    def frontera_inferior(self):
+        celda_inicial = self.celdas[-1]
+        for i in range(1, self.celdas_contar("izquierda")):
+            next_celda = (celda_inicial[0], celda_inicial[1] - i)
+            self.celdas.append(next_celda)
+
+    def frontera_izquierda(self):
+        celda_inicial = self.celdas[-1]
+        for i in range(1, self.celdas_contar("arriba")):
+            next_celda = (celda_inicial[0] - i, celda_inicial[1])
+            self.celdas.append(next_celda)
+
+    def calcular(self):
+        next_celda = (self.inicio[0] - 1, self.inicio[1])
+        self.celdas.append(next_celda)
+        self.frontera_superior()
+        self.frontera_derecha()
+        self.frontera_inferior()
+        self.frontera_izquierda()
+
+        return list(filter(check_coordenadas, self.celdas))
