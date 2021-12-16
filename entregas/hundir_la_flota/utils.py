@@ -55,12 +55,17 @@ def traducir_coordenadas_usuario(input_usuario):
     else:
         return (-1, -1)
 
+def pedir_coordenadas():
+    while True:
+        coordenada = input("Apunta y dispara!!\n")
+        if check_input_usuario(coordenada):
+            return coordenada
+
 def check_input_usuario(input_usuario):
     pattern = r'([A-Ja-j])([0-9]+)'
     result = re.search(pattern, input_usuario)
-    if result and int(result.group(2)) <= 10:
-        coordenadas = (row_strings[result.group(2)], col_strings[str(result.group(1)).upper()])
-        print(coordenadas)
+    return result and int(result.group(2)) <= 10
+
 
 
 
@@ -111,29 +116,9 @@ def show_tablero():
         question = input("¿Quieres seguir jugando?")
     print("¡Has salido del juego, hasta la próxima!")
 
-'''
-datos_flota_jugadorA=[[4, 'h', (8,0)],
-                     [3, 'v', (1,7)],
-                     [3, 'v', (3,4)],
-                     [2, 'v', (1,1)],
-                     [2, 'v', (6,7)],
-                     [2, 'h', (9,7)],
-                     [1, 'v', (5,1)],
-                     [1, 'v', (1,4)],
-                     [1, 'v', (2,9)],
-                     [1, 'v', (5,9)]]
-'''
 
 def generar_lista_random(inicio, fin, cantidad):
     # Generate cantidad random numbers between inicio and fin
     randomlist = [random.randint(inicio, fin) for _ in range(cantidad)]
     return randomlist
 
-
-
-
-
-
-# Test funciones utils BORRAR
-
-#print(generar_datos_barco(tipos_barco))

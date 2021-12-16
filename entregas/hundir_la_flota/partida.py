@@ -4,8 +4,8 @@ from jugador import *
 
 class Partida:
     def __init__(self, nombre_jugadorA, nombre_jugadorB):
-        self.jugadorA = Jugador(nombre_jugadorA, [], {}, {})
-        self.jugadorB = Jugador(nombre_jugadorB, [], {}, {})
+        self.jugadorA = Jugador(nombre_jugadorA, True, [], {}, {})
+        self.jugadorB = Jugador(nombre_jugadorB, False, [], {}, {})
 
         datos_barcos_A = self.generar_datos_barcos(tipos_barco)
         datos_barcos_B = self.generar_datos_barcos(tipos_barco)
