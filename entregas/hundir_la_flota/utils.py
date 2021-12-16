@@ -2,12 +2,16 @@ import os
 import re
 import pandas as pd
 import numpy as np
+import random
 
 limit_columnas = 9
 limit_filas = 9
 agua = 'X'
 tocado = 'T'
 hundido = 'H'
+
+tipos_barco = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1]
+
 col_strings = {'A':0, 'B':1, 'C':2, 'D':3, 'E':4, 'F':5, 'G':6, 'H':7, 'I':8, 'J':9}
 row_strings = {'1':0, '2':1, '3':2, '4':3, '5':4, '6':5, '7':6, '8':7, '9':8, '10':9}
 
@@ -107,15 +111,29 @@ def show_tablero():
         question = input("¿Quieres seguir jugando?")
     print("¡Has salido del juego, hasta la próxima!")
 
-
-
-
-#### Test utils borrar
 '''
-list=['A6','A7','A8','A9','A10']
-list_ok=[(5,0),(6,0),(7,0),(8,0),(9,0)]
-
-for t in list:
-    print(traducir_coordenadas(t))
-    
+datos_flota_jugadorA=[[4, 'h', (8,0)],
+                     [3, 'v', (1,7)],
+                     [3, 'v', (3,4)],
+                     [2, 'v', (1,1)],
+                     [2, 'v', (6,7)],
+                     [2, 'h', (9,7)],
+                     [1, 'v', (5,1)],
+                     [1, 'v', (1,4)],
+                     [1, 'v', (2,9)],
+                     [1, 'v', (5,9)]]
 '''
+
+def generar_lista_random(inicio, fin, cantidad):
+    # Generate cantidad random numbers between inicio and fin
+    randomlist = [random.randint(inicio, fin) for _ in range(cantidad)]
+    return randomlist
+
+
+
+
+
+
+# Test funciones utils BORRAR
+
+#print(generar_datos_barco(tipos_barco))

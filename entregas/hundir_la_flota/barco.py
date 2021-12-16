@@ -42,9 +42,11 @@ class Posiciones_barco:
         for i in range(1, self.eslora):
             last_celda = self.celdas[-1]
             if self.orientacion == 'h':
-                self.celdas.append((last_celda[0], last_celda[1] + 1) if check_coordenadas(last_celda) else (-1, -1))
+                proxima_celda = (last_celda[0], last_celda[1] + 1)
+                self.celdas.append(proxima_celda if check_coordenadas(proxima_celda) else (-1, -1))
             else:
-                self.celdas.append((last_celda[0] + 1, last_celda[1]) if check_coordenadas(last_celda) else (-1, -1))
+                proxima_celda = (last_celda[0] + 1, last_celda[1])
+                self.celdas.append(proxima_celda if check_coordenadas(proxima_celda) else (-1, -1))
 
             if self.celdas[-1] == (-1, -1):
                 self.celdas = (-1, -1)

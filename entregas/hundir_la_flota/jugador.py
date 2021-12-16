@@ -1,7 +1,8 @@
 from utils import *
 
 class Jugador:
-    def __init__(self,flota_propia, dict_flota_propia, dict_disparos):
+    def __init__(self,nombre_jugador, flota_propia, dict_flota_propia, dict_disparos):
+        self.nombre = nombre_jugador
         self.flota_propia = flota_propia
         self.dict_flota_propia = dict_flota_propia
         self.dict_disparos_jugador = dict_disparos
@@ -15,8 +16,8 @@ class Jugador:
 
         while True:
             clearConsole()
-            tablero(self.dict_flota_propia, "\nTu flota:\n")
-            tablero(self.dict_disparos_jugador, "\nTus disparos:\n")
+            tablero(self.dict_flota_propia, "\nTu flota {}:\n".format(self.nombre))
+            tablero(self.dict_disparos_jugador, "\nTus disparos {}:\n".format(self.nombre))
             coordenada = input("Apunta y dispara!!\n")
             coordenada = traducir_coordenadas_usuario(coordenada)
             for barco_enemigo in flota_enemiga:
