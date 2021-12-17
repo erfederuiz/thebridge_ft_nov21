@@ -21,7 +21,7 @@ class Jugador:
             if self.humano:
                 tablero(self.dict_flota_propia, "\nTu flota {}:\n".format(self.nombre))
                 tablero(self.dict_disparos_jugador, "\nTus disparos {}:\n".format(self.nombre))
-                coordenada = pedir_coordenadas()
+                coordenada = pedir_coordenadas(self)
                 coordenada = traducir_coordenadas_usuario(coordenada)
             else:
                 coordenada = self.generar_disparo(coordenada_previa, resultado_previo)

@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 import random
+import sys
 
 limit_columnas = 9
 limit_filas = 9
@@ -55,14 +56,16 @@ def traducir_coordenadas_usuario(input_usuario):
     else:
         return (-1, -1)
 
-def pedir_coordenadas():
+def pedir_coordenadas(jugador):
     while True:
-        coordenada = input("Apunta y dispara!!\n")
-        if check_input_usuario(coordenada):
+        coordenada = input("Apunta y dispara!!\nSi quieres acabar la partida, escribe \"Me piro\":  ")
+        if check_input_usuario(coordenada, jugador):
             return coordenada
 
-def check_input_usuario(input_usuario):
+def check_input_usuario(input_usuario, jugador):
     pattern = r'([A-Ja-j])([0-9]+)'
+    if input_usuario.lower() == 'me piro':
+        sys.exit("Hasta luego {}!!".format(jugador.nombre))
     result = re.search(pattern, input_usuario)
     return result and int(result.group(2)) <= 10
 
@@ -122,3 +125,9 @@ def generar_lista_random(inicio, fin, cantidad):
     randomlist = [random.randint(inicio, fin) for _ in range(cantidad)]
     return randomlist
 
+def solicitar_datos_jugador():
+    input_usuario = input("¿Como te llamas?\nSi no quieres seguir pulsa ENTER\n")
+    if len(input_usuario)==0:
+        sys.exit("Hasta luego !!")
+    else:
+        return input_usuario

@@ -1,6 +1,11 @@
 from partida import *
 
-partida = Partida("Humano","Skynet")
+partida = Partida(solicitar_datos_jugador(),"Skynet")
+
+print(f'Empezamos {partida.jugadorA.nombre} !\nLucharás contra Skynet!!\n\n\n')
+temp = input("Pulsar enter para continuar")
+clearConsole()
+
 
 while True:
     temp = ''
