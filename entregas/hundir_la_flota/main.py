@@ -11,7 +11,7 @@ while True:
     temp = ''
     if partida.jugadorA.realizar_disparo(partida.jugadorB.flota_propia) == 'OK':
         if partida.jugadorA.humano:
-            temp = input("Has ganado {}!\n\n".format(partida.jugadorA.nombre))
+            temp = input("Has ganado {}!\n\nPulsa ENTER para finalizar.\n".format(partida.jugadorA.nombre))
         else:
             print("Has ganado {}!\n\n".format(partida.jugadorA.nombre))
         break
@@ -22,7 +22,7 @@ while True:
 
     if partida.jugadorB.realizar_disparo(partida.jugadorA.flota_propia) == 'OK':
         if partida.jugadorB.humano:
-            temp = input("Has ganado {}!\n\n".format(partida.jugadorB.nombre))
+            temp = input("Has ganado {}!\n\nPulsa ENTER para finalizar.\n".format(partida.jugadorB.nombre))
         else:
             print("Has ganado {}!\n\n".format(partida.jugadorB.nombre))
         break
@@ -31,5 +31,6 @@ while True:
             temp = input("Pulsar enter para continuar")
         clearConsole()
 
-
+partida.generar_estadisticas()
+sys.exit("\n\nHasta luego {}!!".format(partida.jugadorA.nombre))
 

@@ -68,6 +68,51 @@ class Partida:
         return result
 
 
+    def generar_estadisticas(self):
+        disparosA = self.jugadorA.dict_disparos_jugador
+        disparosB = self.jugadorB.dict_disparos_jugador
+        infoA = []
+        infoB = []
+
+        maximo_jugadas = len(disparosA.items()) if len(disparosA.items()) >= len(disparosB.items()) else len(disparosB.items())
+
+        infoA = [f'{keys[1]}{keys[0]}={value}' for keys, value in disparosA.items()]
+        infoB = [f'{keys[1]}{keys[0]}={value}' for keys, value in disparosB.items()]
+        linea_datos = ''
+
+        linea_datos += f'Jugadas\t\t\t\tJugadas\n'
+        linea_datos += f'{self.jugadorA.nombre}\t\t\t\t{self.jugadorB.nombre}\n'
+        linea_datos += f'                      \n'
+        for i in range(maximo_jugadas):
+            datosA = "    "
+            datosB = "    "
+            if i < len(disparosA.items()):
+                datosA = f'{infoA[i]}'
+            if i < len(disparosB.items()):
+                datosB = f'{infoB[i]}'
+
+            linea_datos += f'{datosA}\t\t\t\t{datosB}\n'
+
+        print(linea_datos)
+
+        self.resumen_jugadas(self.jugadorA.nombre, self.jugadorA.dict_disparos_jugador)
+        self.resumen_jugadas(self.jugadorB.nombre, self.jugadorB.dict_disparos_jugador)
+
+
+
+
+    def resumen_jugadas(self, nombre_jugador, disparos_jugador ):
+        disparos = disparos_jugador
+        jugadas = list(disparos.values())
+        indx = [*range(1, len(jugadas) + 1, 1)]
+        x = pd.Series(jugadas, index=indx)
+        total = x.describe()['count']
+        tipos_jugada = {'T': 'Tocados', 'H': 'Hundidos', 'X': 'Agua'}
+        print(f'\n\nJugadas de {nombre_jugador}')
+        print(f'Número de disparos: {x.describe()["count"]}')
+        for m in [f'{tipos_jugada[j]}: {x.value_counts()[j]}' for j in list(x.value_counts().keys())]:
+            print(m)
+
 
 
 

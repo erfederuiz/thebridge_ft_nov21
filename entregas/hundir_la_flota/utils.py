@@ -44,23 +44,21 @@ def traductor_dict_to_df(dict_celdas):
         result[nueva_tupla] = valores_celda[i]
     return result
 
-
-def traducir_coordenadas_usuario(input_usuario):
-    pattern = r'([A-Ja-j])([0-9]+)'
-
-    result = re.search(pattern, input_usuario)
-    if result:
-
-        coordenadas = (row_strings[result.group(2)], col_strings[str(result.group(1)).upper()])
-        return coordenadas
-    else:
-        return (-1, -1)
-
 def pedir_coordenadas(jugador):
     while True:
         coordenada = input("Apunta y dispara!!\nSi quieres acabar la partida, escribe \"Me piro\":  ")
         if check_input_usuario(coordenada, jugador):
             return coordenada
+
+def traducir_coordenadas_usuario(input_usuario):
+    pattern = r'([A-Ja-j])([0-9]+)'
+    result = re.search(pattern, input_usuario)
+    if result:
+        coordenadas = (row_strings[result.group(2)], col_strings[str(result.group(1)).upper()])
+        return coordenadas
+    else:
+        return (-1, -1)
+
 
 def check_input_usuario(input_usuario, jugador):
     pattern = r'([A-Ja-j])([0-9]+)'
@@ -97,27 +95,6 @@ def caracter_barco(orientacion):
     else:
         return ' '
 
-
-def show_tablero():
-    welcome_message = """
-¡Bienvenido a hundir la flota!
-¿Quieres empezar a jugar?
- """
-    print(welcome_message)
-    import pandas as pd
-    import numpy as np
-     #Tablero en blanco:
-    tab = pd.DataFrame(np.zeros((10, 10)), columns = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"], index = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).replace(0, '')
-    question = input("Escribe 'yes' si quieres empezar a jugar. Escribe 'exit' si quieres salir del juego: ")
-    while question != "exit":
-        if question == "yes":
-            coord_fila = int(input("Escribe una coordenada numérica del 1 al 10: "))
-            coord_col = str(input("Escribe una coordenada string de la A a la J: "))
-            tab.loc[coord_fila, coord_col] = "X"
-            print(tab)
-        print() # nueva linea
-        question = input("¿Quieres seguir jugando?")
-    print("¡Has salido del juego, hasta la próxima!")
 
 
 def generar_lista_random(inicio, fin, cantidad):
