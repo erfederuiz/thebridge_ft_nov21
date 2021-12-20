@@ -1,6 +1,9 @@
 from utils import *
 
 class Barco():
+    '''
+    Almacena los datos de un barco de la flota
+    '''
     def __init__(self, eslora, orientacion, celdas):
         self.eslora = eslora
         self.celdas = {}
@@ -10,14 +13,23 @@ class Barco():
             self.celdas[celda] = caracter_barco(orientacion)
 
     def celdas_barco(self):
+        '''
+        Devuelve en una lista las celdas que forman un barco
+        :return:
+        '''
         return self.celdas.keys()
 
     def comprobar_disparo(self, disparo):
+        '''
+        Comprueba si un disparo recibido ha acertado y en ese caso devuelve el estado final del barco
+        :param disparo:
+        :return:
+        '''
         if disparo in list(self.celdas.keys()):
             if self.celdas[disparo]==caracter_barco(self.orientacion):
                 self.celdas[disparo]=tocado
 
-            valoresAciertos = list(filter(lambda x : x == tocado or x == hundido ,self.celdas.values() ))
+            valoresAciertos = list(filter(lambda x : x == tocado or x == hundido, self.celdas.values()))
 
             if len(valoresAciertos) == self.eslora:
                 self.celdas[disparo] = hundido
@@ -31,6 +43,10 @@ class Barco():
 
 
 class Posiciones_barco:
+    '''
+    A partir de una celda y la orientación calcula las posiciones que ocupa un barco
+    comprueba que todas las celdas estén dentro de los límites del tablero
+    '''
     def __init__(self, eslora, orientacion, coordenadas):
         self.eslora = eslora
         self.orientacion = orientacion
@@ -54,6 +70,10 @@ class Posiciones_barco:
         return tuple(self.celdas)
 
 class Fronteras_barco:
+    '''
+    A partir de una celda, genera las celdas que rodean a un barco y las devuelve en un listado
+    controla que las celdas estén dentro de los límites del tablero
+    '''
     def __init__(self, eslora, orientacion, coordenadas):
         self.eslora = eslora
         self.orientacion = orientacion
