@@ -9,3 +9,7 @@ credentials*
 **/*.ipynb_checkpoints/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+entregas/EDA/src/stlib/__pycache__/
+
+entregas/EDA/home_/__pycache__/

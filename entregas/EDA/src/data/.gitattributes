@@ -1,0 +1,4 @@
+entregas/EDA/src/data/incommd_df.csv filter=lfs diff=lfs merge=lfs -text
+entregas/EDA/src/data/inmd_df.csv filter=lfs diff=lfs merge=lfs -text
+entregas/EDA/src/data/movilidad_madrid_trabajo.csv filter=lfs diff=lfs merge=lfs -text
+2-EDA/11-APIs/teoria/201906_Usage_Bicimad.json filter=lfs diff=lfs merge=lfs -text
