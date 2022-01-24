@@ -9,7 +9,6 @@ credentials*
 **/*.ipynb_checkpoints/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*/__pycache__/*
 
-entregas/EDA/src/stlib/__pycache__/
-
-entregas/EDA/home_/__pycache__/
+entregas/EDA/movilidad/notebooks/inmd_df.csv
