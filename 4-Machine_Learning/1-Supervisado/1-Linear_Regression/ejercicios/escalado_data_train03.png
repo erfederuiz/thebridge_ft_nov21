@@ -1,0 +1,2211 @@
+<Language language="Spanish(Español)">
+	<Default>
+		<Font From="Segoe UI" To="Arial" FailTo="Tahoma"/>
+	</Default>  
+	<Strings>
+		<!--有更新的项-->
+		<Item Name="LoadingfilesDesc">
+			<Text>
+				<![CDATA[Cargando archivos… por favor espera pacientemente.]]>
+			</Text>
+		</Item>		
+		<Item Name="FilesFoundDesc">
+			<Text>
+				<![CDATA[Archivos Encontrados:]]>
+			</Text>
+		</Item>
+		<Item Name="ReadingSectorsDesc">
+			<Text>
+				<![CDATA[Leyendo Sectores:]]>
+			</Text>
+		</Item>	
+		<Item Name="StopScanningDesc">
+			<Text>
+				<![CDATA[¿Quieres detener el proceso de exploración antes de que termine?<br><br><br>Advertencia: interrumpir el escaneo dará resultados incompletos para la recuperación.]]>
+			</Text>
+		</Item>
+		<Item Name="HomeStopScanningDesc">
+			<Text>
+				<![CDATA[¿Quieres abandonar los resultados de la exploración actual y volver a la página principal?<br><br><br>Advertencia: los resultados del análisis actual no se guardarán si te vas ahora.]]>
+			</Text>
+		</Item>
+		<Item Name="ExitStopScanningDesc">
+			<Text>
+				<![CDATA[¿Quieres abandonar resultados de la exploración actual y cerrar el programa?<br><br><br>Advertencia: los resultados del análisis actual no se guardarán si te vas ahora.]]>
+			</Text>
+		</Item>
+		<Item Name="ListViewDesc">
+			<Text>
+				<![CDATA[Vista de Lista]]>
+			</Text>
+		</Item>
+		<Item Name="DetailViewDesc">
+			<Text>
+				<![CDATA[Vista de Detalles]]>
+			</Text>
+		</Item>
+		<Item Name="IconViewDesc">
+			<Text>
+				<![CDATA[Vista de Iconos]]>
+			</Text>
+		</Item>		
+		<Item Name="ButtonBack">
+			<Text>
+				<![CDATA[Regresar]]>
+			</Text>
+		</Item>
+		<Item Name="ButtonOk">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+		<Item Name="ButtonCancel">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+		<Item Name ="ButtonRecover">
+			<Text>
+				<![CDATA[Recuperar]]>
+			</Text>
+		</Item>
+		<Item Name ="ScanDesc">
+			<Text>
+				<![CDATA[Escanear]]>
+			</Text>
+		</Item>
+		<Item Name ="ButtonAdvanceRecover">
+			<Text>
+				<![CDATA[Recuperación de Video Profesional]]>
+			</Text>
+		</Item>
+		<Item Name ="AllVideosDesc">
+			<Text>
+				<![CDATA[Todos los videos]]>
+			</Text>
+		</Item>
+		<Item Name ="OtherVideosDesc">
+			<Text>
+				<![CDATA[Otros Videos]]>
+			</Text>
+		</Item>
+		<Item Name ="CorruptedVideoDesc">
+			<Text>
+				<![CDATA[Video Corrupto]]>
+			</Text>
+		</Item>	
+		<Item Name ="VideoFormatDesc">
+			<Text>
+				<![CDATA[Formato de Video]]>
+			</Text>
+		</Item>
+		<Item Name ="RecoveryFailDesc">
+			<Text>
+				<![CDATA[Falló la recuperación de %1 archivos.]]>
+			</Text>
+		</Item>
+		<Item Name ="SelectAllDesc">
+			<Text>
+				<![CDATA[Seleccionar Todo ]]>
+			</Text>
+		</Item>
+		<Item Name ="OnlineSupportDesc">
+			<Text>
+				<![CDATA[Soporte en Línea]]>
+			</Text>
+		</Item>
+		<Item Name ="MoreDesc">
+			<Text>
+				<![CDATA[Más]]>
+			</Text>
+		</Item>		
+		<Item Name ="checkboxScanningDesc">
+			<Text>
+				<![CDATA[Los archivos no se pueden verificar durante el escaneo. Detenga el análisis para recuperar archivos.]]>
+			</Text>
+		</Item>
+		<Item Name ="lostPartitionTooltipDesc">
+			<Text>
+				<![CDATA[La partición no tiene una letra de unidad y no se puede acceder a ella en el Explorador de Windows.]]>
+			</Text>
+		</Item>
+	</Strings>
+	<Form Name="OldFrame">
+		<Item Name="label_5" Property="string">
+			<Text>
+				<![CDATA[Seleccionar una ubicación para iniciar la recuperación]]>
+			</Text>
+		</Item>	
+		<Item Name="FullDiskDesc_1" Property="string">
+			<Text>
+				<![CDATA[Seleccione una ubicación para buscar los datos. <br>(Recuperación gratuita de %1, %2 disponibles.)]]>
+			</Text>
+		</Item>
+		<Item Name ="m_free" Property="string">
+			<Text>
+				<![CDATA[Gratis]]>
+			</Text>
+		</Item>
+		<Item Name ="m_stillrecover" Property="string">
+			<Text>
+				<![CDATA[Puede recuperar archivos de %1 en la versión gratuita.]]>
+			</Text>
+		</Item>
+		<Item Name ="m_recoverSelected" Property="string">
+			<Text>
+				<![CDATA[%1 de archivos seleccionados ahora.]]>
+			</Text>
+		</Item>
+		<Item Name ="lblFreeDesc" Property="string">
+			<Text>
+				<![CDATA[Compre una licencia para disfrutar de los beneficios de la versión Avanzada.]]>
+			</Text>
+		</Item>
+		<Item Name ="lblFreeWarning" Property="string">
+			<Text>
+				<![CDATA[El tamaño del archivo seleccionado es mayor que el tamaño disponible.]]>
+			</Text>
+		</Item>  
+
+		<Item Name="availableDesc" Property="string">
+			<Text>
+				<![CDATA[disponible]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewFileMaxDesc" Property="string">
+			<Text>
+				<![CDATA[Este archivo excede el tamaño máximo  <font color=#FF644D>(>1 GB)</font> para previsualizar.]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewUnkownFileDesc1" Property="string">
+			<Text>
+				<![CDATA[Puede recuperarlo en el ordenador y luego previsualizarlo.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanningPause" Property="string">
+			<Text>
+				<![CDATA[Escaneo en pausa.]]>
+			</Text>
+		</Item>
+		<Item Name="AdvancedVideoScanHint" Property="string">
+			<Text>
+				<![CDATA[Esta función fusionará los fragmentos de video y llevará algún tiempo. Danos algo de tiempo para recuperar tu video.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc1" Property="string">
+			<Text>
+				<![CDATA[Hay muchos sectores defectuosos en el disco que el escaneo no puede continuar. Se recomienda que <b>restaure los archivos actualmente escaneados</b> lo antes posible.]]>
+			</Text>
+		</Item>
+		<Item Name="m_RenameText" Property="string">
+			<Text>
+				<![CDATA[El nuevo nombre ya existe o corresponde a un archivo abierto]]>
+			</Text>
+		</Item>
+		<Item Name="strStopTitle" Property="string">
+			<Text>
+				<![CDATA[¿Realmente desea detener la recuperación de archivos?]]>
+			</Text>
+		</Item>
+		<Item Name="noDriver" Property="string">
+			<Text>
+				<![CDATA[El dispositivo se ha eliminado, vuelva a conectarlo e inténtelo de nuevo.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoverRemoveHint" Property="string">
+			<Text>
+				<![CDATA[La recuperación de %1 archivo(s) falló,  porque %2 se había eliminado.]]>
+			</Text>
+		</Item>	
+		<Item Name="RecoverFat32" Property="string">
+			<Text>
+				<![CDATA[Un solo archivo de más de 4 GB no se puede recuperar debido a las limitaciones del sistema de archivos FAT32, puede recuperarlo en otros tipos de partición.]]>
+			</Text>
+		</Item>	
+		<Item Name="RecoverSuccessDesc" Property="string">
+			<Text>
+				<![CDATA[¡Recuperación completa de <Font color="#00B0F5">%1</Font> archivos!]]>
+			</Text>
+		</Item>
+		<Item Name="RecoverFailDesc1" Property="string">
+			<Text>
+				<![CDATA[<b>%1(s)</b> archivos recuperados con éxito! Algunos archivos no se recuperan por el siguiente motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorSaveDevice_UParationDialog" Property="string">
+			<Text>
+				<![CDATA[Fallo en la Recuperación debido a la ausencia de un aparato de almacenaje. Por favor, inserte de nuevo un aparato de almacenaje externo y recupera tus datos otra vez.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorSourceDevice_UParationDialog" Property="string">
+			<Text>
+				<![CDATA[Fallo en la Recuperación debido a la ausencia de un aparato de fuente de datos Por favor, inserte de nuevo un aparato de almacenaje externo y recupere sus datos otra vez.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameRecoverHint" Property="string">
+			<Text>
+				<![CDATA[Seleccione un archivo para recuperar.]]>
+			</Text>
+		</Item>
+		<Item Name="SourceDiskDisconnectedDesc" Property="string">
+			<Text>
+				<![CDATA[¡El disco fuente ha sido desconectado! Vuelva a conectar y continúe recuperándose.]]>
+			</Text>
+		</Item>
+		<Item Name="DestDiskDisconnectedDesc" Property="string">
+			<Text>
+				<![CDATA[¡El disco de destino se ha desconectado! Vuelva a conectar y continúe recuperándose.]]>
+			</Text>
+		</Item>	
+		<Item Name="strRecoverFilesNum" Property="string">
+			<Text>
+				<![CDATA[Recuperando Archivos:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblname" Property="string">
+			<Text>
+				<![CDATA[Nombre:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lalsize" Property="string">
+			<Text>
+				<![CDATA[Tamaño:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblpath" Property="string">
+			<Text>
+				<![CDATA[Ruta de acceso:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblecrete" Property="string">
+			<Text>
+				<![CDATA[Fecha de creación:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblmodefy" Property="string">
+			<Text>
+				<![CDATA[Fecha de modificación:]]>
+			</Text>
+		</Item>
+		<Item Name="m_btperview" Property="string">
+			<Text>
+				<![CDATA[Vista previa]]>
+			</Text>
+		</Item>
+		<Item Name="UnNormalSector" Property="string">
+			<Text>
+				<![CDATA[Actualmente no admitimos su dispositivo. <b>Si el dispositivo conectado es una cámara, puede sacar la tarjeta SD e insertarla en un lector de tarjetas, luego escanearla</b>.]]>
+			</Text>
+		</Item>    
+
+		<Item Name="AllRoundScanCompleteed" ControlType = "11" >
+			<Text>
+				<![CDATA[¿No puede encontrar archivos perdidos? Prueba un escaneo profundo.]]>
+			</Text>
+		</Item>
+
+		<Item Name="RawScanCompleteed" Property="string">
+			<Text>
+				<![CDATA[¿No encuentra sus archivos perdidos? Seleccione el Modo de Análisis Profundo e intente de nuevo.]]>
+			</Text>
+		</Item>
+
+		<Item Name="UnVerifyTrustDesc1" Property="string">
+			<Text>
+				<![CDATA[Corre el riesgo de usar un software pirata, por favor compra el software original antes de continuar usando.]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc2" Property="string">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc3" Property="string">
+			<Text>
+				<![CDATA[Descargar]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewLoadDesc" Property="string">
+			<Text>
+				<![CDATA[Cargando archivo… por favor espere.]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc4" ControlType="11">
+			<Text>
+				<![CDATA[Descargue e instale el software original del sitio web oficial de Recoverit después de la compra. http://recoverit.wondershare.com]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs1" Property="string">
+			<Text>
+				<![CDATA[¿Sigue ocurriendo el problema? <a href="#"><Font color="#00AEE6">Haga clic aquí</Font></a> para informarnos.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs2" Property="string">
+			<Text>
+				<![CDATA[Intente cambiar el video de muestra y luego vuelva a repararlo. Si sigue ocurriendo el problema, <a href="#"><Font color="#00AEE6">Haga clic aquí</Font></a> para informarnos.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs3" Property="string">
+			<Text>
+				<![CDATA[Falló la creación, verifique si su dispositivo se conecta correctamente, o <a href="#"><Font color="#00AEE6">o infórmenos ahora</Font></a>.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs4" Property="string">
+			<Text>
+				<![CDATA[¿Volver a escanear no resuelve el problema? <a href="#"><Font color="#00AEE6">Haga clic aquí</Font></a> para informarnos.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs5" Property="string">
+			<Text>
+				<![CDATA[Se requiere una conexión a Internet para activar el software. Verifique su red o comuníquese con su administrador de IT, <a href="#"><Font color="#00AEE6">también puede informarnos</Font></a>.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs6" Property="string">
+			<Text>
+				<![CDATA[¿Qué parte de Recoverit no te gusta? <a href="#"><Font color="#00AEE6">¡Compártelo</Font></a> puede ayudarnos mucho!]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs7" Property="string">
+			<Text>
+				<![CDATA[Sin conexión a Internet]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs8" Property="string">
+			<Text>
+				<![CDATA[Oh no ... no podemos conectarnos a Internet. Comprueba tu conexión y vuelve a intentarlo.]]>
+			</Text>
+		</Item>
+		<Item Name="RAWDeepHint" Property="string">
+			<Text>
+				<![CDATA[El Modo del Análisis Produndo encontrará más archivos. Sin embargo, tardará más tiempo.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameFileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[%1 elementos, %2]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameSelectFileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[%1 archivo(s) seleccionados en %2]]>
+			</Text>
+		</Item>
+		<Item Name="RAWDeep" Property="string">
+			<Text>
+				<![CDATA[<font color=#26324B>¿Aún no encuentras los archivos perdidos? Prueba con el  </font> <b><a href="#"><font color=#00AEE6>Escaneo Profundo</font></a></b>]]>
+			</Text>
+		</Item>
+		<Item Name="NoDataFrameDesc" Property="string">
+			<Text>
+				<![CDATA[<b>Archivo no encontrado</b><br><br>Seleccione otros tipos de archivos para verificar]]>
+			</Text>
+		</Item>
+		<Item Name="PauseBeforeRecover" Property="string">
+			<Text>
+				<![CDATA[Pausa el escaneo antes de recuperar los archivos.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture1" Property="string">
+			<Text>
+				<![CDATA[No se puede previsualizar. Este archivo podría estar dañado por las siguientes razones:]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture2"  Property="string">
+			<Text>
+				<![CDATA[1. Datos sobrescritos.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture3"  Property="string">
+			<Text>
+				<![CDATA[2. Datos incompletos. (espere a que el análisis termine y vuelva a previsualizar)]]>
+			</Text>
+		</Item>
+		<Item Name="UserAssistantQuit1" Property="string">
+			<Text>
+				<![CDATA[Hay un problema con la autorización de la cuenta.]]>
+			</Text>
+		</Item>
+		<Item Name="UserAssistantRetry"  Property="string">
+			<Text>
+				<![CDATA[Riprova]]>
+			</Text>
+		</Item>
+		<Item Name="m_BuyNowButton"  Property="string">
+			<Text>
+				<![CDATA[Comprar ahora]]>
+			</Text>
+		</Item>
+		<Item Name="bootretry"  Property="string">
+			<Text>
+				<![CDATA[Reintentar]]>
+			</Text>
+		</Item>
+		<Item Name="bootformatnow"  Property="string">
+			<Text>
+				<![CDATA[Formatear]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc3"  Property="string">
+			<Text>
+				<![CDATA[Cambiar ruta]]>
+			</Text>
+		</Item>
+		<Item Name="Stop0_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Sí]]>
+			</Text>
+		</Item>
+		<Item Name="Stop0_m_NoButton"  Property="string">
+			<Text>
+				<![CDATA[No]]>
+			</Text>
+		</Item>	 
+		<Item Name="Stop1_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Detener]]>
+			</Text>
+		</Item>
+		<Item Name="Stop1_m_cancelButton"  Property="string">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+		<Item Name="Stop2_m_ExitButton" Property="string">
+			<Text>
+				<![CDATA[Salir]]>
+			</Text>
+		</Item>
+		<Item Name="Stop5_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Sobreescribir]]>
+			</Text>
+		</Item>
+
+		<Item Name="Stop6_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Guardar]]>
+			</Text>
+		</Item>
+		<Item Name="PasswordDialogText"  Property="string">
+			<Text>
+				<![CDATA[El disco seleccionado ha sido bloqueado por contraseña. Ingrese la contraseña para escanear completamente.]]>
+			</Text>
+		</Item>  
+		<Item Name="IsAdmin"  Property="string">
+			<Text>
+				<![CDATA[Deberá proporcionar permiso de administrador para ejecutar este programa.]]>
+			</Text>
+		</Item>
+		<Item Name="DataPublic_strError"  Property="string">
+			<Text>
+				<![CDATA[Wondershare Recoverit todavía está funcionando!]]>
+			</Text>
+		</Item>
+		<Item Name="DataPublic_strWaring" Property="string">
+			<Text>
+				<![CDATA[Aviso]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyNetWorkDesc" Property="string">
+			<Text>
+				<![CDATA[Se requiere conexión a Internet para activar el software. Por favor verifique su red o contacte con su administrador de IT.]]>
+			</Text>
+		</Item>
+		<Item Name="NewAntiPiracyDesc" Property="string">
+			<Text>
+				<![CDATA[El software no es genuino. Descargue y actualice a la versión original para recuperar datos.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc1" Property="string">
+			<Text>
+				<![CDATA[¡Corre el riesgo de utilizar software pirateado!]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc2" Property="string">
+			<Text>
+				<![CDATA[Advertencia:]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc3" Property="string">
+			<Text>
+				<![CDATA[Su computadora puede infectar virus mediante el uso de software pirateado, incluso causar que sus datos se pierdan nuevamente.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc4" Property="string">
+			<Text>
+				<![CDATA[Aquí está la oferta por tiempo limitado para usted:]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc5" Property="string">
+			<Text>
+				<![CDATA[60% de descuento para comprar la licencia original.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc6" Property="string">
+			<Text>
+				<![CDATA[Nota: Sugerimos recuperar los archivos escaneados lo antes posible. De lo contrario, los datos podrían sobrescribirse y provocar un error en la recuperación.]]>
+			</Text>
+		</Item>	
+		<Item Name="PiracyDesc7" Property="string">
+			<Text>
+				<![CDATA[Su aplicación parece estar dañada o incompleta, descargue y vuelva a instalar.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc8" Property="string">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00AEE6>Página web oficial</font></a>]]>
+			</Text>
+		</Item>
+
+		<Item Name="ScanFramePauseTooltip" Property="string">
+			<Text>
+				<![CDATA[Pausar]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameStopTooltip" Property="string">
+			<Text>
+				<![CDATA[Detener]]>
+			</Text>
+		</Item>
+		<Item Name="MulItemSelected" Property="string">
+			<Text>
+				<![CDATA[%1 seleccionado]]>
+			</Text>
+		</Item>	
+		<Item Name="m_strArchive" Property="string">
+			<Text>
+				<![CDATA[Archivo]]>
+			</Text>
+		</Item>
+		<Item Name="m_strAudio" Property="string">
+			<Text>
+				<![CDATA[Audio]]>
+			</Text>
+		</Item>
+		<Item Name="m_strDataBase" Property="string">
+			<Text>
+				<![CDATA[Base de Datos]]>
+			</Text>
+		</Item>
+		<Item Name="m_strDocument" Property="string">
+			<Text>
+				<![CDATA[Documentos  ]]>
+			</Text>
+		</Item>
+		<Item Name="m_strEmail" Property="string">
+			<Text>
+				<![CDATA[Correo electrónico]]>
+			</Text>
+		</Item>
+		<Item Name="m_strGraphic" Property="string">
+			<Text>
+				<![CDATA[Gráficos]]>
+			</Text>
+		</Item>
+		<Item Name="m_strInternetWeb" Property="string">
+			<Text>
+				<![CDATA[Internet & Web]]>
+			</Text>
+		</Item>
+		<Item Name="m_strMiscellaneous" Property="string">
+			<Text>
+				<![CDATA[Varios]]>
+			</Text>
+		</Item>
+		<Item Name="m_strVideo" Property="string">
+			<Text>
+				<![CDATA[Videos]]>
+			</Text>
+		</Item>
+		<Item Name="m_strNoExtension" Property="string">
+			<Text>
+				<![CDATA[Sin extensión]]>
+			</Text>
+		</Item>
+		<Item Name="m_strFileNamePath" Property="string">
+			<Text>
+				<![CDATA[Buscar ruta o nombre del archivo]]>
+			</Text>
+		</Item>
+		<Item Name="FilteToolTip1" Property="string">
+			<Text>
+				<![CDATA[Filtro]]>
+			</Text>
+		</Item>
+		<Item Name="FilteToolTip2" Property="string">
+			<Text>
+				<![CDATA[%1 de archivos coincide las condiciones de filtro.]]>
+			</Text>
+		</Item>		
+		<Item Name="UpdateAuthorDesc0" Property="string">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+		<Item Name="loginDesc" Property="string">
+			<Text>
+				<![CDATA[Iniciar sesión]]>
+			</Text>
+		</Item>
+		<Item Name="RecycleRemoveDesc" Property="string">
+			<Text>
+				<![CDATA[%1 ha sido eliminado, por favor enchúfelo en la computadora y vuelva a intentarlo.]]>
+			</Text>
+		</Item>
+		<Item Name="LostPartitionDesc" Property="string">
+			<Text>
+				<![CDATA[Partición Perdida]]>
+			</Text>
+		</Item>
+		<Item Name="LocalDiskDesc" Property="string">
+			<Text>
+				<![CDATA[Disco local]]>
+			</Text>
+		</Item>
+		<Item Name="RawFilesDesc" Property="string">
+			<Text>
+				<![CDATA[Archivos RAW]]>
+			</Text>
+		</Item>
+		<Item Name="FolderDesc" Property="string">
+			<Text>
+				<![CDATA[Carpeta]]>
+			</Text>
+		</Item>
+		<Item Name="lostlocationDesc" Property="string">
+			<Text>
+				<![CDATA[Archivos con ubicación perdida]]>
+			</Text>
+		</Item>
+		<Item Name="RecycleBinDesc" Property="string">
+			<Text>
+				<![CDATA[Papelera de Reciclaje]]>
+			</Text>
+		</Item>
+		<Item Name="BitLockerDesc" Property="string">
+			<Text>
+				<![CDATA[Windows BitLocker ha bloqueado el disco seleccionado, por favor desbloquéelo e intenta de nuevo.]]>
+			</Text>
+		</Item>
+		<Item Name="LostBitLockerDesc" Property="string">
+			<Text>
+				<![CDATA[%1 está protegido por BitLocker, desbloquéalo para analizar.]]>
+			</Text>
+		</Item>		
+		<Item Name="DiskRefreshDesc" Property="string">
+			<Text>
+				<![CDATA[Cargando la información del disco, espere...]]>
+			</Text>
+		</Item>
+		<Item Name="ScanWaitFrameDesc3" Property="string">
+			<Text>
+				<![CDATA[El análisis se detuvo. Retornando, por favor espera pacientemente. ]]>
+			</Text>
+		</Item>
+		<Item Name="DesktopDesc" Property="string">
+			<Text>
+				<![CDATA[Escritorio]]>
+			</Text>
+		</Item>
+		<Item Name="SelectFolderkDesc" Property="string">
+			<Text>
+				<![CDATA[Seleccionar Carpeta]]>
+			</Text>
+		</Item>		
+		<Item Name="Unknown" Property="string">
+			<Text>
+				<![CDATA[Desconocido]]>
+			</Text>
+		</Item>
+		<Item Name="findHardDriver1" Property="string">
+			<Text>
+				<![CDATA[Todavía no admitimos su modelo de cámara. Puede sacar la tarjeta SD e insertarla en un lector de tarjetas, luego escanearla.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc2" Property="string">
+			<Text>
+				<![CDATA[Su disco no está en buen estado. Se recomienda recuperar sus archivos lo antes posible.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc2_1" Property="string">
+			<Text>
+				<![CDATA[Se ha detectado que tu disco tiene algunos problemas.]]>
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="CalendarFrame">	
+		<Item Name="Week1" Property="string">
+			<Text>
+				<![CDATA[Lu]]>
+			</Text>
+		</Item>
+		<Item Name="Week2" Property="string">
+			<Text>
+				<![CDATA[Ma]]>
+			</Text>
+		</Item>
+		<Item Name="Week3" Property="string">
+			<Text>
+				<![CDATA[Mi]]>
+			</Text>
+		</Item>
+		<Item Name="Week4" Property="string">
+			<Text>
+				<![CDATA[Ju]]>
+			</Text>
+		</Item>
+		<Item Name="Week5" Property="string">
+			<Text>
+				<![CDATA[Vi]]>
+			</Text>
+		</Item>
+		<Item Name="Week6" Property="string">
+			<Text>
+				<![CDATA[Sá]]>
+			</Text>
+		</Item>
+		<Item Name="Week7" Property="string">
+			<Text>
+				<![CDATA[Do]]>
+			</Text>
+		</Item>	  
+		<Item Name="Mon1" Property="string">
+			<Text>
+				<![CDATA[Enero]]>
+			</Text>
+		</Item>
+		<Item Name="Mon2" Property="string">
+			<Text>
+				<![CDATA[febrero]]>
+			</Text>
+		</Item>
+		<Item Name="Mon3" Property="string">
+			<Text>
+				<![CDATA[marzo]]>
+			</Text>
+		</Item>
+		<Item Name="Mon4" Property="string">
+			<Text>
+				<![CDATA[abril]]>
+			</Text>
+		</Item>
+		<Item Name="Mon5" Property="string">
+			<Text>
+				<![CDATA[mayo]]>
+			</Text>
+		</Item>
+		<Item Name="Mon6" Property="string">
+			<Text>
+				<![CDATA[junio]]>
+			</Text>
+		</Item>
+		<Item Name="Mon7" Property="string">
+			<Text>
+				<![CDATA[julio]]>
+			</Text>
+		</Item>
+		<Item Name="Mon8" Property="string">
+			<Text>
+				<![CDATA[agosto]]>
+			</Text>
+		</Item>
+		<Item Name="Mon9" Property="string">
+			<Text>
+				<![CDATA[septiembre]]>
+			</Text>
+		</Item>
+		<Item Name="Mon10" Property="string">
+			<Text>
+				<![CDATA[octubre]]>
+			</Text>
+		</Item>
+		<Item Name="Mon11" Property="string">
+			<Text>
+				<![CDATA[noviembre]]>
+			</Text>
+		</Item>
+		<Item Name="Mon12" Property="string">
+			<Text>
+				<![CDATA[diciembre]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RowHeaderFrame">	
+		<Item Name="Head0" Property="string">
+			<Text>
+				<![CDATA[     Nombre]]>
+			</Text>
+		</Item>
+		<Item Name="Head1"  Property="string">
+			<Text>
+				<![CDATA[Tamaño]]>
+			</Text>
+		</Item>
+		<Item Name="Head2"  Property="string">
+			<Text>
+				<![CDATA[Ruta]]>
+			</Text>
+		</Item>
+		<Item Name="Head3" Property="string">
+			<Text>
+				<![CDATA[Fecha de creación]]>
+			</Text>
+		</Item>
+		<Item Name="Head4"  Property="string">
+			<Text>
+				<![CDATA[Fecha de modificación]]>
+			</Text>
+		</Item>
+		<Item Name="Head5"  Property="string">
+			<Text>
+				<![CDATA[Tipo]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MainMenu">		
+		<Item Name="m_StrStatus" Property="string">
+			<Text>
+				<![CDATA[Retroalimentar]]>
+			</Text>
+		</Item>	  
+		<Item Name="m_optionsAction" Property="string">
+			<Text>
+				<![CDATA[Idioma]]>
+			</Text>
+		</Item>
+		<Item Name="m_helpAction" Property="string">
+			<Text>
+				<![CDATA[Ayuda Online     F1]]>
+			</Text>
+		</Item>
+		<Item Name="m_purchaseAction" Property="string">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>
+		<Item Name="m_registerAction" Property="string">
+			<Text>
+				<![CDATA[Registrarse]]>
+			</Text>
+		</Item>
+		<Item Name="m_registerAction1" Property="string">
+			<Text>
+				<![CDATA[Cuenta]]>
+			</Text>
+		</Item>
+		<Item Name="m_suppotAction" Property="string">
+			<Text>
+				<![CDATA[Centro de ayuda y asistencia]]>
+			</Text>
+		</Item>
+		<Item Name="m_diskToolAction" Property="string">
+			<Text>
+				<![CDATA[Herramientas del Disco]]>
+			</Text>
+		</Item>
+		<Item Name="m_logfilesAction" Property="string">
+			<Text>
+				<![CDATA[Archivos de Log]]>
+			</Text>
+		</Item>
+		<Item Name="m_updateAction" Property="string">
+			<Text>
+				<![CDATA[Busca actualizaciones]]>
+			</Text>
+		</Item>
+		<Item Name="m_userGuideAction" Property="string">
+			<Text>
+				<![CDATA[Guía del Usuario]]>
+			</Text>
+		</Item>
+		<Item Name="m_aboutAction" Property="string">
+			<Text>
+				<![CDATA[Acerca de]]>
+			</Text>
+		</Item>
+		<Item Name="m_contactusAction" Property="string">
+			<Text>
+				<![CDATA[Preguntas Frecuentes]]>
+			</Text>
+		</Item>	  
+	</Form>
+	<Form Name="cmenuOption">
+		<Item Name="Language" Property="string">
+			<Text>
+				<![CDATA[Idioma]]>
+			</Text>
+		</Item>
+		<Item Name="languageCombox" Property="string">
+			<Text>
+				<![CDATA[English(English),Japanese(日本語),French(Français),German(Deutsch),Chinese Traditional(中国香港),Chinese Traditional(中国台湾),Portuguese(Portuguese),Italiano(Italiano),Spanish(Español),Netherland(Nederlands),Arab( العربية ),Korean(한국어),Sweden(Swédia),Indonesia(Indonesia),Russian(русский)]]>
+			</Text>
+		</Item>
+		<Item Name="okButton" Property="string">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+		<Item Name="cancelButton" Property="string">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="LockDriverDialog">
+		<Item Name="LockDriverDialog1" Property="string">
+			<Text>
+				<![CDATA[Omitir:]]>
+			</Text>
+		</Item>
+		<Item Name="LockDriverDialog2" Property="string">
+			<Text>
+				<![CDATA[Desbloquear]]>
+			</Text>
+		</Item>
+		<Item Name="BitLockerLink" Property="string">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00AEE6>¿Cómo realizar el desbloqueo？</font></a>]]>
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="FilterFrame">
+		<Item Name="FilterDesc" Property="string">
+			<Text>
+				<![CDATA[Filtrar]]>
+			</Text>
+		</Item>
+		<Item Name="ResetDesc" Property="string">
+			<Text>
+				<![CDATA[Restablecer]]>
+			</Text>
+		</Item>
+		<Item Name="FileTypeDesc" Property="string">
+			<Text>
+				<![CDATA[Tipo de Archivo]]>
+			</Text>
+		</Item>		
+		<Item Name="TimeDesc" Property="string">
+			<Text>
+				<![CDATA[Tiempo]]>
+			</Text>
+		</Item>
+		<Item Name="FileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[Tamaño de Archivo]]>
+			</Text>
+		</Item>
+		<Item Name="FileSizeDescText" Property="string">
+			<Text>
+				<![CDATA[Tamaño de Archivo]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText1" Property="string">
+			<Text>
+				<![CDATA[Todo el tiempo]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText2" Property="string">
+			<Text>
+				<![CDATA[Hace un día]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText3" Property="string">
+			<Text>
+				<![CDATA[La Semana Pasada]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText4" Property="string">
+			<Text>
+				<![CDATA[El Mes Pasado]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText5" Property="string">
+			<Text>
+				<![CDATA[El Año Pasado]]>
+			</Text>
+		</Item>		
+		<Item Name="FilterDateTimeText6" Property="string">
+			<Text>
+				<![CDATA[Personalizar]]>
+			</Text>
+		</Item>
+		<Item Name="Lessthan1MB" Property="string">
+			<Text>
+				<![CDATA[Menos de 1 MB]]>
+			</Text>
+		</Item>
+		<Item Name="1GBabove" Property="string">
+			<Text>
+				<![CDATA[Más de 1 GB]]>
+			</Text>
+		</Item>
+		<Item Name="AllFiles" Property="string">
+			<Text>
+				<![CDATA[Todos los Archivos]]>
+			</Text>
+		</Item>	
+		<Item Name="DeletedFiles" Property="string">
+			<Text>
+				<![CDATA[Archivos Eliminados]]>
+			</Text>
+		</Item>
+		<Item Name="FilteringDesc" Property="string">
+			<Text>
+				<![CDATA[Filtrar]]>
+			</Text>
+		</Item>	
+		<Item Name="SearchingDesc" Property="string">
+			<Text>
+				<![CDATA[buscando]]>
+			</Text>
+		</Item>	
+		<Item Name="SearchresultsFiles" Property="string">
+			<Text>
+				<![CDATA[Resultados de la búsqueda: %1 archivos]]>
+			</Text>
+		</Item>
+		<Item Name="Searchresults" Property="string">
+			<Text>
+				<![CDATA[Resultado de la búsqueda para %1]]>
+			</Text>
+		</Item>
+		<Item Name="SearchresultsFile" Property="string">
+			<Text>
+				<![CDATA[Resultados de la búsqueda: 0 archivos]]>
+			</Text>
+		</Item>
+		<Item Name="Less100MB" Property="string">
+			<Text>
+				<![CDATA[1MB~100MB]]>
+			</Text>
+		</Item>	
+		<Item Name="Less1GB" Property="string">
+			<Text>
+				<![CDATA[100MB~1GB]]>
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="ShowBannerFrame">
+		<Item Name="ShowBannerFrameCrashSystem1_1" Property="string">
+			<Text>
+				<![CDATA[Crear USB de Arranque]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem1_2" Property="string">
+			<Text>
+				<![CDATA[Accede a los datos de tu computadora bloqueada creando una unidad USB de arranque.]]>
+			</Text>
+		</Item>		
+		<Item Name="ShowBannerFrameCrashSystem2_1" Property="string">
+			<Text>
+				<![CDATA[Pantalla azul de la muerte]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem2_2" Property="string">
+			<Text>
+				<![CDATA[Configura las opciones de arranque en la PC averiada para iniciar los datos de rescate.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem3_1" Property="string">
+			<Text>
+				<![CDATA[Pantalla negra de la muerte]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem3_2" Property="string">
+			<Text>
+				<![CDATA[Copia o restaura de forma fácil y sencilla los datos eliminados de una PC averiada.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo1_1" Property="string">
+			<Text>
+				<![CDATA[#1 para Recuperar Videos Eliminados o Profundamente Ocultos]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo1_2" Property="string">
+			<Text>
+				<![CDATA[Cuando descubres que algo inesperado sucedió mientras grababas o editabas un video.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo2_1" Property="string">
+			<Text>
+				<![CDATA[Recuperar Videos Ultra HD, 4K y 8K]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo2_2" Property="string">
+			<Text>
+				<![CDATA[Soportamos la recuperación de videos Ultra HD, 4K e inclusive 8K, por lo cual es más poderoso que nunca.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo3_1" Property="string">
+			<Text>
+				<![CDATA[Recuperar video desde todos los dispositivos]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo3_2" Property="string">
+			<Text>
+				<![CDATA[Recuperar desde DSLR, Cámaras Digitales, Drones, Dashcams, Tarjetas SD, etc.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit1_1" Property="string">
+			<Text>
+				<![CDATA[Daño Causado por Operación Accidental]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit1_2" Property="string">
+			<Text>
+				<![CDATA[Grabación despues de un fallo, daño por agua, temblor, caída, batería descargada, apagado inesperado durante la grabación de video, etc.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit2_1" Property="string">
+			<Text>
+				<![CDATA[El video se recuperó, pero falló la reproducción]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit2_2" Property="string">
+			<Text>
+				<![CDATA[El video perdido se recuperó, pero falló la reproducción por razones desconocidas.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit3_1" Property="string">
+			<Text>
+				<![CDATA[Reparar video desde cámaras de marcas ampliamente usadas]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit3_2" Property="string">
+			<Text>
+				<![CDATA[Es compatible con Cannon, Nikon, Sony, Panasonic, GoPro, DJI etc.]]>
+			</Text>
+		</Item>			
+	</Form>	
+	<Form Name="FindHardDriverDialog">
+		<Item Name="FindHardDriverDialogOtherState1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState2" Property="string">
+			<Text>
+				<![CDATA[Si el estado de tu disco es el siguiente:<br>Desconectado/Faltante/Ilegible/Fallido/Desconocido/Extraño]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState3" Property="string">
+			<Text>
+				<![CDATA[Solución]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState4" Property="string">
+			<Text>
+				<![CDATA[Por favor consulta los consejos de Microsoft para resolverlo:<a href="#"><font color=#00B0F5>Solución de problemas de Microsoft</font></a>]]>
+			</Text>
+		</Item>
+
+		<Item Name="FindHardDriverDialogNotInitialized1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNotInitialized2" Property="string">
+			<Text>
+				<![CDATA[El disco no tiene una firma de disco válida.]]>
+			</Text>
+		</Item>		
+		<Item Name="FindHardDriverDialogNotInitialized3" Property="string">
+			<Text>
+				<![CDATA[Solución]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNotInitialized4" Property="string">
+			<Text>
+				<![CDATA[Haz clic derecho en Administrador de discos para inicializar la unidad. Luego usa Recoverit para escanear y recuperar datos.]]>
+			</Text>
+		</Item>
+
+		<Item Name="FindHardDriverDialogNoMedia1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNoMedia2" Property="string">
+			<Text>
+				<![CDATA[Si el estado de tu disco es "Sin medios", es posible que tenga graves daños en el hardware.]]>
+			</Text>
+		</Item>		
+		<Item Name="FindHardDriverDialogNoMedia3" Property="string">
+			<Text>
+				<![CDATA[Solución]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNoMedia4" Property="string">
+			<Text>
+				<![CDATA[Por favor envía el disco a un taller de reparación para su inspección.]]>
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="mainframe">
+		<Item Name="MainBannerFrameDataRecovery" Property="string">
+			<Text>
+				<![CDATA[Discos Duros y Ubicaciones]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameCrashSystem" Property="string">
+			<Text>
+				<![CDATA[Computadora con Fallos en el Sistema]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameAdvanceVideo" Property="string">
+			<Text>
+				<![CDATA[Recuperación de Video Profesional]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameVideoRepair" Property="string">
+			<Text>
+				<![CDATA[Reparación de Video Corrupto]]>
+			</Text>
+		</Item>
+		<Item Name="labelDataRecover" Property="label">
+			<Text>
+				<![CDATA[Recuperación de Archivos]]>
+			</Text>
+		</Item>	
+		<Item Name="labelDataRepair" Property="label">
+			<Text>
+				<![CDATA[Reparación de Archivos]]>
+			</Text>
+		</Item>
+		<Item Name="mainformlblDesc" Property="label">
+			<Text>
+				<![CDATA[Analizando el video, espere un momento…]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="fulldiskframe">
+		<Item Name="label_5" Property="label">
+			<Text>
+				<![CDATA[Seleccionar una ubicación para iniciar la recuperación]]>
+			</Text>
+		</Item>	
+		<Item Name="lblHardTitle" Property="label">
+			<Text>
+				<![CDATA[Unidades de Disco Duro]]>
+			</Text>
+		</Item>
+		<Item Name="lblExternTitle" Property="label">
+			<Text>
+				<![CDATA[Unidades Externas]]>
+			</Text>
+		</Item>
+		<Item Name="lblSpecificTitle" Property="label">
+			<Text>
+				<![CDATA[Acceso Rápido ]]>
+			</Text>
+		</Item>	
+		<Item Name="lblFeedback" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>¿No se detecta tu disco duro?</font></a>]]>
+			</Text>
+		</Item>	
+		<Item Name="refreshbtn" Property="tooltip">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+		<Item Name="advanceVideoDesc" Property="string">
+			<Text>
+				<![CDATA[Selecciona el disco duro para iniciar la Recuperación avanzada de video:]]>
+			</Text>
+		</Item>
+	</Form>
+
+	<Form Name="CrashSystemShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recuperar tus Datos de una Computadora con Fallos]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Crear una USB de arranque para iniciar la computadora con fallos y recuperar los datos de ella:]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Iniciar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="AdvanceVideoShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Tecnología Patentada para Recuperar Videos Profundamente Ocultos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[La tecnología de innovación patentada exclusiva proviene de Recoverit: extrae videoclips e integra]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Iniciar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="VideoRepairShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Reparación de video rápida y avanzada, manténte alejado de la corrupción de video]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[3 pasos para reparar videos dañados, un kit de herramientas todo en uno para múltiples escenarios de daños]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Añadir video]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="CommonWaitFrame">
+		<Item Name="lblDiskDesc1" Property="label">
+			<Text>
+				<![CDATA[Cargando disco...]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>¿Atascado en cargando por un largo tiempo?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="RemoveExternalDisk">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Quita todos los dispositivos externos e intenta de nuevo]]>
+			</Text>
+		</Item>
+		<Item Name="labelTex1" Property="label">
+			<Text>
+				<![CDATA[Quita todos los discos externos conectados a la computadora y espera a que la carga complete.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelTex2" Property="label">
+			<Text>
+				<![CDATA[Vuelve a conectar el disco que quieres recuperar e inicia el escaneo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Entendido]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[¿El problema continúa ocurriendo?  <a href="#"><font color=#00B0F5>Haz clic aquí</font></a> para reportárnoslo. ]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="FindHardDriverDialog">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[Disco Duro no encontrado]]>
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[ Abre el <a href="#"><font color=#00B0F5>Administrador de discos</font></a>, verifica el estado de tu disco, si el estado de tu disco es el siguiente:]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonNotInit" Property="button">
+			<Text>
+				<![CDATA[No Inicializado]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonNoMedia" Property="button">
+			<Text>
+				<![CDATA[Sin Medios]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOther" Property="button">
+			<Text>
+				<![CDATA[Otro Estado]]>			    
+			</Text>
+		</Item>		
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Entendido]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Contáctanos</font></a>]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MobileDialog">
+		<Item Name="MobileDialogDownload" Property="string">
+			<Text>
+				<![CDATA[Ir a descargar]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recoverit]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1_1" Property="label">
+			<Text>
+				<![CDATA[Recupera archivos desde PCs, discos duros y dispositivos de almacenamiento externo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[dr.fone - Recuperación de Datos]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2_1" Property="label">
+			<Text>
+				<![CDATA[Recupera datos de dispositivos iOS/Android.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="BadSectorDialog">
+		<Item Name="BadSectorFrameDriver" Property="string">
+			<Text>
+				<![CDATA[Se detectaron sectores defectuosos en (%1:).]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorFrameViewDetails" Property="string">
+			<Text>
+				<![CDATA[Ver detalles]]>
+			</Text>
+		</Item>
+
+		<Item Name="BadSectorFrameSkipSector" Property="string">
+			<Text>
+				<![CDATA[Intentando omitir los sectores defectuosos, espera ...]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorFrameLearnMore" Property="string">
+			<Text>
+				<![CDATA[Aprende más]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDialogDesc" Property="string">
+			<Text>
+				<![CDATA[Hay %1 sector(es) defectuosos en el disco]]>
+			</Text>
+		</Item>		
+		<Item Name="lblDesc" Property="label">
+			<Text>
+				<![CDATA[Recupera tus archivos tan pronto como sea posible y haz un respaldo inmediatamente para evitar que se pierdan los datos nuevamente.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Respalda inmediatamente]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblGoodText" Property="label">
+			<Text>
+				<![CDATA[Bien]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblPoorText" Property="label">
+			<Text>
+				<![CDATA[Escaso]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblSevereText" Property="label">
+			<Text>
+				<![CDATA[Severo]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblDamagedText" Property="label">
+			<Text>
+				<![CDATA[Dañado]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblUnkownText" Property="label">
+			<Text>
+				<![CDATA[Desconocido]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SearchHintFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[¡Lo sentimos, no se ha encontrado ningún archivo!]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[1. A algunos archivos les falta el nombre de archivo original, verifica luego en<a href="#"><font color=#00B0F5>Archivos sin fuente</font></a>]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[2. Por favor, espera a que se complete la exploración y la búsqueda de nuevo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText4" Property="label">
+			<Text>
+				<![CDATA[3. Intenta utilizar el Filtro para encontrar tus archivos.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SearchDialog">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Cómo encontrar archivos en Archivos sin fuente]]>
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[Los archivos sin fuente pierden sus nombres de archivo, no se pueden buscar por los nombres originales. Estos son algunos consejos para buscar archivos en Archivos sin fuente:]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[1. Haz clic en [Archivos sin fuente].]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[2. Selecciona el tipo de archivo a recuperar.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[3. Previsualízalos para confirmar si los archivos son lo que necesitas.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Entendido]]>			    
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="PreviewSimilarErrorFrame">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Vaya, la vista previa del archivo falló por el siguiente motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="lblText1" Property="label">
+			<Text>
+				<![CDATA[Es posible que el archivo se haya sobrescrito. Se recomienda restaurar en la computadora.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblText2" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>¿Cuál es el archivo que se ha sobreescrito?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewErrorFrame">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Oops, file preview failed cause for the following reason:]]>
+			</Text>
+		</Item>
+		<Item Name="lblText1" Property="label">
+			<Text>
+				<![CDATA[Es posible que el archivo se haya sobrescrito. Se recomienda restaurar en la computadora.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblText2" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>¿Cuál es el archivo que se ha sobreescrito?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="ScanPreviewErrorFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Vaya, la vista previa del archivo falló por el siguiente motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[El archivo aún está incompleto, obtén una vista previa después de que se complete el escaneo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Comprueba los formatos que admiten vista previa</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="PreviewUnkownFileFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Vaya, el formato de archivo no soporta vista previa]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[No te preocupes, puedes ver dichos archivos después de que se recuperen en tu computadora.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Comprueba los formatos que admiten vista previa</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewAdanceVideoErrorFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Vaya, se produjo un error en la vista previa del video.]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[Prueba Recuperación avanzada de video para buscar los fragmentos de video ocultos.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[Nota: Guarda los archivos escaneados antes de iniciar la Recuperación avanzada de video]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewVideoErrorFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Vaya, se produjo un error en la vista previa del video.]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[Recupera a la computadora y prueba Reparación de Video para reparar los videos corruptos.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="DocumentViewOrderFrame">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[La vista previa del video está limitada a 10 segundos. Si deseas reproducir el video completo, puedes recuperarlo en tu computadora.]]>
+			</Text>
+		</Item>
+		<Item Name="labelOfficeText" Property="label">
+			<Text>
+				<![CDATA[Solo se puede tener vista previa de la primera página.<br>Si necesitas ver más contenido, restaura el archivo en tu computadora.]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ScanFrameTree">
+		<Item Name="TipDiskRawDesc" Property="string">
+			<Text>
+				<![CDATA[Estos archivos ya no tienen sus nombres, tamaños de archivo ni marcas de tiempo originales. Pero pueden ser exactamente lo que necesitas.]]>
+			</Text>
+		</Item>
+		<Item Name="TipLostLocationDesc" Property="string">
+			<Text>
+				<![CDATA[Estos archivos no tienen información sobre su ruta de almacenamiento original, puedes verificar si es lo que necesitas.]]>
+			</Text>
+		</Item>
+		<Item Name="btnpath" Property="button">
+			<Text>
+				<![CDATA[Ubicación de Archivo]]>
+			</Text>
+		</Item>
+		<Item Name="btntype" Property="button">
+			<Text>
+				<![CDATA[Tipo de Archivo]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ReconnectDialog">
+		<Item Name="ReconnectDiskDesc" Property="string">
+			<Text>
+				<![CDATA[Disco (%1:) desconectado, vuelve a conectar y vuelve a escanear.]]>
+			</Text>
+		</Item>	
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Volver a escanear]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RestartDRlibDialog">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Error de software, vuelve a inicio y vuelve a escanear.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[Regresar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ScanFinishDialog">
+		<Item Name="ScanCompleteedAdvanceDesc" Property="string">
+			<Text>
+				<![CDATA[¡Escaneo completado! Lo sentimos, no encontramos tus archivos, <a href="#"><Font color="#00B0F5">envíanos tus comentarios</Font></a> para una verificación adicional.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanCompleteedDesc" Property="string">
+			<Text>
+				<![CDATA[¡Escaneo completado! Se ha(n) encontrado %1 archivo(s).]]>
+			</Text>
+		</Item>
+		<Item Name="lblDesc" Property="label">
+			<Text>
+				<![CDATA[Nota: Por favor recupera lo antes posible para evitar que los archivos se sobrescriban.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurnToAdvanceVideo">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[¿No encuentras el video que necesitas?]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Te recomendamos que utilices la función de recuperación de vídeo profesional.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Aprende más]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurnToAdvanceVideoDialog">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Recuperación avanzada de video]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Guarda los archivos actualmente escaneados que necesitas]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Vuelve a la página de inicio, haz clic en [Recuperación avanzada de video]]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Selecciona formatos de video e inicia la Recuperación avanzada de video]]>			    
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Entendido]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurntoDeepRecycleFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Si no puedes encontrar los archivos eliminados, intenta con un escaneo profundo.]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Un escaneo profundo llevará más tiempo escanear todos los sectores del disco para encontrar más archivos.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Análisis en profundidad]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SelectPathDialog">
+		<Item Name="lblTipText" Property="label">
+			<Text>
+				<![CDATA[Seleccione una ubicación para buscar los datos]]>
+			</Text>
+		</Item>
+		<Item Name="label" Property="label">
+			<Text>
+				<![CDATA[Ruta:]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblHint" Property="label">
+			<Text>
+				<![CDATA[¡Ruta inválida!]]>			    
+			</Text>
+		</Item>			
+		<Item Name="m_sDocumentItem" Property="string">
+			<Text>
+				<![CDATA[Mis documentos]]>
+			</Text>
+		</Item>
+		<Item Name="m_sDeskTopItem" Property="string">
+			<Text>
+				<![CDATA[Escritorio]]>
+			</Text>
+		</Item>
+		<Item Name="m_sComputerItem" Property="string">
+			<Text>
+				<![CDATA[Mi Ordenador]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[OK]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ProtectedDialog">
+		<Item Name="ProtectedDialogTitle1" Property="string">
+			<Text>
+				<![CDATA[¡Autorización insuficiente!]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle2" Property="string">
+			<Text>
+				<![CDATA[<font color=#FF0000><b>Autorización insuficiente<b></font><font color=#26324B> Para guardar el archivo en el disco seleccionado, por favor seleccione otro disco.</font>]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle4" Property="string">
+			<Text>
+				<![CDATA[¡No hay suficiente espacio!]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">//ProtectedDialogTitle3
+			<Text>
+				<![CDATA[Riseleziona]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RecoveryDialog">
+		<Item Name="lblTipText" Property="label">
+			<Text>
+				<![CDATA[Selecciona la ruta para guardar archivos:]]>
+			</Text>
+		</Item>	
+		<Item Name="OverrideDesc" Property="string">
+			<Text>
+				<![CDATA[No guardes el archivo en el disco (%1) que los perdiste, eso causará que los archivos se sobreescriban.]]>
+			</Text>
+		</Item>
+		<Item Name="NewFolderDesc" Property="string">
+			<Text>
+				<![CDATA[Nueva Carpeta]]>
+			</Text>
+		</Item>
+		<Item Name="t_strNewName" Property="string">
+			<Text>
+				<![CDATA[NuevaCarpeta]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle5" Property="string">
+			<Text>
+				<![CDATA[<font color=#26324B>Ha elegido %2 archivos con un total de </font><font color=#FF644D>%1</font><font color=#26324B>, pero no hay suficiente espacio en el disco seleccionado. Por favor seleccione otro disco.</font>]]>
+			</Text>
+		</Item>
+		<Item Name="strWaring" Property="string">
+			<Text>
+				<![CDATA[Guardar los datos en la partición fuente reducirá las probabilidades de una recuperación exitosa. ¿Quiere continuar guardando los datos ahí?]]>
+			</Text>
+		</Item>
+		<Item Name="m_sComputerItem" Property="string">
+			<Text>
+				<![CDATA[Mi Ordenador]]>
+			</Text>
+		</Item>
+		<Item Name="strRecycleSave" Property="string">
+			<Text>
+				<![CDATA[Se recomienda que guarde los archivos recuperados en un disco externo para evitar sobrescribir los archivos porque la recuperación no se realizó correctamente.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc1" Property="string">
+			<Text>
+				<![CDATA[Le sugerimos que guarde los archivos en una unidad externa.<br><br>Porque guardar archivos en el mismo disco que los perdió reducirá la posibilidad de una recuperación exitosa.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc2" Property="string">
+			<Text>
+				<![CDATA[We suggest you save files to <font color=#00B0F5>another drive</font>.<br><br><br>Because save files to the same drive that you lost them will reduce the chance of a successful recovery.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnRecovery" Property="button">
+			<Text>
+				<![CDATA[Recuperar]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RecoverSuccessDialog">
+		<Item Name="OpenFile" Property="string">
+			<Text>
+				<![CDATA[Abrir Carpeta]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SelectAdvanceVideoDialog">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[Seleccionar Formatos de Video]]>
+			</Text>
+		</Item>
+		<Item Name="labelCheckBoxDesc" Property="label">
+			<Text>
+				<![CDATA[Selecciona Todo <font color=#8C9295>(Nota: cuantos más formatos se seleccionen, más tiempo tardará el escaneo)</font>]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Iniciar ]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">//SelectAdvanceVideoDialogHint1
+			<Text>
+				<![CDATA[Por favor seleccione formatos para escanear!]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MessagePushDialog">		
+		<Item Name="labelNoMessage" Property="string">
+			<Text>
+				<![CDATA[No mensaje]]>
+			</Text>
+		</Item>
+		<Item Name="strSimilarLoading" Property="string">
+			<Text>
+				<![CDATA[Cargando]]>
+			</Text>
+		</Item>	
+		<Item Name="MessageCenter" Property="string">
+			<Text>
+				<![CDATA[Centro de Mensaje]]>
+			</Text>
+		</Item>
+		<Item Name="labelText" Property="string">
+			<Text>
+				<![CDATA[Recoverit Chatbot]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="HintDialog">		
+		<Item Name="lblMid3" Property="label">
+			<Text>
+				<![CDATA[Comprar Recoverit para recuperar el/los archivo(s) LO ANTES POSIBLE]]>
+			</Text>
+		</Item>
+		<Item Name="labelTrail" Property="label">
+			<Text>
+				<![CDATA[Esencial]]>
+			</Text>
+		</Item>	
+		<Item Name="labelTraiIText1" Property="label">
+			<Text>
+				<![CDATA[Recuperación de Datos]]>
+			</Text>
+		</Item>	
+		<Item Name="BtnBuy1" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasic" Property="label">
+			<Text>
+				<![CDATA[Estándar]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasicText1" Property="label">
+			<Text>
+				<![CDATA[Recuperación de Datos]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasicText2" Property="label">
+			<Text>
+				<![CDATA[Recuperación de la Computadora con Fallos en el Sistema]]>
+			</Text>
+		</Item>
+		<Item Name="BtnBuy2" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>	
+
+		<Item Name="labelPro" Property="label">
+			<Text>
+				<![CDATA[Premium]]>
+			</Text>
+		</Item>	
+		<Item Name="labelProText1" Property="label">
+			<Text>
+				<![CDATA[Recuperación de Datos]]>
+			</Text>
+		</Item>	
+		<Item Name="labelProText2" Property="label">
+			<Text>
+				<![CDATA[Recuperación de la Computadora con Fallos en el Sistema]]>
+			</Text>
+		</Item>
+		<Item Name="labelProText3" Property="label">
+			<Text>
+				<![CDATA[Reparación de Video Corrupto]]>
+			</Text>
+		</Item>
+		<Item Name="labelProText4" Property="label">
+			<Text>
+				<![CDATA[Recuperación avanzada de video]]>
+			</Text>
+		</Item>
+		<Item Name="BtnBuy3" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>		
+		<Item Name="labelHint" Property="label">
+			<Text>
+				<![CDATA[Already Purchased?]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="UpdateAuthorDialog">		
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[Actualiza al Plan Premium para Usar esta Funcionalidad]]>
+			</Text>
+		</Item>
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Recoverit Avanzado]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recuperación de Datos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Recuperar Archivos desde Computadora con Fallos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Reparar Videos Corruptos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText4" Property="label">
+			<Text>
+				<![CDATA[Recuperación avanzada de video]]>
+			</Text>
+		</Item>
+		<Item Name="UpgradeNowDesc" Property="string">
+			<Text>
+				<![CDATA[Actualizar Ahora]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ProgressDialog">		
+		<Item Name="labelUBackitDesc1" Property="label">
+			<Text>
+				<![CDATA[Respaldar tus valiosos datos y recuerdos, nunca más los vuelvas a perder.]]>
+			</Text>
+		</Item>
+		<Item Name="labelUBackitDesc2" Property="label">
+			<Text>
+				<![CDATA[Automático, Simple, Inteligente]]>
+			</Text>
+		</Item>	
+		<Item Name="labelUBackitDesc3" Property="label">
+			<Text>
+				<![CDATA[Respaldo incremental]]>
+			</Text>
+		</Item>
+		<Item Name="buttonUBackit" Property="button">
+			<Text>
+				<![CDATA[Iniciar Prueba de 1 Mes]]>
+			</Text>
+		</Item>
+		<Item Name="BackupDataDesc" Property="string">
+			<Text>
+				<![CDATA[Respaldar datos]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="CorruptVideoFrame">	
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[Puedes recuperar a la computadora y Reparar los videos corruptos.]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recuperar videos corruptos a la computadora.]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Toca [Reparación de Video Dañado].]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Agrega un video dañado para iniciar la reparación.]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RestartDREDialog">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Error de software.]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[Seleccione archivos y recupérelos, luego vuelva a la página de inicio para volver a intentarlo.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="OnlineWidget">
+		<Item Name="labelNetWorkText1" Property="label">
+			<Text>
+				<![CDATA[Vaya, error de red.]]>
+			</Text>
+		</Item>
+		<Item Name="labelNetWorkText2" Property="label">
+			<Text>
+				<![CDATA[Verifica tu red e intenta nuevamente.]]>
+			</Text>
+		</Item>
+		<Item Name="buttonRefresh" Property="button">
+			<Text>
+				<![CDATA[Actualizar]]>
+			</Text>
+		</Item>
+	</Form>
+</Language>
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

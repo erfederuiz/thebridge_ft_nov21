@@ -1,0 +1,2297 @@
+<Language language="Portuguese(Portuguese)">
+	<Default>
+		<Font From="Segoe UI" To="Arial" FailTo="Tahoma"/>
+	</Default>  
+	<Strings>
+		<!--æœ‰æ›´æ–°çš„é¡¹-->
+		<Item Name="LoadingfilesDesc">
+			<Text>
+				<![CDATA[O arquivo estÃ¡ carregando...por favor, espere um pouco.]]>
+			</Text>
+		</Item>		
+		<Item Name="FilesFoundDesc">
+			<Text>
+				<![CDATA[Arquivos Encontrados:]]>
+			</Text>
+		</Item>
+		<Item Name="ReadingSectorsDesc">
+			<Text>
+				<![CDATA[Setores de Leitura:]]>
+			</Text>
+		</Item>	
+		<Item Name="StopScanningDesc">
+			<Text>
+				<![CDATA[VocÃª quer parar o processo de varredura antes que ele termine?<br><br><br>AtenÃ§Ã£o: Interromper a varredura provocarÃ¡ resultados incompletos para a recuperaÃ§Ã£o.]]>
+			</Text>
+		</Item>
+		<Item Name="HomeStopScanningDesc">
+			<Text>
+				<![CDATA[VocÃª quer desistir dos resultados da varredura atual e voltar para a pÃ¡gina inicial?<br><br><br>AtenÃ§Ã£o: Os resultados atuais da varredura nÃ£o serÃ£o salvos se vocÃª sair agora.]]>
+			</Text>
+		</Item>
+		<Item Name="ExitStopScanningDesc">
+			<Text>
+				<![CDATA[VocÃª quer desistir dos resultados da varredura atual e fechar o programa?<br><br><br>AtenÃ§Ã£o: Os resultados atuais da varredura nÃ£o serÃ£o salvos se vocÃª sair agora.]]>
+			</Text>
+		</Item>
+		<Item Name="ListViewDesc">
+			<Text>
+				<![CDATA[VisualizaÃ§Ã£o em Lista]]>
+			</Text>
+		</Item>
+		<Item Name="DetailViewDesc">
+			<Text>
+				<![CDATA[VisualizaÃ§Ã£o em Detalhes]]>
+			</Text>
+		</Item>
+		<Item Name="IconViewDesc">
+			<Text>
+				<![CDATA[VisualizaÃ§Ã£o em Ãcone]]>
+			</Text>
+		</Item>		
+		<Item Name="ButtonBack">
+			<Text>
+				<![CDATA[Voltar]]>
+			</Text>
+		</Item>
+		<Item Name="ButtonOk">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+		<Item Name="ButtonCancel">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+		<Item Name ="ScanDesc">
+			<Text>
+				<![CDATA[Digitalizar]]>
+			</Text>
+		</Item>
+		<Item Name ="ButtonAdvanceRecover">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name ="ButtonRecover">
+			<Text>
+				<![CDATA[Recuperar]]>
+			</Text>
+		</Item>
+		<Item Name ="AllVideosDesc">
+			<Text>
+				<![CDATA[Todos os vÃ­deos]]>
+			</Text>
+		</Item>
+		<Item Name ="OtherVideosDesc">
+			<Text>
+				<![CDATA[Outros VÃ­deos]]>
+			</Text>
+		</Item>
+		<Item Name ="CorruptedVideoDesc">
+			<Text>
+				<![CDATA[VÃ­deo Corrompido]]>
+			</Text>
+		</Item>
+		<Item Name ="VideoFormatDesc">
+			<Text>
+				<![CDATA[Formato do VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name ="RecoveryFailDesc">
+			<Text>
+				<![CDATA[%1 arquivos com falha na recuperaÃ§Ã£o.]]>
+			</Text>
+		</Item>
+		<Item Name ="SelectAllDesc">
+			<Text>
+				<![CDATA[Selecionar Todos]]>
+			</Text>
+		</Item>
+		<Item Name ="OnlineSupportDesc">
+			<Text>
+				<![CDATA[Suporte Online]]>
+			</Text>
+		</Item>
+		<Item Name ="MoreDesc">
+			<Text>
+				<![CDATA[Mais]]>
+			</Text>
+		</Item>
+		<Item Name ="checkboxScanningDesc">
+			<Text>
+				<![CDATA[Os arquivos nÃ£o podem ser verificados durante a varredura. FaÃ§a uma pausa na verificaÃ§Ã£o para recuperar os arquivos.]]>
+			</Text>
+		</Item>
+		<Item Name ="lostPartitionTooltipDesc">
+			<Text>
+				<![CDATA[A partiÃ§Ã£o nÃ£o tem uma letra de unidade e nÃ£o pode ser acessada no Windows Explorer.]]>
+			</Text>
+		</Item>
+	</Strings>
+	<Form Name="OldFrame">
+		<Item Name="label_5" Property="string">
+			<Text>
+				<![CDATA[Selecione um local para iniciar a recuperaÃ§Ã£o]]>
+			</Text>
+		</Item>	
+		<Item Name="FullDiskDesc_1" Property="string">
+			<Text>
+				<![CDATA[Selecione o local para recuperar os arquivos. (RecuperaÃ§Ã£o gratuita de %1, %2 disponÃ­veis.)]]>
+			</Text>
+		</Item>
+		<Item Name ="m_free" Property="string">
+			<Text>
+				<![CDATA[GrÃ¡tis]]>
+			</Text>
+		</Item>
+		<Item Name ="m_stillrecover" Property="string">
+			<Text>
+				<![CDATA[VocÃª ainda pode recuperar %1 arquivos com a versÃ£o gratuita.]]>
+			</Text>
+		</Item>
+		<Item Name ="m_recoverSelected" Property="string">
+			<Text>
+				<![CDATA[%1 arquivos selecionados.]]>
+			</Text>
+		</Item>
+		<Item Name ="lblFreeDesc" Property="string">
+			<Text>
+				<![CDATA[Compre uma licenÃ§a para aproveitar os benefÃ­cios da versÃ£o avanÃ§ada.]]>
+			</Text>
+		</Item>
+		<Item Name ="lblFreeWarning" Property="string">
+			<Text>
+				<![CDATA[O tamanho do arquivo selecionado Ã© maior do que o tamanho disponÃ­vel.]]>
+			</Text>
+		</Item>
+
+		<Item Name="availableDesc" Property="string">
+			<Text>
+				<![CDATA[disponÃ­vel]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewFileMaxDesc" Property="string">
+			<Text>
+				<![CDATA[O arquivo excede o tamanho mÃ¡ximo <font color=#FF644D>(> 1 GB)</font> para prÃ©-visualizar.]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewUnkownFileDesc1" Property="string">
+			<Text>
+				<![CDATA[Recupere o arquivo para prÃ©-visualizar.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanningPause" Property="string">
+			<Text>
+				<![CDATA[Escaneamento em pausa.]]>
+			</Text>
+		</Item>
+		<Item Name="AdvancedVideoScanHint"  Property="string">
+			<Text>
+				<![CDATA[Esta funÃ§Ã£o mesclarÃ¡ os fragmentos de vÃ­deo e isso levarÃ¡ algum tempo. Por favor, dÃª-nos algum tempo para recuperar seu vÃ­deo.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc1" Property="string">
+			<Text>
+				<![CDATA[Existem muitos setores defeituosos no disco que impedem a verificaÃ§Ã£o de continuar, aconselhamos que vocÃª <b>restaure os arquivos verificados atualmente</b> o mais rÃ¡pido possÃ­vel.]]>
+			</Text>
+		</Item>
+		<Item Name="m_RenameText" Property="string">
+			<Text>
+				<![CDATA[O novo nome jÃ¡ existe ou arquivo estÃ¡ em aberto.]]>
+			</Text>
+		</Item>
+		<Item Name="strStopTitle" Property="string">
+			<Text>
+				<![CDATA[Tem certeza que pretende parar a recuperaÃ§Ã£o dos arquivos?]]>
+			</Text>
+		</Item>
+		<Item Name="noDriver" Property="string">
+			<Text>
+				<![CDATA[O dispositivo foi removido, reconecte ele e tente novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoverRemoveHint" Property="string">
+			<Text>
+				<![CDATA[A recuperaÃ§Ã£o de %1 arquivo(s) falhou pelo %2 ter sido removido.]]>
+			</Text>
+		</Item>	
+		<Item Name="RecoverFat32" Property="string">
+			<Text>
+				<![CDATA[Arquivos maiores que 4GB nÃ£o podem ser recuperados devido Ã s limitaÃ§Ãµes do sistema de arquivos FAT32, vocÃª pode recuperÃ¡-lo para outro tipo de partiÃ§Ã£o.]]>
+			</Text>
+		</Item>	
+		<Item Name="RecoverSuccessDesc" Property="string">
+			<Text>
+				<![CDATA[<Font color="#00B0F5">%1</Font> arquivos recuperados!]]>
+			</Text>
+		</Item>
+		<Item Name="RecoverFailDesc1" Property="string">
+			<Text>
+				<![CDATA[arquivos <b>%1</b> recuperados com sucesso! Alguns arquivos nÃ£o puderam ser recuperados pelo seguinte motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorSaveDevice_UParationDialog" Property="string">
+			<Text>
+				<![CDATA[A recuperaÃ§Ã£o falhou pois nÃ£o encontrou um dispositivo disponÃ­vel para salvar, Por favor insira a mÃ­dia de armazenamento externo e recupere os seus dados novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorSourceDevice_UParationDialog" Property="string">
+			<Text>
+				<![CDATA[A recuperaÃ§Ã£o falhou pois nÃ£o encontrou um dispositivo disponÃ­vel. Por favor insira novamente a mÃ­dia de armazenamento externo.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameRecoverHint" Property="string">
+			<Text>
+				<![CDATA[Por favor selecione o arquivo para recuperar.]]>
+			</Text>
+		</Item>
+		<Item Name="SourceDiskDisconnectedDesc" Property="string">
+			<Text>
+				<![CDATA[O disco de origem foi desconectado! Reconecte e continue com a recuperaÃ§Ã£o.]]>
+			</Text>
+		</Item>
+		<Item Name="DestDiskDisconnectedDesc" Property="string">
+			<Text>
+				<![CDATA[O disco de destino foi desconectado! Reconecte e continue com a recuperaÃ§Ã£o.]]>
+			</Text>
+		</Item>	
+		<Item Name="strRecoverFilesNum" Property="string">
+			<Text>
+				<![CDATA[Recuperando arquivos: ]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblname" Property="string">
+			<Text>
+				<![CDATA[Nome:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lalsize" Property="string">
+			<Text>
+				<![CDATA[Tamanho:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblpath" Property="string">
+			<Text>
+				<![CDATA[Caminho:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblecrete" Property="string">
+			<Text>
+				<![CDATA[Data de criaÃ§Ã£o:]]>
+			</Text>
+		</Item>
+		<Item Name="m_lblmodefy" Property="string">
+			<Text>
+				<![CDATA[Data de modificaÃ§Ã£o:]]>
+			</Text>
+		</Item>
+		<Item Name="m_btperview" Property="string">
+			<Text>
+				<![CDATA[PrÃ©-visualizar]]>
+			</Text>
+		</Item>
+		<Item Name="UnNormalSector" Property="string">
+			<Text>
+				<![CDATA[No momento nÃ£o oferecemos suporte ao seu dispositivo. <b>Se o dispositivo conectado for uma cÃ¢mera vocÃª pode retirar o cartÃ£o SD, e inseri-lo em um leitor de cartÃ£o para verificÃ¡-lo</b>.]]>
+			</Text>
+		</Item>    
+
+		<Item Name="AllRoundScanCompleteed" ControlType = "11" >
+			<Text>
+				<![CDATA[NÃ£o consegue encontrar arquivos perdidos? Experimente uma anÃ¡lise profunda.]]>
+			</Text>
+		</Item>
+
+		<Item Name="RawScanCompleteed" Property="string">
+			<Text>
+				<![CDATA[Ainda nÃ£o conseguiu encontrar os arquivos perdidos, selecione o Modo VerificaÃ§Ã£o Profunda e tente novamente.]]>
+			</Text>
+		</Item>
+
+		<Item Name="UnVerifyTrustDesc1" Property="string">
+			<Text>
+				<![CDATA[VocÃª corre o risco de sofrer danos ao usar um software pirateado, compre o software oficial e continue usando os nossos recursos.]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc2" Property="string">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc3" Property="string">
+			<Text>
+				<![CDATA[Baixar]]>
+			</Text>
+		</Item>
+		<Item Name="PreviewLoadDesc" Property="string">
+			<Text>
+				<![CDATA[Carregando arquivo... por favor aguarde.]]>
+			</Text>
+		</Item>
+		<Item Name="UnVerifyTrustDesc4" ControlType="11">
+			<Text>
+				<![CDATA[FaÃ§a o download e instale a versÃ£o oficial Recoverit apÃ³s a compra do software, diretamente do site oficil. http://recoverit.wondershare.com/br]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs1" Property="string">
+			<Text>
+				<![CDATA[O Problema nÃ£o foi Resolvido? <a href="#"><Font color="#00AEE6">Clique Aqui</Font></a> para nos informar.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs2" Property="string">
+			<Text>
+				<![CDATA[Altere o vÃ­deo de amostra e faÃ§a a reparaÃ§Ã£o novamente. Se o problema ainda existir, <a href="#"><Font color="#00AEE6">Clique Aqui</Font></a> para nos informar.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs3" Property="string">
+			<Text>
+				<![CDATA[A criaÃ§Ã£o da unidade falhou, verifique se o dispositivo estÃ¡ conectado corretamente, ou <a href="#"><Font color="#00AEE6">nos informe</Font></a> agora.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs4" Property="string">
+			<Text>
+				<![CDATA[AÂ segunda verificaÃ§Ã£o nÃ£o resolveu o problema? <a href="#"><Font color="#00AEE6">Clique Aqui</Font></a> para nos informar.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs5" Property="string">
+			<Text>
+				<![CDATA[Ã‰ necessÃ¡ria uma conexÃ£o com a Internet para ativar o software, verifique a sua rede ou entre em contato com o seu provedor de acesso ISP, <a href="#"><Font color="#00AEE6">vocÃª tambÃ©m pode nos informar</Font></a>.]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs6" Property="string">
+			<Text>
+				<![CDATA[Qual parte do Recoverit vocÃª nÃ£o gosta? <a href="#"><Font color="#00AEE6">Compartilhar</Font></a> pode nos ajudar a melhorar muito!]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs7" Property="string">
+			<Text>
+				<![CDATA[Sem conexÃ£o com a Internet]]>
+			</Text>
+		</Item>
+		<Item Name="ReportToUs8" Property="string">
+			<Text>
+				<![CDATA[Ah nÃ£o ... nÃ£o conseguimos conectar Ã  Internet, verifique a sua conexÃ£o e tente novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="RAWDeepHint" Property="string">
+			<Text>
+				<![CDATA[O Modo de VerificaÃ§Ã£o profunda consegue encontrar mais arquivos, contudo demora mais tempo.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameFileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[%1 itens, %2]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameSelectFileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[%1 arquivo(s) selecionado(s) em %2]]>
+			</Text>
+		</Item>
+		<Item Name="RAWDeep" Property="string">
+			<Text>
+				<![CDATA[<font color=#26324B>Ainda nÃ£o conseguiu encontrar os seus arquivos perdidos? Tente a </font> <b><a href="#"><font color=#00AEE6>VerificaÃ§Ã£o Pronfunda</font></a></b>]]>
+			</Text>
+		</Item>
+		<Item Name="NoDataFrameDesc" Property="string">
+			<Text>
+				<![CDATA[<b>Nenhum arquivo foi encontrado</b><br><br>Selecione outros tipos de arquivos para verificar]]>
+			</Text>
+		</Item>
+		<Item Name="PauseBeforeRecover" Property="string">
+			<Text>
+				<![CDATA[Pause a verificaÃ§Ã£o antes de iniciar a recuperaÃ§Ã£o dos arquivos.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture1" Property="string">
+			<Text>
+				<![CDATA[NÃ£o Ã© possÃ­vel prÃ©-visualizar. Isto pode estar acontecendo pelos seguintes motivos:]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture2"  Property="string">
+			<Text>
+				<![CDATA[1. Os dados foram sobrescritos.]]>
+			</Text>
+		</Item>
+		<Item Name="ErrorPicture3"  Property="string">
+			<Text>
+				<![CDATA[2. Os dados estÃ£o incompletos. (Por favor aguarde atÃ© ao tÃ©rmino do processo e tente novamente)]]>
+			</Text>
+		</Item>
+		<Item Name="UserAssistantQuit1" Property="string">
+			<Text>
+				<![CDATA[HÃ¡ um problema com a autorizaÃ§Ã£o da conta.]]>
+			</Text>
+		</Item>
+		<Item Name="UserAssistantRetry"  Property="string">
+			<Text>
+				<![CDATA[Repetir]]>
+			</Text>
+		</Item>
+		<Item Name="m_BuyNowButton"  Property="string">
+			<Text>
+				<![CDATA[Comprar Agora]]>
+			</Text>
+		</Item>
+		<Item Name="bootretry"  Property="string">
+			<Text>
+				<![CDATA[Tentar novamente]]>
+			</Text>
+		</Item>
+		<Item Name="bootformatnow"  Property="string">
+			<Text>
+				<![CDATA[Formatar]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc3"  Property="string">
+			<Text>
+				<![CDATA[Alterar o Caminho]]>
+			</Text>
+		</Item>
+		<Item Name="Stop0_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Sim]]>
+			</Text>
+		</Item>
+		<Item Name="Stop0_m_NoButton"  Property="string">
+			<Text>
+				<![CDATA[NÃ£o]]>
+			</Text>
+		</Item>	 
+		<Item Name="Stop1_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Parar]]>
+			</Text>
+		</Item>
+		<Item Name="Stop1_m_cancelButton"  Property="string">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+		<Item Name="Stop2_m_ExitButton" Property="string">
+			<Text>
+				<![CDATA[Sair]]>
+			</Text>
+		</Item>
+		<Item Name="Stop5_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Substituir]]>
+			</Text>
+		</Item>
+
+		<Item Name="Stop6_m_sureButton"  Property="string">
+			<Text>
+				<![CDATA[Salvar]]>
+			</Text>
+		</Item>
+		<Item Name="PasswordDialogText"  Property="string">
+			<Text>
+				<![CDATA[O disco selecionado estÃ¡ bloqueado por senha. Digite a senha para verificar o disco completamente.]]>
+			</Text>
+		</Item>  
+		<Item Name="IsAdmin"  Property="string">
+			<Text>
+				<![CDATA[VocÃª precisarÃ¡ fornecer a permissÃ£o de administrador para executar este programa.]]>
+			</Text>
+		</Item>
+		<Item Name="DataPublic_strError"  Property="string">
+			<Text>
+				<![CDATA[O Wondershare Recoverit estÃ¡ sendo executado!]]>
+			</Text>
+		</Item>
+		<Item Name="DataPublic_strWaring" Property="string">
+			<Text>
+				<![CDATA[Aviso]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyNetWorkDesc" Property="string">
+			<Text>
+				<![CDATA[Uma conexÃ£o com a Internet Ã© necessÃ¡ria para ativar o software. Por favor verifique sua rede ou entre em contato com o seu Provedor de ServiÃ§os ISP.]]>
+			</Text>
+		</Item>
+		<Item Name="NewAntiPiracyDesc" Property="string">
+			<Text>
+				<![CDATA[O software nÃ£o Ã© original. Baixe e atualize ele para a versÃ£o original, caso queira recuperar os dados.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc1" Property="string">
+			<Text>
+				<![CDATA[VocÃª corre o risco de estar usando um software pirateado!]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc2" Property="string">
+			<Text>
+				<![CDATA[Aviso:]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc3" Property="string">
+			<Text>
+				<![CDATA[Seu computador pode ser infetado por vÃ­rus e atÃ© sofrer a perda dos seus dados, devido ao uso de software pirateado.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc4" Property="string">
+			<Text>
+				<![CDATA[Preparamos esta oferta por tempo limitado para vocÃª]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc5" Property="string">
+			<Text>
+				<![CDATA[Ganhe 60% de Desconto ao comprar uma LicenÃ§a Original.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc6" Property="string">
+			<Text>
+				<![CDATA[Nota: Sugerimos que vocÃª recupere os seus arquivos verificados o mais rÃ¡pido possÃ­vel, Caso contrÃ¡rio os dados podem ser substituÃ­dos causando uma falha na recuperaÃ§Ã£o.]]>
+			</Text>
+		</Item>	
+		<Item Name="PiracyDesc7" Property="string">
+			<Text>
+				<![CDATA[O seu software parece estar danificado ou corrompido, faÃ§a novamente o download e o reinstale.]]>
+			</Text>
+		</Item>
+		<Item Name="PiracyDesc8" Property="string">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00AEE6>Website Oficial</font></a>]]>
+			</Text>
+		</Item>
+
+		<Item Name="ScanFramePauseTooltip" Property="string">
+			<Text>
+				<![CDATA[Pausar]]>
+			</Text>
+		</Item>
+		<Item Name="ScanFrameStopTooltip" Property="string">
+			<Text>
+				<![CDATA[Parar]]>
+			</Text>
+		</Item>
+		<Item Name="MulItemSelected" Property="string">
+			<Text>
+				<![CDATA[%1 selecionado]]>
+			</Text>
+		</Item>	
+		<Item Name="m_strArchive" Property="string">
+			<Text>
+				<![CDATA[Arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="m_strAudio" Property="string">
+			<Text>
+				<![CDATA[Arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="m_strDataBase" Property="string">
+			<Text>
+				<![CDATA[Base de Dados]]>
+			</Text>
+		</Item>
+		<Item Name="m_strDocument" Property="string">
+			<Text>
+				<![CDATA[Documento Office]]>
+			</Text>
+		</Item>
+		<Item Name="m_strEmail" Property="string">
+			<Text>
+				<![CDATA[Email]]>
+			</Text>
+		</Item>
+		<Item Name="m_strGraphic" Property="string">
+			<Text>
+				<![CDATA[GrÃ¡fico]]>
+			</Text>
+		</Item>
+		<Item Name="m_strInternetWeb" Property="string">
+			<Text>
+				<![CDATA[Internet & Web]]>
+			</Text>
+		</Item>
+		<Item Name="m_strMiscellaneous" Property="string">
+			<Text>
+				<![CDATA[Diverso]]>
+			</Text>
+		</Item>
+		<Item Name="m_strVideo" Property="string">
+			<Text>
+				<![CDATA[VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="m_strNoExtension" Property="string">
+			<Text>
+				<![CDATA[Sem ExtensÃ£o]]>
+			</Text>
+		</Item>
+		<Item Name="m_strFileNamePath" Property="string">
+			<Text>
+				<![CDATA[Pesquisar pelo nome ou local do arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="FilteToolTip1" Property="string">
+			<Text>
+				<![CDATA[Filtro]]>
+			</Text>
+		</Item>
+		<Item Name="FilteToolTip2" Property="string">
+			<Text>
+				<![CDATA[%1 dos arquivos corresponde Ã s condiÃ§Ãµes do filtro.]]>
+			</Text>
+		</Item>		
+		<Item Name="UpdateAuthorDesc0" Property="string">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+		<Item Name="loginDesc" Property="string">
+			<Text>
+				<![CDATA[Fazer login]]>
+			</Text>
+		</Item>
+		<Item Name="RecycleRemoveDesc" Property="string">
+			<Text>
+				<![CDATA[%1 foi removido, conecte novamente ao computador e tente de novo.]]>
+			</Text>
+		</Item>
+		<Item Name="LostPartitionDesc" Property="string">
+			<Text>
+				<![CDATA[PartiÃ§Ã£o Perdida]]>
+			</Text>
+		</Item>
+		<Item Name="LocalDiskDesc" Property="string">
+			<Text>
+				<![CDATA[Disco Local]]>
+			</Text>
+		</Item>
+		<Item Name="RawFilesDesc" Property="string">
+			<Text>
+				<![CDATA[Arquivos RAW]]>
+			</Text>
+		</Item>
+		<Item Name="FolderDesc" Property="string">
+			<Text>
+				<![CDATA[Pasta]]>
+			</Text>
+		</Item>
+		<Item Name="lostlocationDesc" Property="string">
+			<Text>
+				<![CDATA[Arquivo sem caminho]]>
+			</Text>
+		</Item>
+		<Item Name="RecycleBinDesc" Property="string">
+			<Text>
+				<![CDATA[Lixeira]]>
+			</Text>
+		</Item>
+		<Item Name="BitLockerDesc" Property="string">
+			<Text>
+				<![CDATA[O disco selecionado foi bloqueado pelo <b> BitLocker do Windows</b> , desbloqueie e tente novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="LostBitLockerDesc" Property="string">
+			<Text>
+				<![CDATA[%1 estÃ¡ protegido pelo BitLocker, desbloqueie ele para continuar com a verificaÃ§Ã£o.]]>
+			</Text>
+		</Item>		
+		<Item Name="DiskRefreshDesc" Property="string">
+			<Text>
+				<![CDATA[Carregando informaÃ§Ãµes sobre disco, por favor aguarde...]]>
+			</Text>
+		</Item>
+		<Item Name="ScanWaitFrameDesc3" Property="string">
+			<Text>
+				<![CDATA[Varredura parada, preparando para retornar, por favor aguarde pacientementeâ€¦]]>
+			</Text>
+		</Item>
+		<Item Name="DesktopDesc" Property="string">
+			<Text>
+				<![CDATA[Ãrea de Trabalho]]>
+			</Text>
+		</Item>
+		<Item Name="SelectFolderkDesc" Property="string">
+			<Text>
+				<![CDATA[Pastas]]>
+			</Text>
+		</Item>		
+		<Item Name="Unknown" Property="string">
+			<Text>
+				<![CDATA[Desconhecido]]>
+			</Text>
+		</Item>
+		<Item Name="findHardDriver1" Property="string">
+			<Text>
+				<![CDATA[Ainda nÃ£o oferecemos suporte para o modelo da sua cÃ¢mera.<br><br><br>VocÃª deve retirar o cartÃ£o SD e inseri-lo em um leitor de cartÃ£o para verificÃ¡-lo.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc2" Property="string">
+			<Text>
+				<![CDATA[O seu disco estÃ¡ danificado. Recupere os seus arquivos o mais rÃ¡pido possÃ­vel.]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDesc2_1" Property="string">
+			<Text>
+				<![CDATA[Detectamos que o seu disco tem alguns problemas.]]>
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="CalendarFrame">	
+		<Item Name="Week1" Property="string">
+			<Text>
+				<![CDATA[Seg]]>
+			</Text>
+		</Item>
+		<Item Name="Week2" Property="string">
+			<Text>
+				<![CDATA[Ter]]>
+			</Text>
+		</Item>
+		<Item Name="Week3" Property="string">
+			<Text>
+				<![CDATA[Qua]]>
+			</Text>
+		</Item>
+		<Item Name="Week4" Property="string">
+			<Text>
+				<![CDATA[Qui]]>
+			</Text>
+		</Item>
+		<Item Name="Week5" Property="string">
+			<Text>
+				<![CDATA[Sex]]>
+			</Text>
+		</Item>
+		<Item Name="Week6" Property="string">
+			<Text>
+				<![CDATA[SÃ¡b]]>
+			</Text>
+		</Item>
+		<Item Name="Week7" Property="string">
+			<Text>
+				<![CDATA[Dom]]>
+			</Text>
+		</Item>	  
+		<Item Name="Mon1" Property="string">
+			<Text>
+				<![CDATA[Janeiro]]>
+			</Text>
+		</Item>
+		<Item Name="Mon2" Property="string">
+			<Text>
+				<![CDATA[Fevereiro]]>
+			</Text>
+		</Item>
+		<Item Name="Mon3" Property="string">
+			<Text>
+				<![CDATA[MarÃ§o]]>
+			</Text>
+		</Item>
+		<Item Name="Mon4" Property="string">
+			<Text>
+				<![CDATA[Abril]]>
+			</Text>
+		</Item>
+		<Item Name="Mon5" Property="string">
+			<Text>
+				<![CDATA[Maio]]>
+			</Text>
+		</Item>
+		<Item Name="Mon6" Property="string">
+			<Text>
+				<![CDATA[Junho]]>
+			</Text>
+		</Item>
+		<Item Name="Mon7" Property="string">
+			<Text>
+				<![CDATA[Julho]]>
+			</Text>
+		</Item>
+		<Item Name="Mon8" Property="string">
+			<Text>
+				<![CDATA[Agosto]]>
+			</Text>
+		</Item>
+		<Item Name="Mon9" Property="string">
+			<Text>
+				<![CDATA[Setembro]]>
+			</Text>
+		</Item>
+		<Item Name="Mon10" Property="string">
+			<Text>
+				<![CDATA[Outubro]]>
+			</Text>
+		</Item>
+		<Item Name="Mon11" Property="string">
+			<Text>
+				<![CDATA[Novembro]]>
+			</Text>
+		</Item>
+		<Item Name="Mon12" Property="string">
+			<Text>
+				<![CDATA[Dezembro]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RowHeaderFrame">	
+		<Item Name="Head0" Property="string">
+			<Text>
+				<![CDATA[     Nome]]>
+			</Text>
+		</Item>
+		<Item Name="Head1"  Property="string">
+			<Text>
+				<![CDATA[Tamanho]]>
+			</Text>
+		</Item>
+		<Item Name="Head2"  Property="string">
+			<Text>
+				<![CDATA[Destino]]>
+			</Text>
+		</Item>
+		<Item Name="Head3" Property="string">
+			<Text>
+				<![CDATA[Data de CriaÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="Head4"  Property="string">
+			<Text>
+				<![CDATA[Data de ModificaÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="Head5"  Property="string">
+			<Text>
+				<![CDATA[Formato]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MainMenu">		
+		<Item Name="m_StrStatus" Property="string">
+			<Text>
+				<![CDATA[Feedback]]>
+			</Text>
+		</Item>	  
+		<Item Name="m_optionsAction" Property="string">
+			<Text>
+				<![CDATA[Idioma]]>
+			</Text>
+		</Item>
+		<Item Name="m_helpAction" Property="string">
+			<Text>
+				<![CDATA[Ajuda]]>
+			</Text>
+		</Item>
+		<Item Name="m_purchaseAction" Property="string">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>
+		<Item Name="m_registerAction" Property="string">
+			<Text>
+				<![CDATA[Registrar]]>
+			</Text>
+		</Item>
+		<Item Name="m_registerAction1" Property="string">
+			<Text>
+				<![CDATA[Conta]]>
+			</Text>
+		</Item>
+		<Item Name="m_suppotAction" Property="string">
+			<Text>
+				<![CDATA[Central de Suporte]]>
+			</Text>
+		</Item>
+		<Item Name="m_diskToolAction" Property="string">
+			<Text>
+				<![CDATA[Ferramentas de Disco]]>
+			</Text>
+		</Item>
+		<Item Name="m_logfilesAction" Property="string">
+			<Text>
+				<![CDATA[Arquivos de Log]]>
+			</Text>
+		</Item>
+		<Item Name="m_updateAction" Property="string">
+			<Text>
+				<![CDATA[Verificar AtualizaÃ§Ãµes]]>
+			</Text>
+		</Item>
+		<Item Name="m_userGuideAction" Property="string">
+			<Text>
+				<![CDATA[Guia do UsuÃ¡rio]]>
+			</Text>
+		</Item>
+		<Item Name="m_aboutAction" Property="string">
+			<Text>
+				<![CDATA[Sobre]]>
+			</Text>
+		</Item>
+		<Item Name="m_contactusAction" Property="string">
+			<Text>
+				<![CDATA[Perguntas Frequentes]]>
+			</Text>
+		</Item>	  
+	</Form>
+	<Form Name="cmenuOption">
+		<Item Name="Language" Property="string">
+			<Text>
+				<![CDATA[Idioma]]>
+			</Text>
+		</Item>
+		<Item Name="languageCombox" Property="string">
+			<Text>
+				<![CDATA[English(English),Japanese(æ—¥æœ¬èª),French(FranÃ§ais),German(Deutsch),Chinese Traditional(ä¸­å›½é¦™æ¸¯),Chinese Traditional(ä¸­å›½å°æ¹¾),Portuguese(PortuguÃªs),Italiano(Italiano),Spanish(EspaÃ±ol),Netherland(Nederlands),Arab(Â Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©Â ),Korean(í•œêµ­ì–´),Sweden(SwÃ©dia),Indonesia(Indonesia),Russian(Ñ€ÑƒÑÑĞºĞ¸Ğ¹)]]>
+			</Text>
+		</Item>
+		<Item Name="okButton" Property="string">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+		<Item Name="cancelButton" Property="string">
+			<Text>
+				<![CDATA[Cancelar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="LockDriverDialog">
+		<Item Name="LockDriverDialog1" Property="string">
+			<Text>
+				<![CDATA[Pular]]>
+			</Text>
+		</Item>
+		<Item Name="LockDriverDialog2" Property="string">
+			<Text>
+				<![CDATA[Desbloquear]]>
+			</Text>
+		</Item>
+		<Item Name="BitLockerLink" Property="string">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00AEE6>Como Desbloquear?</font></a>]]>
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="FilterFrame">
+		<Item Name="FilterDesc" Property="string">
+			<Text>
+				<![CDATA[Filtro]]>
+			</Text>
+		</Item>
+		<Item Name="ResetDesc" Property="string">
+			<Text>
+				<![CDATA[Redefinir]]>
+			</Text>
+		</Item>
+		<Item Name="FileTypeDesc" Property="string">
+			<Text>
+				<![CDATA[Tipo de Arquivo]]>
+			</Text>
+		</Item>		
+		<Item Name="TimeDesc" Property="string">
+			<Text>
+				<![CDATA[Tempo]]>
+			</Text>
+		</Item>
+		<Item Name="FileSizeDesc" Property="string">
+			<Text>
+				<![CDATA[Tamanho do Arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="FileSizeDescText" Property="string">
+			<Text>
+				<![CDATA[Tamanho do Arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText1" Property="string">
+			<Text>
+				<![CDATA[Tempo todo]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText2" Property="string">
+			<Text>
+				<![CDATA[O Dia Anterior]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText3" Property="string">
+			<Text>
+				<![CDATA[A Semana Anterior]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText4" Property="string">
+			<Text>
+				<![CDATA[O MÃªs Anterior]]>
+			</Text>
+		</Item>
+		<Item Name="FilterDateTimeText5" Property="string">
+			<Text>
+				<![CDATA[O Ano Anterior]]>
+			</Text>
+		</Item>		
+		<Item Name="FilterDateTimeText6" Property="string">
+			<Text>
+				<![CDATA[Personalizar...]]>
+			</Text>
+		</Item>
+		<Item Name="Lessthan1MB" Property="string">
+			<Text>
+				<![CDATA[Menos de 1 MB]]>
+			</Text>
+		</Item>
+		<Item Name="1GBabove" Property="string">
+			<Text>
+				<![CDATA[Mais de 1 GB]]>
+			</Text>
+		</Item>
+		<Item Name="AllFiles" Property="string">
+			<Text>
+				<![CDATA[Todos os Arquivos]]>
+			</Text>
+		</Item>	
+		<Item Name="DeletedFiles" Property="string">
+			<Text>
+				<![CDATA[Arquivos ExcluÃ­dos]]>
+			</Text>
+		</Item>
+		<Item Name="FilteringDesc" Property="string">
+			<Text>
+				<![CDATA[Filtrando]]>
+			</Text>
+		</Item>	
+		<Item Name="SearchingDesc" Property="string">
+			<Text>
+				<![CDATA[Procurando]]>
+			</Text>
+		</Item>	
+		<Item Name="SearchresultsFiles" Property="string">
+			<Text>
+				<![CDATA[Resultados da busca: %1 arquivos]]>
+			</Text>
+		</Item>
+		<Item Name="Searchresults" Property="string">
+			<Text>
+				<![CDATA[Resultado da busca para %1]]>
+			</Text>
+		</Item>
+		<Item Name="SearchresultsFile" Property="string">
+			<Text>
+				<![CDATA[Resultados da busca: 0 arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="Less100MB" Property="string">
+			<Text>
+				<![CDATA[1MB~100MB]]>
+			</Text>
+		</Item>
+		<Item Name="Less1GB" Property="string">
+			<Text>
+				<![CDATA[100MB~1GB]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ShowBannerFrame">
+		<Item Name="ShowBannerFrameCrashSystem1_1" Property="string">
+			<Text>
+				<![CDATA[Computador nÃ£o inicializÃ¡vel]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem1_2" Property="string">
+			<Text>
+				<![CDATA[Acesse os dados do seu computador travado criando uma unidade USB inicializÃ¡vel.]]>
+			</Text>
+		</Item>		
+		<Item Name="ShowBannerFrameCrashSystem2_1" Property="string">
+			<Text>
+				<![CDATA[Tela azul da morte]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem2_2" Property="string">
+			<Text>
+				<![CDATA[Defina as opÃ§Ãµes de inicializaÃ§Ã£o no PC travado para iniciar os dados de resgate.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem3_1" Property="string">
+			<Text>
+				<![CDATA[Tela negra da morte]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameCrashSystem3_2" Property="string">
+			<Text>
+				<![CDATA[Copie ou restaure de forma fÃ¡cil e simples os dados apagados de um PC avariado]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo1_1" Property="string">
+			<Text>
+				<![CDATA[#1 para Recuperar VÃ­deos ExcluÃ­dos ou Profundamente Ocultos]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo1_2" Property="string">
+			<Text>
+				<![CDATA[Quando vocÃª descobrir que algo inesperado aconteceu durante a gravaÃ§Ã£o ou ediÃ§Ã£o de um vÃ­deo.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo2_1" Property="string">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de VÃ­deos em Ultra HD, 4K e 8K]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo2_2" Property="string">
+			<Text>
+				<![CDATA[Suportamos a recuperaÃ§Ã£o de vÃ­deos em Ultra HD, 4K e atÃ© 8K, que Ã© mais eficaz do que nunca.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo3_1" Property="string">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de VÃ­deos de todos os dispositivos]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideo3_2" Property="string">
+			<Text>
+				<![CDATA[Recuperar de DSLR, CÃ¢meras digitais, Drones, CÃ¢meras de painel, cartÃµes SD, etc.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit1_1" Property="string">
+			<Text>
+				<![CDATA[Danos Causados por OperaÃ§Ãµes Acidentais]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit1_2" Property="string">
+			<Text>
+				<![CDATA[Gravar depois de deixar cair, danos causados pela Ã¡gua, sacudidas, quedas, bateria descarregada, desligamento inesperado durante a gravaÃ§Ã£o de vÃ­deo, etc.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit2_1" Property="string">
+			<Text>
+				<![CDATA[VÃ­deo foi recuperado mas nÃ£o conseguiu ser reproduzido]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit2_2" Property="string">
+			<Text>
+				<![CDATA[VÃ­deo perdido foi recuperado, mas nÃ£o conseguiu ser reproduzido por algumas razÃµes desconhecidas.]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit3_1" Property="string">
+			<Text>
+				<![CDATA[Reparo de vÃ­deo de marcas de cÃ¢mera amplamente utilizadas]]>
+			</Text>
+		</Item>
+		<Item Name="ShowBannerFrameAdvanceVideoRepairit3_2" Property="string">
+			<Text>
+				<![CDATA[CÃ¢meras suportadas: Cannon, Nikon, Sony, Panasonic, GoPro, DJI etc.]]>
+			</Text>
+		</Item>			
+	</Form>	
+	<Form Name="FindHardDriverDialog">
+		<Item Name="FindHardDriverDialogOtherState1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState2" Property="string">
+			<Text>
+				<![CDATA[Se o status de seu disco Ã©:<br>Offline/Ausente/IlegÃ­vel/Falha/Desconhecido/Externo]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState3" Property="string">
+			<Text>
+				<![CDATA[SoluÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogOtherState4" Property="string">
+			<Text>
+				<![CDATA[Por favor, consulte as dicas da Microsoft para resolver o problema:  <a href="#"><font color=#00B0F5>SoluÃ§Ã£o de problemas da Microsoft</font></a>]]>
+			</Text>
+		</Item>
+
+		<Item Name="FindHardDriverDialogNotInitialized1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNotInitialized2" Property="string">
+			<Text>
+				<![CDATA[O disco nÃ£o tem uma assinatura vÃ¡lida de disco.]]>
+			</Text>
+		</Item>		
+		<Item Name="FindHardDriverDialogNotInitialized3" Property="string">
+			<Text>
+				<![CDATA[SoluÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNotInitialized4" Property="string">
+			<Text>
+				<![CDATA[Clique com o botÃ£o direito do mouse em Gerenciamento de Disco para inicializar a unidade. Depois, use o Recoverit para digitalizar e recuperar os dados.]]>
+			</Text>
+		</Item>
+
+		<Item Name="FindHardDriverDialogNoMedia1" Property="string">
+			<Text>
+				<![CDATA[Causa]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNoMedia2" Property="string">
+			<Text>
+				<![CDATA[Se o status de seu disco for "Sem MÃ­dia", ele pode ter sÃ©rios danos de hardware.]]>
+			</Text>
+		</Item>		
+		<Item Name="FindHardDriverDialogNoMedia3" Property="string">
+			<Text>
+				<![CDATA[SoluÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="FindHardDriverDialogNoMedia4" Property="string">
+			<Text>
+				<![CDATA[Por favor, envie o disco para oficina de reparo para inspeÃ§Ã£o.]]>
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="mainframe">
+		<Item Name="MainBannerFrameDataRecovery" Property="string">
+			<Text>
+				<![CDATA[Discos RÃ­gidos e LocalizaÃ§Ãµes]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameCrashSystem" Property="string">
+			<Text>
+				<![CDATA[Computador com Sistema Danificado]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameAdvanceVideo" Property="string">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="MainBannerFrameVideoRepair" Property="string">
+			<Text>
+				<![CDATA[Reparo de VÃ­deo Corrompido]]>
+			</Text>
+		</Item>
+		<Item Name="labelDataRecover" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Arquivos]]>
+			</Text>
+		</Item>	
+		<Item Name="labelDataRepair" Property="label">
+			<Text>
+				<![CDATA[Reparo de Arquivos]]>
+			</Text>
+		</Item>
+		<Item Name="mainformlblDesc" Property="label">
+			<Text>
+				<![CDATA[Estamos analisando seu vÃ­deo, por favor, aguarde pacientemente.]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="fulldiskframe">
+		<Item Name="label_5" Property="label">
+			<Text>
+				<![CDATA[Selecione um local para iniciar a recuperaÃ§Ã£o]]>
+			</Text>
+		</Item>	
+		<Item Name="lblHardTitle" Property="label">
+			<Text>
+				<![CDATA[Discos RÃ­gidos]]>
+			</Text>
+		</Item>
+		<Item Name="lblExternTitle" Property="label">
+			<Text>
+				<![CDATA[Discos Externos]]>
+			</Text>
+		</Item>
+		<Item Name="lblSpecificTitle" Property="label">
+			<Text>
+				<![CDATA[Acesso RÃ¡pido]]>
+			</Text>
+		</Item>	
+		<Item Name="lblFeedback" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>NÃ£o consegue detectar seu disco rÃ­gido?</font></a>]]>
+			</Text>
+		</Item>	
+		<Item Name="refreshbtn" Property="tooltip">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+		<Item Name="refreshbtn2" Property="tooltip">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+		<Item Name="advanceVideoDesc" Property="string">
+			<Text>
+				<![CDATA[Selecione um disco rÃ­gido para iniciar a RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo:]]>
+			</Text>
+		</Item>
+	</Form>
+
+	<Form Name="CrashSystemShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recupere Seus Dados do Computador Danificado]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Crie um pendrive bootÃ¡vel para inicializar o computador danificado e recuperar dados a partir dele:]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Iniciar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="AdvanceVideoShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Tecnologia Patenteada para Recuperar VÃ­deos Profundamente Ocultos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[InovaÃ§Ã£o exclusiva de tecnologia patenteada do Recoverit - extraia videoclipes e integre]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Iniciar]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="VideoRepairShowFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Reparo RÃ¡pido & AvanÃ§ado de VÃ­deo, Evite a CorrupÃ§Ã£o de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[3 passos para reparar vÃ­deos danificados, um kit de ferramentas completo para cenÃ¡rios de de danos diversos]]>
+			</Text>
+		</Item>
+		<Item Name="buttonStart" Property="button">
+			<Text>
+				<![CDATA[Adicionar vÃ­deo]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="CommonWaitFrame">
+		<Item Name="lblDiskDesc1" Property="label">
+			<Text>
+				<![CDATA[Carregando disco...]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Travado no carregamento por um longo tempo?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="RemoveExternalDisk">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Remova todos os dispositivos externos e tente novamente]]>
+			</Text>
+		</Item>
+		<Item Name="labelTex1" Property="label">
+			<Text>
+				<![CDATA[ Remova todos os discos externos conectados ao computador e aguarde que o carregamento seja concluÃ­do.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelTex2" Property="label">
+			<Text>
+				<![CDATA[Reconecte o disco que vocÃª deseja recuperar e inicie a varredura.]]>			    
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Entendi]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[O problema ainda ocorre?  <a href="#"><font color=#00B0F5>Clique aqu</font></a> para nos informar.  ]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="FindHardDriverDialog">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[Disco RÃ­gido nÃ£o encontrado]]>
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[Abra o <a href="#"><font color=#00B0F5>Gerenciamento de Disco</font></a>, verifique o Estado de seu disco:]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonNotInit" Property="button">
+			<Text>
+				<![CDATA[NÃ£o Inicializado]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonNoMedia" Property="button">
+			<Text>
+				<![CDATA[Sem MÃ­dia]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOther" Property="button">
+			<Text>
+				<![CDATA[Outro Status]]>			    
+			</Text>
+		</Item>		
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Entendi]]>
+			</Text>
+		</Item>
+		<Item Name="labelWorkOrder" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Contate-nos</font></a>]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MobileDialog">
+		<Item Name="MobileDialogDownload" Property="string">
+			<Text>
+				<![CDATA[Ir para baixar]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recoverit]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1_1" Property="label">
+			<Text>
+				<![CDATA[Recupere arquivos de PCs, discos rÃ­gidos e dispositivos de armazenamento externo. ]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[dr.fone - RecuperaÃ§Ã£o de dados]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2_1" Property="label">
+			<Text>
+				<![CDATA[Recupere dados de dispositivos iOS/Android.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="BadSectorDialog">
+		<Item Name="BadSectorFrameDriver" Property="string">
+			<Text>
+				<![CDATA[Foram detectados setores ruins no (%1:).  ]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorFrameViewDetails" Property="string">
+			<Text>
+				<![CDATA[Ver detalhes]]>
+			</Text>
+		</Item>
+
+		<Item Name="BadSectorFrameSkipSector" Property="string">
+			<Text>
+				<![CDATA[Tentando pular setores ruins, por favor espere...]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorFrameLearnMore" Property="string">
+			<Text>
+				<![CDATA[Saiba mais]]>
+			</Text>
+		</Item>
+		<Item Name="BadSectorDialogDesc" Property="string">
+			<Text>
+				<![CDATA[Existem %2 setores ruins no disco]]>
+			</Text>
+		</Item>		
+		<Item Name="lblDesc" Property="label">
+			<Text>
+				<![CDATA[Recupere seus arquivos o mais rÃ¡pido possÃ­vel, e faÃ§a backup imediatamente para evitar a perda de dados ]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Fazer backup imediatamente]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblGoodText" Property="label">
+			<Text>
+				<![CDATA[Bom]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblPoorText" Property="label">
+			<Text>
+				<![CDATA[Ruim]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblSevereText" Property="label">
+			<Text>
+				<![CDATA[Severo]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblDamagedText" Property="label">
+			<Text>
+				<![CDATA[Danificado]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblUnkownText" Property="label">
+			<Text>
+				<![CDATA[Incerto]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SearchHintFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Desculpe, nenhum arquivo encontrado!]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[1.  Alguns arquivos estÃ£o faltando o nome do arquivo original, verifique entÃ£o em <a href="#"><font color=#00B0F5>Arquivos sem fonte</font></a>]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[2. Por favor, espere que a varredura seja concluÃ­da e pesquise novamente.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText4" Property="label">
+			<Text>
+				<![CDATA[3. Tente usar o Filtro para procurar seus arquivos.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SearchDialog">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Como procurar arquivos em Arquivos sem Fonte]]>
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[Arquivos sem fonte nÃ£o possuem seus nomes de origem, nÃ£o se pode buscar pelos nomes originais. Aqui estÃ£o algumas dicas para procurar arquivos em Arquivos sem Fonte:]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[1. Clique em [Arquivos sem fonte]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[2. Selecione o tipo de arquivo a ser recuperado.]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[3. PrÃ©-visualize para confirmar se os arquivos sÃ£o o que vocÃª precisa.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Entendi]]>			    
+			</Text>
+		</Item>	
+	</Form>
+	<Form Name="PreviewSimilarErrorFrame">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Ops, a visualizaÃ§Ã£o do arquivo falhou pelo seguinte motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="lblText1" Property="label">
+			<Text>
+				<![CDATA[O arquivo pode ter sido substituÃ­do. Recomenda-se restaurar no computador.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblText2" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>O que significa o arquivo sendo sobrescrito?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewErrorFrame">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Ops, a visualizaÃ§Ã£o do arquivo falhou pelo seguinte motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="lblText1" Property="label">
+			<Text>
+				<![CDATA[O arquivo pode ter sido substituÃ­do. Recomenda-se restaurar no computador.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblText2" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>O que significa o arquivo sendo sobrescrito?</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="ScanPreviewErrorFrame">
+		<Item Name="lblTitle1" Property="string">
+			<Text>
+				<![CDATA[Ops, a visualizaÃ§Ã£o do arquivo falhou pelo seguinte motivo:]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="string">
+			<Text>
+				<![CDATA[O arquivo ainda estÃ¡ incompleto, por favor, prÃ©-visualize depois de a varredura estar concluÃ­da.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Verifique os formatos que suportam a prÃ©-visualizaÃ§Ã£o</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="PreviewUnkownFileFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Oops, o formato do arquivo nÃ£o suporta prÃ©-visualizaÃ§Ã£o]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[NÃ£o se preocupe, vocÃª pode ver esses arquivos depois que eles forem recuperados em seu computador.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[<a href="#"><font color=#00B0F5>Verifique os formatos que suportam a prÃ©-visualizaÃ§Ã£o</font></a>]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewAdanceVideoErrorFrame">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Oops, a visualizaÃ§Ã£o do vÃ­deo falhou. ]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[Tente a RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo para digitalizar os fragmentos ocultos do vÃ­deo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblTitle3" Property="label">
+			<Text>
+				<![CDATA[ObservaÃ§Ã£o: Salve os arquivos digitalizados antes de iniciar a RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>			    
+			</Text>
+		</Item>
+	</Form>	
+	<Form Name="PreviewVideoErrorFrame">
+		<Item Name="lblTitle1" Property="string">
+			<Text>
+				<![CDATA[Oops, a visualizaÃ§Ã£o do vÃ­deo falhou. ]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="string">
+			<Text>
+				<![CDATA[Recupere para o computador e tente o Reparo de VÃ­deo para consertar os vÃ­deos corrompidos.]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="DocumentViewOrderFrame">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[A prÃ©-visualizaÃ§Ã£o do vÃ­deo Ã© limitada a 10 segundos. Se vocÃª quiser reproduzir o vÃ­deo completo, vocÃª pode o restaurar em seu computador.]]>
+			</Text>
+		</Item>
+		<Item Name="labelOfficeText" Property="label">
+			<Text>
+				<![CDATA[Apenas a primeira pÃ¡gina do arquivo pode ser prÃ©-visualizada.<br>Se vocÃª precisar ver mais conteÃºdo, restaure o arquivo em seu computador.]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ScanFrameTree">
+		<Item Name="TipDiskRawDesc" Property="string">
+			<Text>
+				<![CDATA[Estes arquivos nÃ£o possuem mais seus nomes originais, tamanhos de arquivos e registros de data e hora. Mas eles podem ser exatamente o que vocÃª precisa.]]>
+			</Text>
+		</Item>
+		<Item Name="TipLostLocationDesc" Property="string">
+			<Text>
+				<![CDATA[Estes arquivos nÃ£o tÃªm informaÃ§Ãµes sobre o caminho de armazenamento original, vocÃª pode verificar se Ã© o que vocÃª <br>precisa.]]>
+			</Text>
+		</Item>
+		<Item Name="btnpath" Property="button">
+			<Text>
+				<![CDATA[Local de Arquivo]]>
+			</Text>
+		</Item>
+		<Item Name="btntype" Property="button">
+			<Text>
+				<![CDATA[Tipo de Arquivo]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ReconnectDialog">
+		<Item Name="ReconnectDiskDesc" Property="string">
+			<Text>
+				<![CDATA[Disco (%1:) desconectado, reconecte e volte a digitalizar.]]>
+			</Text>
+		</Item>	
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Digitalizar novamente]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RestartDRlibDialog">
+		<Item Name="lblTitle" Property="label">
+			<Text>
+				<![CDATA[Software error, back to home and re-scan.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[Back]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ScanFinishDialog">
+		<Item Name="ScanCompleteedAdvanceDesc" Property="string">
+			<Text>
+				<![CDATA[Varredura ConcluÃ­da! Desculpe, nÃ£o encontramos seus arquivos, <a href="#"><Font color="#00B0F5">deixe um feedback</Font></a> para que possamos verificar mais.]]>
+			</Text>
+		</Item>
+		<Item Name="ScanCompleteedDesc" Property="string">
+			<Text>
+				<![CDATA[Varredura concluÃ­da! %1 arquivos foram encontrados!]]>
+			</Text>
+		</Item>
+		<Item Name="lblDesc" Property="label">
+			<Text>
+				<![CDATA[ObservaÃ§Ã£o: Por favor recupere o quanto antes para evitar que os arquivos sejam sobregravados. ]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurnToAdvanceVideo">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[NÃ£o consegue encontrar o vÃ­deo que vocÃª precisa?]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Recomendamos que vocÃª utilize o recurso de RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Saiba mais]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurnToAdvanceVideoDialog">
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Salve os arquivos atualmente digitalizados que vocÃª precisa]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Volte para a pÃ¡gina inicial, clique em [RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo].]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Selecione formatos de vÃ­deo e inicie a RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo.]]>			    
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Entendi]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="TurntoDeepRecycleFrame">
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Se vocÃª nÃ£o conseguir encontrar os arquivos excluÃ­dos, tente uma varredura profunda.]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Uma varredura profunda levarÃ¡ mais tempo para varrer todos os setores do disco para encontrar mais arquivos.]]>			    
+			</Text>
+		</Item>
+		<Item Name="buttonOk" Property="button">
+			<Text>
+				<![CDATA[Varredura profunda]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SelectPathDialog">
+		<Item Name="lblTipText" Property="label">
+			<Text>
+				<![CDATA[Selecione um lugar para recuperar os arquivos]]>
+			</Text>
+		</Item>
+		<Item Name="label" Property="label">
+			<Text>
+				<![CDATA[LocalizaÃ§Ã£o:]]>			    
+			</Text>
+		</Item>
+		<Item Name="lblHint" Property="label">
+			<Text>
+				<![CDATA[Caminho do arquivo invÃ¡lidoï¼]]>			    
+			</Text>
+		</Item>			
+		<Item Name="m_sDocumentItem" Property="string">
+			<Text>
+				<![CDATA[Meus Documentos]]>
+			</Text>
+		</Item>
+		<Item Name="m_sDeskTopItem" Property="string">
+			<Text>
+				<![CDATA[Ãrea de Trabalho]]>
+			</Text>
+		</Item>
+		<Item Name="m_sComputerItem" Property="string">
+			<Text>
+				<![CDATA[Meu Computador]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[OK]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ProtectedDialog">
+		<Item Name="ProtectedDialogTitle1" Property="string">
+			<Text>
+				<![CDATA[PermissÃµes insuficientes!]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle2" Property="string">
+			<Text>
+				<![CDATA[<font color=#FF0000><b>PermissÃ£o insuficiente<b></font><font color=#26324B> para salvar o arquivo no disco selecionado. Por favor selecione outro disco e tente novamente.</font>]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle4" Property="string">
+			<Text>
+				<![CDATA[MemÃ³ria Insuficiente!]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">//ProtectedDialogTitle3
+			<Text>
+				<![CDATA[Selecione Novamente]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RecoveryDialog">
+		<Item Name="lblTipText" Property="label">
+			<Text>
+				<![CDATA[Selecione o caminho para salvar arquivos:]]>
+			</Text>
+		</Item>	
+		<Item Name="OverrideDesc" Property="string">
+			<Text>
+				<![CDATA[NÃ£o salve o arquivo no Disco (%1:) aonde vocÃª os perdeu, isso farÃ¡ com que o arquivo seja sobregravado.]]>
+			</Text>
+		</Item>
+		<Item Name="NewFolderDesc" Property="string">
+			<Text>
+				<![CDATA[Nova Pasta]]>
+			</Text>
+		</Item>
+		<Item Name="t_strNewName" Property="string">
+			<Text>
+				<![CDATA[NovaPasta]]>
+			</Text>
+		</Item>
+		<Item Name="ProtectedDialogTitle5" Property="string">
+			<Text>
+				<![CDATA[<font color=#FF644D>%1</font> <font color=#26324B>em %2 arquivos selecionados e nÃ£o hÃ¡ espaÃ§o suficiente no disco selecionado, Por favor selecione outro disco.</font>]]>
+			</Text>
+		</Item>
+		<Item Name="strWaring" Property="string">
+			<Text>
+				<![CDATA[Salvar os dados na partiÃ§Ã£o principal irÃ¡ reduzir as hipÃ³teses de recuperar com sucesso. Deseja salvar mesmo assim?]]>
+			</Text>
+		</Item>
+		<Item Name="m_sComputerItem" Property="string">
+			<Text>
+				<![CDATA[Meu Computador]]>
+			</Text>
+		</Item>
+		<Item Name="strRecycleSave" Property="string">
+			<Text>
+				<![CDATA[Ã‰ recomendÃ¡vel salvar os arquivos recuperados no disco externo para evitar a substituiÃ§Ã£o dos arquivos, pois a recuperaÃ§Ã£o pode falhar.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc1" Property="string">
+			<Text>
+				<![CDATA[Sugerimos que vocÃª salve os arquivos em uma unidade externa,<br><br>pois salvar os arquivos na mesma unidade em que vocÃª os perdeu, reduzirÃ¡ a chance da recuperaÃ§Ã£o ser bem-sucedida.]]>
+			</Text>
+		</Item>
+		<Item Name="RecoveryDialogSaveDesc2" Property="string">
+			<Text>
+				<![CDATA[Sugerimos que vocÃª salve os arquivos em outra unidade,<br><br>pois salvar os arquivos na mesma unidade em que vocÃª os perdeu, reduzirÃ¡ a chance da recuperaÃ§Ã£o ser bem-sucedida.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnRecovery" Property="button">
+			<Text>
+				<![CDATA[Recuperar]]>			    
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RecoverSuccessDialog">
+		<Item Name="OpenFile" Property="string">
+			<Text>
+				<![CDATA[Abrir Pasta]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="SelectAdvanceVideoDialog">
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[Selecione os Formatos de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="labelCheckBoxDesc" Property="label">
+			<Text>
+				<![CDATA[Selecionar Todos <font color=#8C9295>(ObservaÃ§Ã£o: Quanto mais formatos forem selecionados, mais tempo de varredura)</font>]]>
+			</Text>
+		</Item>
+		<Item Name="BtnSure" Property="button">
+			<Text>
+				<![CDATA[Iniciar ]]>			    
+			</Text>
+		</Item>
+		<Item Name="labelDesc" Property="label">//SelectAdvanceVideoDialogHint1
+			<Text>
+				<![CDATA[* Selecione o formato para verificar!]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="MessagePushDialog">		
+		<Item Name="labelNoMessage" Property="string">
+			<Text>
+				<![CDATA[Nenhuma mensagem]]>
+			</Text>
+		</Item>
+		<Item Name="strSimilarLoading" Property="string">
+			<Text>
+				<![CDATA[Carregando]]>
+			</Text>
+		</Item>	
+		<Item Name="MessageCenter" Property="string">
+			<Text>
+				<![CDATA[Centro de Mensagens]]>
+			</Text>
+		</Item>
+		<Item Name="labelText" Property="string">
+			<Text>
+				<![CDATA[Recoverit Chatbot]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="HintDialog">		
+		<Item Name="lblMid3" Property="label">
+			<Text>
+				<![CDATA[Comprar o Recoverit para recuperar arquivos O MAIS RÃPIDO POSSÃVEL]]>
+			</Text>
+		</Item>
+		<Item Name="labelTrail" Property="label">
+			<Text>
+				<![CDATA[Essencial]]>
+			</Text>
+		</Item>	
+		<Item Name="labelTraiIText1" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Dados]]>
+			</Text>
+		</Item>	
+		<Item Name="BtnBuy1" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasic" Property="label">
+			<Text>
+				<![CDATA[PadrÃ£o]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasicText1" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Dados]]>
+			</Text>
+		</Item>	
+		<Item Name="labelBasicText2" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Computadores com Sistemas Danificado]]>
+			</Text>
+		</Item>
+		<Item Name="BtnBuy2" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>	
+
+		<Item Name="labelPro" Property="label">
+			<Text>
+				<![CDATA[Premium]]>
+			</Text>
+		</Item>	
+		<Item Name="labelProText1" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Dados]]>
+			</Text>
+		</Item>	
+		<Item Name="labelProText2" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Computadores com Sistemas Danificados]]>
+			</Text>
+		</Item>
+		<Item Name="labelProText3" Property="label">
+			<Text>
+				<![CDATA[Reparo de VÃ­deo Corrompido]]>
+			</Text>
+		</Item>
+		<Item Name="labelProText4" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="BtnBuy3" Property="button">
+			<Text>
+				<![CDATA[Comprar]]>
+			</Text>
+		</Item>		
+		<Item Name="labelHint" Property="label">
+			<Text>
+				<![CDATA[JÃ¡ comprou?]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="UpdateAuthorDialog">		
+		<Item Name="labelDesc" Property="label">
+			<Text>
+				<![CDATA[Atualize para o Plano Premium para Usar este Recurso]]>
+			</Text>
+		</Item>
+		<Item Name="labelTitle" Property="label">
+			<Text>
+				<![CDATA[Recoverit AvanÃ§ado]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o de Dados]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Recuperar Arquivos do Computador Danificado]]>
+			</Text>
+		</Item>
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Reparar VÃ­deos Corrompidos]]>
+			</Text>
+		</Item>
+		<Item Name="labelText4" Property="label">
+			<Text>
+				<![CDATA[RecuperaÃ§Ã£o AvanÃ§ada de VÃ­deo]]>
+			</Text>
+		</Item>
+		<Item Name="UpgradeNowDesc" Property="string">
+			<Text>
+				<![CDATA[Atualizar Agora]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="ProgressDialog">		
+		<Item Name="labelUBackitDesc1" Property="label">
+			<Text>
+				<![CDATA[FaÃ§a backup de seus dados e recordaÃ§Ãµes preciosas, nunca mais as perca de novo.]]>
+			</Text>
+		</Item>
+		<Item Name="labelUBackitDesc2" Property="label">
+			<Text>
+				<![CDATA[AutomÃ¡tico, simples, inteligente]]>
+			</Text>
+		</Item>	
+		<Item Name="labelUBackitDesc3" Property="label">
+			<Text>
+				<![CDATA[Backup incremental]]>
+			</Text>
+		</Item>
+		<Item Name="buttonUBackit" Property="button">
+			<Text>
+				<![CDATA[Iniciar um PerÃ­odo de ExperiÃªncia de 1 MÃªs]]>
+			</Text>
+		</Item>
+		<Item Name="BackupDataDesc" Property="string">
+			<Text>
+				<![CDATA[Fazer backup]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="CorruptVideoFrame">	
+		<Item Name="labelText" Property="label">
+			<Text>
+				<![CDATA[VocÃª pode recuperar para o computador e reparar os vÃ­deos corrompidos.]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText1" Property="label">
+			<Text>
+				<![CDATA[Recuperar vÃ­deo corrompido para o computador.]]>
+			</Text>
+		</Item>
+		<Item Name="labelText2" Property="label">
+			<Text>
+				<![CDATA[Clique em [Reparo de VÃ­deo Corrompido].]]>
+			</Text>
+		</Item>	
+		<Item Name="labelText3" Property="label">
+			<Text>
+				<![CDATA[Adicione vÃ­deo corrompido para iniciar o reparo.]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="RestartDREDialog">
+		<Item Name="lblTitle1" Property="label">
+			<Text>
+				<![CDATA[Erro de software.]]>
+			</Text>
+		</Item>
+		<Item Name="lblTitle2" Property="label">
+			<Text>
+				<![CDATA[Selecione os arquivos e recupere-os e volte Ã  pÃ¡gina inicial para tentar novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="BtnOk" Property="button">
+			<Text>
+				<![CDATA[OK]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="OnlineWidget">
+		<Item Name="labelNetWorkText1" Property="label">
+			<Text>
+				<![CDATA[Oops, erro na internet.]]>
+			</Text>
+		</Item>
+		<Item Name="labelNetWorkText2" Property="label">
+			<Text>
+				<![CDATA[Verifique sua internet e tente novamente.]]>
+			</Text>
+		</Item>
+		<Item Name="buttonRefresh" Property="button">
+			<Text>
+				<![CDATA[Atualizar]]>
+			</Text>
+		</Item>
+	</Form>
+</Language>
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  MAMª_  ”¨¦§¹·©ª©§¨š©¨¸ª¹È©ª¹¸™©©¨©©©È©ªŠ˜ˆ™™¸˜™¸‡˜˜™·¨š©¸©™º¸©«©È©ªªÈ©Êº¹ªº©«ºÈºËÊ¹«É¹»¹¹ºº¹ºª¸©º¹Ç¹ªºÈ©ªË¸¹ªÉÈ¹ªÉÈ¹ªÊ©›«¸¹«È¹š             Àˆ    À‡¦Â    °‡™   À‡ª§  Ì ˆª˜ÌÀ « ‡¹˜Ì  w¨ˆ¼ €‡	ˆ¬ —©˜  ˜È˜ ÌÌ¼  	š»À 
+Ê °  À Ë‹   À        à&}ûŞ‚	šKl‘H}iLa"%î’© ‡ï{ï÷ş‡§=¤ØÒÁ‰=´êŞì‰d7ßL‰ßz9Q2<[#;H'j¥×ç/Xüøõ–¶ŸğNÒ¯‹\A^ıŸo4Åî•Gä„-›ˆÚã×I¶#à-ø‹÷ĞdŞz?Ät	4ç“ôïoÚ”JÕ«O‰'îğ¥':L	§¸B¼ƒ÷ß‰¶DM T2¡K-nÅÈµ4TT¨á5Ç7Óg¢QSŞ Š>¿÷€J;Äop$²Zg¿…øe)ãkJ\0è¦[ÑA]Aèú¬E ë~o _Ô§Jk»-ô tÚ:Àaàer[¤ `Ís¬ÎAKt$©šâÀ	h,ZŸáRƒtmlƒK5j­úItÀà@s:ÚÊöİØâ»BEíw~§]¼äMpÂÄÔ¹Éãe‚„À¦µ¸J‚{xèààé6Ç¬”jQ&5°a@to}‰tOØJÂò?•³QKr6²ÉNè°™º81xKÚSuË?`T4İ#µ¸	Õ.HhªÛªñPò7ƒ@«ã\a¥ïD¨*ê‘•m9îÑƒ¨lv¥¢$ ™ÓÃŞÁĞê'=lÆëê+Q7(yı‚³~F`§6 «Û=j`›€Á©9ÄßTåÚx	OqTs;5Ş"xU .	ØÌÓ)‹Ll`[¶>	UszX‹Öò°9xÀæ@¬¶Ì°ş¬]"¤e°—;ö|€Àvà¬ÚìåŸ€Õµs|°5–7B©¨_ãbpĞëã€Pº¶™ÖÀÇ`œŞ¦Œè`ãÛ\„RwƒÖIæ@ƒÛvz¨4L¹m¾*°:Ù°ˆÀfËë<Ç}KQ}Ã²ıAÀ6ŸÃØD²¨?\¨ì*ès§=Ù°!­+€Téÿ¤œm*QšÃS^€ì°ÉX5v1åå˜¿Ãš‘‡ì‚ˆ°ÓkÙ´ªIB“h A%	,Lph`œ'èø€íá5§étïQÿŞÙ>Œ7°WÃhwø:@|Ğv ù@ùÀúàï õõº­¹0ñøT` qÁâ
+0ã ÉÁ”.pØ@3 ®TØCøbU—5Gj ¸¬¨¬P×n3‰¬k*+œxÌ˜EÕAØÕ-C@È x$	"I P‚ ˜&Ğ:Áà	Oƒ{µğÀ A 2`h$	&L@h‚€@ûê½ê¼  ø@ ‚Àb@pÁ#	 IL€h•*,K 	fMp øè«Úf
+–#ğHDe@à^xzkdËÙÔ1 %¶*ÑÉäHà4Ğİ€H€”AŞp1(#¯HJ`tŞé”4ğağßÁNYãH€?@>8> >>0;@v í€Üºğà4İšB ¾¸8HBĞ`äŒ>¸±Á&\ ¥×·”´âB€.æ•Şm’â§h&‡h§bD>Ì“Öh6ÙÆ?Â5 5£¢à‚G Ad®¬HK˜%P‰K\œ`è•.ó9xs èÀÒA¦Tp`uƒÏBì#·µà8`18ö@ö mGXÌ€2€÷8×©/ø°È
+\ƒñ1´lDE·F¢…(Dl=ÅÁ¼´›'|‚NÓ‚´@)€~ ø0Cˆ4À$€(A`	3&È6À	‚Nxzà6q‚¢0ğà€ş@ ‚Àb@pÁ#	 IMt (ÑJ°X‚à˜L0h‚`œ'è>ªù0ğà€ş1`Á$	.O€ı@á¢é`ÙÁççèƒ¼Ô–Å8¸}`ÌPA^|! ÁÀÁbDd ”ÁXÀhòö¨úà˜ .‚¼øC@(‚€ÁãƒÍƒÚƒÜƒà¬É`–°4_a|àr±– ‚@¡[Á’¢å`=$ˆ&@	‚JX™àĞÁ&	:Oàbƒ:P~pì¯‚?mbu½ñ`ƒIy§Y¨ €|Àvî×Ä/¤Âà4cĞ¤A;Zià»ÁˆW7\ƒÀ„
+$/hÂàH 1Áäd ,­¾³Ö!Ï¢è®‡(ô›°:†£ tQVÕA…au'DÅÕ:¢¸ngãQ,u¬€€ĞÈ«¡uˆHà6†2ˆnGĞ=$¸" 	‚IP– ¸ &Ìš Ø'	:‘êëÕĞ‹¼ø æÌ‚,Ô`†2h#	H H‚`”%¨ø©—ĞÂ`ÍX™–&°	NtÑÍ>§WEŒEÁ |`Xş€ ·@ C‚F8à‹J|¬Ë&¸†™`ĞÁ&Ş8[«¡hq|ğÀ´E!†– {HpE’h$X	Ö‚ET2ÁÜ›@ãNpy‚`h¸ğ¨bù?`  ƒ0i#Èx$	"I P‚ –&¸Ì  §šlâ‹èD'>«}¡‹`Á|ğ Á‚Aœ dGĞD7$x‰‚H”`	n‚UX˜à0‚Lhœ`è'>«x¡ ñ ®,?ËA#ÜK˜%	*K``‚Á4¡ 2#h 	H Ÿ-1ä:KĞªlJ€X‚ »g ımÀëàhh£)ƒÒ´LÃ(¢ÅĞÜPS°ö¬>ÀB¸–"ÀVdŒP:e,ƒf°™hÀAgß›¡Ún.Ø€¾^ˆ|A Á!cÀPh£ ?Œ@,æÑAÆÈ`$ƒ˜P:e–hrÊ 4ÑFt+–iväù=Üô6 ‚Õ…¼`ø‚ÀoB(¾à\Ë!5˜dg x h£”¸ãÒÁâAêß!µÁì%¸±ÛÀ‡}`!|¬ù0× C0ˆØ5PnT#	FUªRám	(3PÈÀ'dõ7@Á8fH`d@›j3bÒ<vq‚~`î±$(~ ;xyP1ù¡·…B©¢î<*û£D1ÔDù`TEÔZD¨ˆäFED1rT"Š—£QéTDTeFED]uT"j4£~¢hx¬«•–8¸&	6OĞúÂ¬`XÁr±ñ©xì0pÅ ptƒµ±êèqÀR#È#Í`™hàê@P “% íÁJÔ£¢r?*DE|TñQEXG*¢J>¨ˆõCzüVX P¯ ˆ=`9`s öàöÁèÙ³Eb!€a} @aÁÂˆ¬9 spö€èÀîïïğñÖAåƒ²xb˜ø@l´É‚õÇV@€IâÚ`‡`–§šÀ"åÑ<ÊaÒy}€aà7P~h= . ¬¨¬ ñño‰6X¥;^â˜Àkhà/Aæ0`WåPxèİrmVÇ·5Â ¸
+ ‹rDÁ ¢*ÁÎ
+[‰‚Xfà	H”`ğ”#¦JõˆQ¢ :*™QQûD‚¬˜)4Ôkı'†J–Ü =°èWp(f¹âDÑ+Bº5 ~—XZ†İ<ˆWÖ#ÂÄ2Ñ°	XHá”`¸&‡
+ÀÈÁ5… Vg8AĞ	8>·û€ÈCˆ8‹+“«A°ĞJTÁ-	4N°tÀŸ¥Õ`ğÀ?ü^`Aî&·ù
+‚D,ÁK°t‚Àñ`ªy´(‰‘¶|âœ†Kp†^2 ‹gA*	&J@\‚ 	fMl€øé­\gAƒé`Á OZÖ‘‚À$€&m(ñÁ(^q´Àb@pÁ#Õªq}È£VíÜÊ¾Ñ:Úp^Æü@{Às@©`} ÷`÷­÷ÔÁ,:Puàìà£ÛX¹Å=8¤ ÷ÀïÉºSøÀaƒø`-äÆ `1-àÇ tü:@‚¦š¸ÑzƒÙµn¢”¤h1Çi§:'Ï®C^Ì¨p; w ú úÀï»Pñ‚¶Ş.ˆº@ô2Á6X5j	ÇKP\€‰Åñ›ØhP>x>Ê.½&Ä¡Š(qTDe{Q(ÑìŸ=ö‰â¨¢|>*ˆë¨ETşG#¢H8x¨ÓŠĞ
+] ö6ÄAé cÃ;ÿë]ÕSHàö€ Á ÛÕˆ8‚ã6V"±I´L€•
+ª:L¢ 0C‚Lhu`I‘Ú	|nh!"ÒÌCs@Ñ0CˆêX«pÁ#	$è6X”V%e	]‚˜`X¬š &Z8ÁN´y‚ŸhÓ¶@¯W´ü ğ@x“K·ƒ1À–h^¢d#*ETrDç‰	Q"J]¢2O˜pıÀ^õ^° «ó-†<¸§h‡şı ü¹”UMá°†Ñôçš­4snğC/°HÀwWŞ®&À…@AcØ´là4ĞŠ c´Š?®’É6»2EQ5|†QE²¥µÒ¶¼‰ÀT¬·êqÁ.Xº@ôÜ/`¿ÀƒSrx×`L<¼U3·úğHDbT4• ¬ÿ³¯†‰âĞTD½0TQ
+¢"D0ÿ¢ Ä}²¨‰…	PDÍLTŠ¨¥‰Q(ÛŠĞ·Õ¹yğ#ljGH•`°Á%®Zš'V!}¢DÊ‰â	¨’jÁ:ãU‰‚MpÛ 	*õ¼ê¼ĞöÃ£%\·d˜ü—
+	úƒÑ0C+ˆ$	ÖV@X 0 çu°ˆ rÆÚª\¼;}Ày5$’Dj·?C‚HPá â*P8a[müÅ@a‰8ÌVå\À@ø òÌVêfvhù Ğ€ã‚x^¹è\ÀKq~<é!ŠØ``1ÆƒÙPp3Ëƒ@,-ƒ ’aÁfÇ¥ç FÀ; w`î §Â¼‚Æş0 ÄÀƒTÈ$``X’`2€è‚è`Ì?4pê¦+“"p‰Xl8
+XšÁ&±Ä6ñƒÈ±Ùƒ¬ÉËìöú%J@šÕó™"ˆu°˜€0@wÁîÁ­\äÛLEà
+àÑâ
+ä+ ¹BD+Cİ Ad’Le@˜hÀAg ˆi0£@Å±@psÁ„¼€¬BÀ@Œ,dà‘H0 tÊ,3ÀÍ 8èÀ3ĞD4Ó G
+l‹}`Ì_F €@2ƒÉ(3ÀÎ :ğ 4ƒÒLÚ+à‚>æ/È‡€P#@d“P`f™pgĞ¢ŒP_)·Pì ‚¹ê/È„€8"1XÈÀ"`2Aé”Xf€šApĞg ˆi0¦Aà€[ö\ĞuÁäÀBŒ@,àd‘Ht0Ê Ü6¹CIäÚ>TE®ÍE*r«.Q‘\yˆŠÈuŠ¨Š\Åˆ¨È®ÅFEr92*‘‘QŠ\’ŒTä×d£"\¥ŒŠä¢eT"—0£¹•¨È.ÍFErq3*‘«QŠ\Tä—h£"¹FYè].Ó@Md)6€GÀú·•FÂ
+˜az·¸ì ‚¹ğaŒéºİû>¢¡ ÁeƒÕ>Ø¨G¤ğH¢˜pÁfóôxqRk#(H†é`Õ6ƒÄØG:
+yqLÓÎC±ì4F”È«CïÇÑŠC\[jŒØ> ‡pÓ‹Ä^©ŒŠôúaTOı1€çàĞ¤ƒL¨0ï ƒÏBï~áš<„¼·@xïÃ ^¼Çuîx{•ÇÔ¾Cx*û~©/ ã É¤ƒTp.](ğ—.H`‡<gPqÁ¼ße(›À¤ş"şû ©˜Õ§CjB€‡‡Ôvß©ËÀWàÉ’ÕhW`¦UıÑÅ¼`öŸCÿõÃ¡@ıÀxpx[ê6£G\†‹Ä"L¦C0
+IšŸ„—“á—â¤ö’^Ñ‰èú­O{œbX“5»KîÜPE;Lysb‰d˜¦À!J)$ÃPKL‰ACJ	–t8j€4XlŠz®ZFàã­ùàÿTkÊz~!çV\Bü¸:è´Aû`¤A™TÈ†Öv‡`¾ ıÒäîBBäÀ€Zƒÿ„šsî°1V‡H „»k^0_ş´aÿV\_h`ÿZ“Éh‰€tv>Ø¬¼`İ
+Ü^#Â#*|`ÁŠ]9¯‹VA†ø`bEPG^*X*‹€r°Dcšì£-æ9d”gaŞ¿uï/aì8ËØ¤¿Ë§`õ‡€€ó„åc!261ƒ"´ß!>›ú—
+
+²È’\íüÕu¯â}q!îf+PW¢ß/kã÷*)àƒq#¥Ğ
+é_…@;LBh6¶¦»ÁB«µƒ&7bÒ`Ùìnp+GÖğ2›—#swÃÑ2;VqJFdï1ub6SóJ—‰-ëlÛThÖõG³,¡4ÆÓKºÂ1G¬üZh¼T(^/ú·ü†
+P‚íÙsÚoJUYwØ‡nD	Q³ˆ˜]7u"ˆÿß¿~«Ş0>sp‚/Re0l.Qf A¨•]ÌøÀ¶µP#;Ä_“Z#£Õ'˜`° ÈNªAk8Bfıšğ;Âk‰DB¦`û<¶ `«‘ë	LxÈÚŠØV^jaõ¢Èëv‡Ñj€ª`u!¾Şc‘Q?Oc'È-aY¡Ù†f*eaå[ğ\`«Ú'¨og[_câûwÅoÙv!ÔG¿9AdÜ<B"®¨šÇféÍ)aÂtY­èÉW€)v…¤@FÌîP›LQG›E«¡ÍÔ.A°„YŒ®˜ô¨ÜÅr6×Ú(g|˜µ°·iÖÆ[£z® ı	¦Á¤ºÙ—¨x9Oll7ÛfzR
+‘oí+œ9À®ØBË(5(›}Ù÷õR´,7A Z¹NOi(hŠ}w;93—éo[»fæ‹|{T»[À>•¸çÇ·á
+ì@ÿ#îPÒ2åÂÈB«–fp=¥Æ#±"?ÖL«­ZjC³şÛö’ËcÕeŒÿ· V?æy"ª@øİ¯"›ØÑ­jªE²%íÁ»ª¬¤ªÛrß£¢µ¤bTPÕ¸	_U‹-4¸TRµÕ‚‹HUÚ91~(u÷1<¥-FTğş°?ï#˜óˆ5ò»ó%“ÇsïO3O‰%rxĞFş˜<gŞ<ïÊód“ ¹äiNK´Ëıt"¤Õ’[ÿD’ µ÷‘¦‰ÿ.'ÿˆŒZÿ†5&ü‰øÃFìJ$Cb"%’I0¤Ã"""""è~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |Û_8…İÇ^2DÊÖçN ÑĞA¤:"WdJ×–xó­wğÛßÿïøªéLBÁlY‡ÑµkN:„§ŸÃ3ÏoÁsÇ+¯=o~ófİuR)™”³®!†£'÷àÃO_ÆñSOã…C:åæ8Şığ4†jF$ŞÁp)î˜4_÷.,šÁ÷,G§>%“%SD„$Jñä3â‹¯Ş4q>ºG?ƒ9s§BGk‰…³W‰.ÖæµYĞ!4›ä&Âü_¦Î\yã,ÓÛŸx˜e[Ê2¶{vhYÑô™£ñùWWpñòa<w`+^½rï}tï}|–ékfJ'C -^2¯1³/>‹¯s?üá-¼ùÎ¼ñÖ¬Z³É4ÙT9æ.ßıé]œéÊ¾|ü2œØfÈ”»ç3¤K*S…å«æš“ŒŞxû¬9Jù¹;ğüÁ]xê™í”]y¨`½TáÄ©g)Ç³†Äz–uñÚ›GñéÕW1şÁ¦ÍÉJ„FŞ»çi¼ÿŞÇ2dïeá¡/¬a‘)Ôİuûà­ßü7l?|kxš×qã²{¬oDu®‚m§œ:RšnÀê#—qü·ÿ?œúöß‘¢ƒĞÁĞL("N!P©Ù3üÏôã¡=\ˆ^í«ãì¢ö}éÒ¥ÖÓ|-ó²}L«ÃÌ0öxtBŠHBÎ¸%T"¨NÄ1cÂxl]µ
+{W¯Â©íáìaÏÚeØµi5†ìêhLÛÖ£9B}¨ÇwoÇ æ&ÔRÿ÷¬º[ÏCçXıkq|çãØµb)Ö-Zˆu÷İƒ§6>„6¯ÃØ^İÌ$Ú¤;uvÛ²ù8·o¶.¿ß¿Ïo\mfÆĞ?Ô[ 5”ïœÚ»3FÜ‘)”;©’sÒM-™4ö=¼çvïÀ¶–aÓ²%ØøÀÔÒBg4„Ş5Õ8üØ&œÚ¶Ùu¼å%xfıZìY¾Ç¶m1'ùÔQß'ôê‹OîÃÈ.ÈD«¤ngˆ§¶oÆÆ >1ËwÃ!Ì:/¬ß„½kÖbãòåX¿b%6®^ƒÁ}û!JG9¨À`æçäÎÇp|ÛFl_±—,ÀúÅ±fá=èİPjÖ§Ö†LÉŸ•R83ÅîwCÄâ;zŒ=ÍgñT1=Õ¹tCËÀt9xúôi|ûí·Ø¸q£é¯½ÌÇ’)Ñ*ö—Ôñ’Dî{l7®üî?±ëÂ»Øvâ2ö_ş^àXñ{;¡X=ùlyæyl?vëöÅÚ'cÇá‹¸ğÉX¸~3sía•¦ƒ^ÆÛÇâ™ËãüÇßbÏÑSØöìóØsğ8,•ì£;ÅêĞ±¶+Ç—3xåŸş½ŒuÎaı3§°ïäk˜qßZÆÓˆˆöÀ:x§Şş5-½í¬¦ë=ç¾ş#†Ï]Š²peÑZÜ·a;^şòì:ş2ûú8òæ§XÍ±ìÌ§ßaÀ¤™$k‘©ïŠ§_Áó/¾g_~¯ÿö?ğü¥ñ,Ç”ı§Î¡oß¾,ç(úšb6ß½óŞ•ÇØ°Î"©z<ıÚØÊøKâ¸…iöŸvNñÏ8üÉ?cïkW9n}Š'_ûÎ\FŸYóHW#Á:	³N4ÃQ-„ë@ãn4Êò*R/ª #Ò{œ‰¥»_DIóp”§;#Ì¾Bãt•ökb¹ªOJpŒ¾û±C¸kãï#˜ºt>ş<Æ¯Øƒ¹äX©±)††n0eñL}pæl:„%û^Å¬MÇ0måŒó ÙÏ¦$Q‹tÏ!˜³z¦>ğ(Æ/{Ãïß;6ÂØ•»ìÜãe¨+ñş1ß+¸sç{pF=°£Ø†‘”!ØÔ×”o„õ££ÙÃ´“Ò‰4¶oÙ†÷ß}ÃØ¤³ê¿ÛEW>|øğáÃÇ_şêÉ-=qĞJªQÉF£(V×•Ö
+´†0º9>Y'Ãğw,×™&L^ú¶Ÿ¸ˆ§^~O^xkv?‡¾c¦˜éËeoîÙ¬Æsg^Â³§^Äô¥ËîÖ#ï¾Í†Òğ¬cÜ"Shèj}~s,Û°…á_ÁşÓñô‰¨ï7eÕInê6ïÁÑ×ŞÇ–çO Çè)¨é7ãçÜg6›h¿Št3zŒş”#‘j¤ã!2E_ù´wŠN-J!¢Y4«Sf/_OÃü";…Æó¬Û½İnMù«JÔ¡ïĞ±Øwô?û*Ïx	s–­A™fì0.‡lNy¡³O¦p÷İóè¨ŸÆ“&#¡2¨/û¬:£uõiCœ=/¿r¯¾vO>³	C‡w7Ä‚YjÃ:J¦"èÙ»kYŒ—.!bÇ®GÌFµ‰T'3Û¢2P‚½š1eÚ(ôä5¡%1Zç/£“ef¤P6K¨Ğ¯*3Ç?ôğ}8qúYœ{ñ?°#GBU¤`	Ym`[Q€rês9õ2¦6Çk#İx<„¡Ãú2¦{ÏæOKj´¤I³X´(l–!»p ç‰µëîCK&M‚{îÆ0:¢C†Àì»&cîü)˜¿p
+–Ü?wÏ›JÌà³~Hgèø'¨­¯ÂÒfã•K'YÇ1cæXtn‰™Mhûôob*™Ç
+ÊVÛ‡ôÄs/ì6åüêå38yú æ/˜i	§xR™víyŒñœ lGpáå£ØûäFÔ5hO˜J–ËQ$ëUû
+:
+_õ=6nx5Õ,“Ó²N¦ö
+èNY¶~+:õ^xé
+¶:ƒA3îFÇêz”Óy™RÎ8µÑdY¦ƒ¬ÆÉoÿ;î|d;Ê“õ,‹j:®"S²¤
+ãÌAû´È¹Ò§DªÈñ¸|ù2=j6 ÕÉnˆC§½³h%S\°dŠfxˆLI`hŸ>˜5v,æƒ{ÆŒÀİ#†bÎèa˜6r(ú´tF¦*„=šq÷˜!hÊ¤Ñ«Â¸½Ñ½6ƒÚxÓ†À¤~=ĞP@ÿÆâql{p¶¬z;Z‰ÙãF¢9B}(¶…t$€Le©9QgéS±sí*l[³ËfMEïú$Ò¬Ë˜öÍ¡|]ê0b@t­M›Y")êu’åb	:f„È å+]f:a,›1{^‹§7nÂÊ¹óÑ»®é€Ò£>Põæá©cÍ=óĞ¯¾·7Ôbdn¨aÓ­®£™¿nµ”…í2ÉüÖ¦ãÚ¯7vïÊ<GPËpu,ó–DûöÇšùğèªUxtÍC˜8rškj 6ÁJT³Õ³Í®¾{¶¯~ /_ŠKáş9³Ñ½º5†L‰ ²›ë&BlÏtØİ°Ë³r°'úÄ0zÄh|ùÅ—XrßâV2%Â²0…á²lÙ2|÷İwX¿~½kº™¢RiÙÿwÆÌlŠ…lÁS/¾]ì3g°ïLôwİ‡LË „âõf&ãıëÅ“'_Ä~ö™ÏŸ½ŒmÏÄàÉ³P™©E•§èøW#ªG¦×íx`Ó6{éN¼|î~
+=@%ûhíãñá$Jê»bàÌ{°çüëxòÜ<sö
+}êúšŠŠd#‚zŒ¼C§ÌF¤¦°f¦°5uÃĞ;ï6cHEXš×"Ì±mÚ’•¦n?pÃfÎGó°q˜4j™‡@´ÑDfÎ[Ši÷<€é‹V`æÒ5˜uÿZÜ1o1&İ½ ]Zz²ì’¨íÚ#ïZ‚.}†!¤2ÓØÉ<›u/†NŸ’H-:P¾å»àĞû¿ÁË·`Â¢Uß*Lzh3v¿ÿúä+48û³Ô–º¬å„ô¡ÁìÏTE=g{iŸlì…úãÌìš ÇĞ*m"¨T¦Z&Ô,–_¬e(ÆÍ[‰9ËÅ¸¹ËQ;h"]‡!Şc„Y®[ÅºMÕuG×Û'²üf¢çè»ĞcÌ\t}7ºšÍròL3:²Üâ]ú3®å˜ñÀ&Ü³n&İ¿ı¦/BÇÚîèÀ:×éA%á(n‹s\í2=¦-ÆÌ‡÷`Şú=´ÖaÀ”yÕ·°L"¡.³Ï	j3èî=ñæ•7pèÀ!3ÏÌĞ1å`û//›Æ‡mCûôı5Â+¯>|øøõâ¯šLq)­dJëL†(ê*”b(MÑğ¤¡&‡1Aˆˆ ÑJèèÅjT$êPBã³LÇ=FkˆŸÕ˜Ó‚«eKhÈ—Ò@,%hø¦QNÃOËeä„†Ìl¿¦‡—Ó©RªßqÆKh]|©~'ä˜6ğwn£a¬e9B)ÜLà–Š(Jù;¤Mkéœ–ñŠX5eÖŸj:^$ã$({œ×¨ŒNÊ_€ù¨Œ×¨”2&È0ÊG8YÃ8™æ«Œ´dğ¾òVF§G›òjyÈLâ½ ˜_…B4ÆòÕ*:`Ú#$f–›TòY9Ã•Ñ¨­àoûYĞL-GÑ¦—‰dïé8`í›"Â‚ˆiöˆÂØpúeü†eÉC¨P>s?^efoè´ÁÌÒ`\’A3M´LFÏã‰BØ¥="R´\H¤ö”®HÈc+6d Y˜Gñr¢ÌEUÑ–Q'BW¥+„2˜ük¹MGşi£<Û´EÜ(¿"Bb	æ]WBÇ.«L´ßŠŞÑIFŠË„çû‘˜d²PÙû’]§*1tæíñËümÂT˜ÿ†ø2mANMœm9Â2LbóãÛñÑ‡Ÿ™M!ÒêAuW§x”Q×Ê¨?¥D	Ÿuâµ#ï•òw9ŸkVJE4Îp	$z0›jî»üâ½£‚ºhóM‘)å*"t$S!¡¢~FË|43E{¦¨}›ı^â¹¯EFç:mX*ÒÁì·!B…m^K}ôÕ;Åø2tük¨®¬@ª¼ÑRÖWY'TÜvåP'„u›ÔñÄ¬çj`SFu 5•Ô…[ÿÑÇvlÆâ©ÌI6:‘§š:¢å.Õ|7Æ«ŞI…©s!Şgš½¡ÿ)…£%"¬û0ÃRÆT<Æ6\e;œÔ—m–‰–LÁ8ƒ&ÍZÆ!Â#Ã{ÕL/#Â‚×ş¯ezÊœU2Í ‘-ÍôÓa›Ÿ¤ò±H±ı$µQÍôk(‹6Ë­áï:iÔ±\«ƒ¯}OB|G$Ó‹3.íå¢¼)şj"Ã´jXµŒ§FïÚ€Wû¿ˆHi“LÉn@›¤csMıtÈ”/>ı÷-\„p€zÎ¸ifÊ.ºš<ûÌ3f™Ï”)SŒ¨OĞŞ:ùdŠİËÂBåJı#´S}¾ú½2ê´ô¼ûÕRö›¥ìo;%jÍQ»aö¥š™¢¾S{	…è°ù,D„9hùLDdJ‚qŠ `œ:İGGĞ‡ø_cFH}.ûZ#ÚÜYãŒiWŒ£4ÉşŸã€Æ€R7tòƒÂÕMI¦Å¾ZqGOUªÆœ’¥ãüCÂG*(·Ú«Ö²»R†»ú£ş¿Òì—Åplƒ
+Ğs‘9„ÆÍ¦)Å`Y™öOy‚Í©g{«…ö<ÒŞaºŸnF§`ÉîqúÓïğØ±‹(­éa–8•§Sø‡š:Ìß÷^øò7è=f2ÛÛ8ë¤Êô;.2E3S4N²NÔæ5ŞhæI@ûÊ¤êÍŒ”(Ç5ÕQ„òŠL©¢zĞ¾("t:…«qk ƒÛBì›"õ¨L41L-ÇrÍdÑ¾`õŒ“eÊ°%Uµf9PÁ|éT  ëBå£ñ¾œĞÆñfŒU1ı ë1œHrüM°Î8v›1›ñ	ümÆrÊ¥ã¯ƒl»ÆŠñÔ¾'ñÆ•×Ñ«GOêuÒØ".{…mÃ‡×/"â¯^yõáÃÇ¯¿b2E÷¼P.‡¢8iü‘)4â2EÆ\€†´$P £Q:HnZ£­ıG¢2àª’HÒpMš¦‰%íršx’†5Ï$4ß¡ƒWI'¡¬"Èxh¬3{jŠ7Äx¢4Ú±"–qëøJÀ•2Ğx¯SÆ&É°Ö‘ë+Ãt,›µØÖ8”QœD‡:|&2%a®iã˜jã ò¿¾.j}ºfŞ„(w<¥<1ï,ÓÊƒò›|ˆ,¡P£e×IA,+·úZ¨©åÚ“EdJ”ï‰\1àsÍ"PÙj¦HHëŞ“š®úĞº$!§YF´êÁ/Âtê´ÄF…9˜Îö_ÑUJ"!2'õktÌ)tˆ²ˆÓ¡Ò&³ÚˆU§øèt DB§îD‘ÎDÑÜ¹ë6¬Âú+²Xîú½’ÏVbíÃbÜøæ‡L	Ó1”,rà[Ó5:®Ù‚È£ì>+:­iK,¿°$K…ÂºÏrá5J'Z›ÎŠœÑ†±ZVdÉÆA˜c”µy'e¨®‘n¤Óì<wCñØ=^è˜&Y/tÚ«èØÚ²ABÇ”e¯²Ñ5BGÅM¢8¨¢^È™IÓ<uò^¿òÎg"épñÚ)C§@”D57‘Œ/£ÙOiƒr97=QÕkV?{
+ç¾ü=f®\Št=uM«%Q´oŠfX‚Q:¡ıSìì7™bå¤\,ïK—.ã
+‘eËîÇ¼yó1lØ0³G†–ü8KL?E+™"]¡Û¥2rÔ©K¡0ªY5¬¿Ÿ'CA$5³‚eÑI"UAÔ°<£r;u4Ï«ÊJ©,Gµˆ‘%%ÚÒ'v=¹ãÇ2*¤X"""(Xö:ñ&fda})öÚ°5*£IqJ·ù[³*$£–(¬6µpÈ9ıÔ7õ9ZbÁ8Ã!¶ÊV2¶5‘ˆÔÕ¸!},´7I2(ÒFå@İd»ŠR—µY¬d‹3m-Ï	²/ŠaùhÊ(ÂrMPFím’azÕ«k¸¤Ô@¤Tš2§>¥wø,Iè'bª¦äØfüqşwÂhiƒx;dŠˆ”Ö™ÓgbŞœyX·v=®~vË–,µeÆtUnÍtVßô(®~ş¾ÿş{<òÈ#fÓâ\?7í G¦8pÈ»gŠú·ÒŠûÕ‘°§»‰TSÿ	‘î"?Ì2öÃrèEºGøL¨I¢>ÔÜ‘Â8ÙîÔ×Š˜¨d~ÍUùLÖğ9ûdê¿öÿˆ°İiğ2ÊTÉ~W›¢jF 6Yíˆ˜«Í*)|/Â1%‘®aÎö«ô’”‘2›±Š2–±–”‡Ñ¡´ÌG„aË”çL-Û¢–ÚhÖY•a”–QÊ«Híäı2şO2¬ù@˜rd7,Tq,‹ˆdM›{š	Ó©’ıF÷A8üŞxşÏÑcâlD[zİĞcÒüğsìºüÒ-ı¨ì3L»V[×o]sp6€×xdYV¥D˜¨<™/]™?‡L‰P6*ñŒN¤kdYÚ,^—…%Rsró!Iuç ÈñQubÿ£ıgÌ8§:d™eTÔóuMãUŒuQ—¶OÓw2Œê×"7ê]ƒqşß¸a~óİ÷˜?wB	Hİ,$€İpÛ6>|ø(†ñ× ¯¼úğáã×‹_)™¢ÿ¹¯Òù(›CQœtŠÁ8h	yÇüÒˆÙá|!dØYBB$ˆ¾Ó8"b2ÊiXÙøåèY£Iû”Dhd™«â7òÊ1T9d/Çptö£°9_	ı¶íÑo…ŒHÊCã1FCÒ$tJ#4Nõµ_™¢)ë-WbüÆI¥1çäÁ.‡‘QÈç”Ó.wb>Ìo9ÔtÔ²F¡ˆ"‡,’q©r²rëêäIpòÓ6ÌÚxôüm– ™ûúÏ22õïÀÖ£~›«ë·CÀäşç ºptÎ—lf,èªûŠGËq¢èÓ·~f{á	<wà	<0‡íÆÃ{pèÈ>L›1ïT0-Íä1!âÂ.+‰±œœÙ0–ÄQºJÇˆ†è;DŒ…fåˆpÑÌí’‹ßÎ¸±h%²Ï,r÷óÃÙrPyÙßnÂ$¿.œ{f¯‚ì=‘¹<%1hàPœ?÷2fÏÇÿ"©‹ÔQ·¨¢SÇ0Aê…AÂ¢’Îc¨©6Ÿ}‡¿şÿ`ç¥ï1aáCf 9A"µ¡­ÙÔ–qE	K¦dõ”ikv‘[·Œ>ò*Bn÷®½xáùØÿìóxæ™ı˜3çn–u:u2ıÑ,Ìl…,äpkÙ€İs$ÍÂhÃˆD0Dß×İ×ì*ösšÁêQ(dfkh)Í°^}°éş1¼wDø,¨d?‘%F¤“¼Êa2}$‘[­Sö·êK––ª¨o‰2ÏZ
+á†NQ_cÊ%Û†³q
+a‘Ô)Áê’ˆqR?Zaô3Û?Sos¤•Uåä†Yå”‡Àzˆ3ßq¥a–eÑæ¸ú­ıM´÷‰`ö¬!b¼WköBq"î&P²HR'™)Ï³Î…£‡âì©³˜2qr+™"ÒL³R&Œ‡{.ÄĞ¡C™ÿh+™bf¦¨\‰b2EPŸ.İ³}ˆi‡y•CÜÚÿŠ‘ÂD`{ îJ§«¨»mCNµ…â4d´ø<Ä¾$Èz	°„ ûA§õÂÛÊ¡™“J£JmØõa³L•÷¨/õŠå¬StŒ£¯øù?™®¦,vtC÷bšA“Í¿–‰ªİFEô(ÏìD "3„p´¡H5Jƒ)”ÄêqûÌ{ñĞñ—ñì7Âsßş|õ/8úÑXıÔa4kfTiÌRü¦¼½É”*æ#L9ôÛÎ°”,|Où7}†lz®ıIDrQN-{Ò±ÄZRXE%·#¯ƒ¨ÆO£–œQ«®˜®@pìsl½Úu›º¤ö¢ñßyÒ/"×çºû]‹LºGÅƒì'ônJÄ6¯¦Íé}W_åÀ'T|ø¸6œ±ô¯^yõáÃÇ¯¿z2ÅqªrĞ=ï8
+QL¤î8e8åJ7‘âÀt¢ßö«yrn,§Ú!UZÉ•<¹sé¸¡SRZÁ4´Ñ§~Ë(–ñè‚3kÆ·¼nèuTG'‘,
+êïB8†fÎH,ÌÛõ#'‹ş»WÅ¥«W½[Ø°¬G¢°¾[—şÎò©B-G*M-EÑšMâ@Ë`*šU"ç”®ã„²,l,²÷²i[ÒÅ¦)¸gMØ“4'ˆxBÏ?åÿ1È+[–ùP¹åÃ«>éŠÕ—$‚–‰6i¦£"]kÕÑ,ô%W_Õèd•D2øÇXn«í‰Õ=Ğ‘ÿuœ©œ•(õ1OßÔ¬.¸å($UBÁ*$“iTW×²Sª[•©³ù¨ÑÂqrÜğ"S4KåZˆ©îè”ëˆØ8ëJĞé3Î2•†dİjP£úÒ¹'t›Ğé4Æ1b\r¢Œ>Ğ`’¼Fnê­N,²y`~·»,lyX2 ×„lıgÑJÖ¹KÎQ£¿¹öÑ
+Êã&UÌF¯ºç’_ä’òo¯¼²×VdÉ÷ş&ÂBŠû¾›4Ú$Sˆ4û0mŞ™aYgRÕèÚ¹…×4*JËLİ&Ù‡U§3H0?:Jã’ÊØŸ,7æGåÖ6™"°Œ)‘ƒ%9D(«ï¥şÆ…\_œ#Jlßx-837‰ 1È7Où´Ç†ÈØ<úc7·û·ƒ õ0ÌøÜÏu/¡Y‰Œ;¿Ï·ïÄÙÆœ÷¢¡fÙ!BELh†J5*C)TòÚ)Zƒ5Í¸¥¡·Ôµà¶êÎè”i2'Ãudş+³ï:eáŒ[úßZa¦/2%Äü1ö1SîªåÑ©¾gÈKªXrDËD¤XÒÄ‘5_f…ì»6.õmŠ›êT.FoÔÕ?yÁ¶O§/Õ{NŸfÊ=«w™Lõ‘÷Ø†â,k§½öSBEá}øğá/"â¯^yõáÃÇ¯¿B2E¿gÁË©Ö=ï8
+q=dŠŒ7kØÉl›˜pîYƒÏNùpËè¯wò¡™2!Û
+“ cÓÂY[îGN£:!ÁMüxËUŒ\úù·1º=Âß(Ú’G”ÛHõ&¥,¬nxé‚_êß3F+o»ô‡qJ¥YBÃÎ	ó:œ|WF³ÕA9btèJ_$%jŒ3–•­nÙ´•¦¾°2M£×+}›†şçáZğjœ¶£¸Y‡EpÊÎ†/Ì‡)sÖM 6LœÎ†Õûña}¹ñçÌ¬ÒÌ•´q–*c”ÓA	$2¨`å!æ=ëüäÅ‘ÇîP,‹#®):Òf¹åwçÕî‡‘ƒû‹qXşn´ÎÈÂM²h9f•8DHşQ½ü-‡ÔÄAh–Fe	‘(!:JY8ïå}iÖ=Êh~S&Aõ/¹ÕFŸÑ1æ»üo~¶å¿µşÜzÕ]ê²­Äø³0åRĞ/çAú*0-ŞË¦çäÃ.UÊÁ–#ãuÂ™°ÿĞ‘"x‘)æ~öİˆt(X…@EĞÈšNÑ	VÙªÃÒÕ)W9¨*G-ıÉ–k3Ö©-”)ê[™âô»†üÈ:òòúhÛ?¶õ%.½6qKï-L»¤|Zë5û^!ÌŞUŒ×FWs/{µ{Yé?óÎ~H3&uŠN\KıÌ}É`å‹˜çŒG³_ø¾àn˜Ù6.bBK_#‘å·3V´dFË¡´¿ˆ–"iy”–&U²õÛ.—ÍÁ¯ÜP¹;ı•f§ˆÜÕQÊ’·µ¼Æ“T!˜†¹Ï¸ŠÉ[+¿ó›/Í±åŒÅ*[Şvæœ”‡\~Ì¬¦¡÷Ìì¶õ[öZ*$’¯’v“…Æ6¤~†íÓÓ_ùdŠ×†áÃ‡¿4~…dŠãZ´•­Ğ=ï8
+q½dŠ—A×¬­÷Ü2ı4°_­qëÀ¦÷cQœV{(”Á¯ğ?G£^a­nxé‚­_½çÌ²¡â|7:iœM«o¹÷Üñ·/]ò…ò]¼nB¥8şÍc[pfŸä“(ì3'l[òJoŞ­Gy$ˆuLÜ°3VèŒ¸`÷p¾Ã4ràó¬^yÉR‡\³Ä–­Ï<èËèºÀúpH;…¼`âÈ:6|&2Á™¥a!¢EÄß	[hUÁìÿ!GI~Sä®CGZ¡p× #ÜPş:tklZEeä†òÊ25Ë‰X§îMnM:tE:vúoQf7Ü2zÁ!T
+!"Æ!O÷o½gH$†œ¶ä.ÏB¸e5ò²|®E¦ÎLDzÈi63'òÈ–÷¢°¾®"6sú¯ß9´†áoC¦ŒKUÔ\ºVT1‘&.yLC¦äògá´Ùl»·mİ,1ÍƒHÎxiË­u6N–pp‹üñÕyÏÉK^ÛÏŞ³}†äpÉÈ÷Ša	’<è=Â’c98÷E€ä–şJÊNX¹¼äÍÏOkY0-{ô³£¯Vg.êl?$%Ö
+§oòÉ>®/§Æ‡>~iüÊÈ]İÆ‡ÀœÑg‘s®…¿$2Ey™R[
+ce½Xç9¿<íåÒ&<d~ŒCp½pÎnx…U>
+uA:dïåâÊ-[q;!/]huÈœ¸ÜÈÅká-£udòá~îÈjaet–x8°r»Óº$_q™8°iéÚrï»euË,}SXç·ù/*‚ø¾öšĞ&œfÏ	Åg¶ã´È*DÛ²´…Ÿ“L1JA87ÌI:tê§?™E"Ä{ÚXÔ<¿>2¥õâe|Ş~1¼È”|ät¸¨Œ÷l£³¬ßÜÌê1ó'˜!Ìƒ¾¨çCy³aÜğ’õºÀwòÄ=S¼f6Nk;Êµ¥Öòó€SÆö=•›7˜gÂÑõB83Bì¶¡›€w=İT§ì=7eŒåÚR!rïÚrqêİ‰Ç„ñ S,é v›ƒ»Íç)Ğó‚~Bä†à54z7¿µm^uáäKyÍÉè6ù°2´ÊaÂÛr²ùu—›…ï¨sÎ>jff’•ûzĞ:3…ñäôÕ¥³YØşÅ'S|ø¸Yx95>|øğñKãWD¦8p9£1‡œQx-\/™â†·q—ƒgºŸÊk˜2"WJóÆà8Î^ñŞ(ƒ1`½e¿œ<´¯÷ÚƒŞ±²*µ-3…q^ï·™.u¤Po<Ãİ ÜòšMCxu¥Qà¥¿m£ıòròÖœ°ngÅ)''L>É¦™SnçÃ8(lyà=ç4!ßAÓ=Åá€iåµÉ|’Sn9½ú‚¶öLñû›¶Èg9‹»Ì…,qà8ü­KR®A¦´+»Ë¹Ï¦á{šO~}
+ùe—_6m÷Ëö½Br£5­u–yğ"SªøÌ-—PÏõ¢­weM¹ñÁé“
+Û}ûğ.£ë‡ôĞn0ÓÙ…W¼7§NuõNÃ-#õ1+èCk<ÙğNŞrp·İ$‘â‘("	²37ÂlÏ:æ8;#%j£¹±(İ¿(¬ò\Œ\ßQÜ¿¸á<Ï‡ûıbØÙ¾ºW8;ïF`÷ÁqúO§N¬>:ıŠO¦øğqóp÷ñ>|øğñçÂŸ…L±§à¸ #—F²óõÑÓyNÃ{Åé·3œƒŞw³bCÉ‹@qÃ†kÛĞ»YÈĞ÷r~Œà¼[çA2eÁl|?¼äozÇ«¼Œ‘Ï|m¦m!÷ÛJ×:$ùzãîzá¤å]¿Eºë2Šaóøcà%§=Ï9 ÅÈ9rN,yâ'\{P|7§ß^¢uPrSâUÒÜËxôß!R¼‘óï&SZö½	2Å]§¦ßË¦á…›!Sòg¢ä?SøÂY1­iµC¦˜=l²á¸ã¸´õ®ä²ùËµ‰Â6t=(,«ö_9ö	7†¶ã-DÛrä×›w:m÷1Üq2×”íS¤Š!'²DJ>™b¡½¹
+ÇÑ¶ÇI¯p^h{Œ-îC~¼ú8£{Ì£å±-xÊï"SZ‘«§
+û+w¿å“)>|´w?çÃ‡.ü™È>ËËÁì6Èİp‡3ai”äÇ§ÿŞğrŠóZlŞ†PûhÛĞ»YÈxöv¶½kç¾m…)ŒóÆ ™²Æ +­Ÿ…²_zÇ«¼tÏ+>wZn†3a=ôÆ+œp=q:÷½ë×"_§•‡Ü³bØ<şÊè†ç;ùğrHnŠïÆëßBïå—›™r=0¤Šû=–óõ’)ÜdŠón[q#W§?™RˆÂtMœDk?›ı¯Ù'í‘)Î»lÎû7
+çıBLş²2´Ÿë…SF×ƒürÌ¡°O¸1´o!Ú–ƒ÷—ït<ú“ÿ®'Û.6jI7‘r=dŠ×L¯pÅ(Ìw>
+ã´ñ¶¯wxõqÔK;»Ó*­Èæ»M˜pvfK.>ÕK®nL=ğ¿O¦øğqóp÷s>|øğñçÂßx$7‚›!SÜ§S\Ë˜.
+GÃ$?¾öŒ_„ÅFb.ÌŸ‡Lqînx;ÛöÙõÆá…Â8o’)kzÄıç„WyéİHy…õĞ›Â0&œG\B[á¼ë÷f`óøsÂÊZ«^ÉõCï£°Ì®zÏİäCJ!ir#hË™qÈƒ¢¾){ßÎ²³ïÆQXÿ9äêTD‰› („y‘)nÜ(™bŞñ€“Ë"TÎïy‘)?%”¾#›Õ¿Â2»~8ñÜ
+õ­°O¸1xÄç‘¦…á½–zÁ+ÿnx½S¥å´Ù›%Sœ÷s°cg!øŒíÇY–z­rÈõ6Î›ƒ‡»¯³ı[+Lúë7yRˆl;»Ï‰;¿^œö§ş¡­¾§°ïğáÃG>ÜmÊ‡>ş\ø&S<ŒÍ"0Œ‡‘˜{îeØ]/l^ÆŞÂ1.ÁyöcPçÁedzÄıç„WyéWØöPTÆÈÎ×›Â0&œG\íÁ»~oÊ§ïô~ŠeÕ·#rs°ešƒGxÈT¾ëY6CÒ®åÈä—…ÒvÈ¯>KdJ¡,¼â³Ğ;¹¼9ñ·wØ|]pà¾7¼Ş·Ğ‘'Á„ø^+™rğ*¯¶ ğN‹õñÆ+«ëG‘NéíÀ#>4İ(
+ïÙvŠá•7¼Ş)†ÒRšB1‘â&SX%7>Ú8òQ”'|¢è<l<¶\lßV/yòH•6aÇKGdÛ»/*D~õáÃG!¼Ú–>|üÒø›@ àI’\/~y2EqÊÀ*6²ŠÁ0­†—…İŒÏ+ìÍAF“×ıc¤y^Î³ƒÂ8o’KñxÇÿç‚·¡Ú–Ü6ŠêÃeh·êMAÎ#®öà]¿?7ßë­oÉ[Œb§äÇãæÊVy÷*“ëƒ—ãÀ	ã™ÿlú† ğè³Ú$S
+ê>?¦=Òú‰ %=×"Sn72‹å§%SnBÖB,ènñy¤éFQxÓV¼âÎ‡Wşİğz§JKi
+vÉN™R€™Ò¶¼îü˜0ù.DÑ;q¶Æq¸Ûv¾ñ}y®×C¦øğáãæáÕ¶|øğáã—†!S~¡òs’)…aL¸Ãª}È+L¿Ø8ó:-¤Î±Œ…ÑäuÿFĞj|Q¾Â
+rı8üt{ +Æ3>oŞ†êËPTÆÈvŒq‹Â0&œG\íÁ»~jü4u`oäœ¬Ÿ7W¶Ê«WüTP}yä?›¾C¦ÁK®‚z/Æ©·‚´~BüdÊuÃõw[¿~xå-ùr
+E:YĞ'Ü<âóHÓ¢ğı’¼òï†×;ÅPZ¶m:Èk7)oQx
+QôNAœíƒqä£yù2pÊï{Ès½È« <uĞ‡7¯¶åÃ‡¿4şFdˆC¨´‡ÊÊÊ<Å¹ï“)Åñİ(rÆW±áå<ûqøé÷@VŒg|Ş(¼Õ—¡¨>®Ã	0á<âjŞõûs@ep-xËèÀ'SÕ—Gş]2B¥ m9PíãÚuÒ6¼dÿéğSÊëU^mÁıŞÍ•i^ùÊGq~Št² O¸1xÄW^!ŠÂ{ôK^ğÊ¿^ïCiÙ¶é ¯Ü¤¼Ea<â)DÑ;q¶ÆQBäåËÀ)Ãlû§7Œ¢¸
+êÀS}øğq#ğj[>|øğñKÃ)×C¨üÒdŠûY<Ï…+0¬òQlxåCÏ‹Ã¸I“x,™‡öÈ”ö>7ÜGôÓëÃËğr?/EÏû…ø¥ÊÏô~1x”×ÍÈPl`ë^¡Q^†uçW›hÇ°şó@²´Gæb•ÅOÂ²5ézÉè•¯ë‡Û(ó†ÒpÒÏÁ»åp³²Ùö|3(”ûÆà%Ëµ¡t½óÿÓ!—Gon^eK+—¾»Ÿ6}uQŸp#pÆÜùóBQxÏ~©^yvÃëb(­üv™×\åÔvy)üx‹ÂxÄãnûæ^…q¶¯÷ó‘—/§½Ûÿá§Õ]>|øğáÃÇ¯?™âE ¸¡MdİdI!‘’#SD¢Ä$raóŒ1nrÂ1<İaÜğ~Ş‘r#dŠPøÜ'ÁıÌı¾—áå~^‹^ÏÜ°CaÜ?=$ÿOa€^/¼ÕO¿ØÀÖ=·A.†ó«}xÉûk…—üùåğó 8İŸ§ìòêBxë’wËáfeõ–áç‡—,×Æõô;?JãÇÈèwŞó‘Ÿ'w?múê¢>áÆ`#f¹9ğ–!wX¾ ¾¶à•g7¼Ş)ËàmÒ]VŞå¥8ŠãÍãOQ:rÇÙ¼ŞÏGaz¹öëİşo7×øğáÃ‡>ş2ğ“)í’)EF¢yR‡L‘âÀM¦hÇüÖïŒQdcœ)]c´åÃ¦/™rÆœà–@I Oèw¬`&I{p„…ÏÜ3SÜ³SrïÈè*6¼
+ü|èY{Ï…\ùÆıóâ§0D¯/CõZéz—óÇŸ+İŸ^yøsáç+;§mx¢:õng9Ü¬¬ÚWÅSŸ^²\×êw~
+dû.Ïôo…ùÏ¡½<ıxıóNóúáçÏoİ¿~èı›)³k¥{£qŞL>œ4næİBÜ¨¼>|øğáÃ‡¿$2ÅMè·ˆç¿ƒë!SÚ"O
+ñÓ)",DJĞ`‰EP­D´6‰acG!’ˆ¡20áÜ°Ær{d
+#‘H(O¡P:uB4J™¢
+ÏtÍ×®bC!t,)AIi)ÊY^‘XñdÒ<‹¨|
+à¼g.o£Ë‘ÙN™z=sÃ†óŠÿç…“¯Ÿ^i
+^aİğzç§€WZnx½ók…Û!øsáÏ]vJ×K.‚ıO›ø‹«ë›…»~~x¥ùsÃK^áÿšáU7¯8¯^q¹áõN[PxµÉ;wº7·,>|øğáÃ‡¿6üNk"‚¤¤¤¥¥¥ååå†@qà&RÜdJ(úIÈ”H(’÷ß’)Ú/%G¦¸	ûµĞ^ƒÑ0âÍIÜıÀ|ì|vj›ëp[§†ÜÈŸ™bÉ…¶È”X,nÈ‡PÒ£G,]º<ğ V¬XŞ½{C$I>)b¦şƒâ¾¥K°|ÕJ,¼oúØ.™"8Ó‘+ÆWùİ,¼â÷áÃn‡àÏ/¹~ixÉu=ğŠË‡¿<¼Úçµà>|øğáÃG>ÌÌ*uuuØ¸q#vïŞ‡~étºˆ@qãG‘)"4D ¸Pâ=¡’#S¼g§8dŠè¬ˆ0cñ<{öY™0x¡
+DãŒ§H./2E{šX(œH*Ê×SO=….`Íš5xûí·qìØ1C‚„³$ˆCŠ447áè‰ã8pøY¿^~	ï¾ÿ>Zºw32:á
+á“)>|øğáÃ‡>|øğáÃÇ_şÆ!Dò`àÀ†TI¥RË}ˆ„qˆ½§÷E\ˆˆ¸¡bÈDp„Ã¹gm‘)–HÉÅP«ÀÈiÃ±ëèŒ¼s)æ'F$ETòˆ´È’)N¦İ³U-ß$»ÊÂ‘sŞ¼y8}ú´Ù`WyíÚµ+Î;‡«V¢2ÄüW1Å!™N¡®¡Ş’,±(êpúÜY<±{BLS„I 2Ëôßy¯="Epdi^ïùğáÃ‡>|øğáÃ‡>~˜™)i¢kKK6lØğ£É”öç¹Î3‘%B¥"<x_£”7QúâÙóOaÊÜI†X©J0¾8ep-Å)œıQ˜¶äv ÿÊ—~>|>ø É£³oÊöíÛqñÕWO%QVQŞš†ƒ(ËA$‹:z{ÜgÓ¤<±DcÇÃ¢Å‹q?ãíİ·‰Ã‘Ëîrk^ïùğáÃ‡>|øğáÃ‡>~üfbˆ4 ’D³/n„L‘3ï&SBB(túçY!ŠkÖJ8‚`eĞ\‘‹"\2DJ YLÏ$8¹³—Ï@U<Äç$“—¨`I”k‘)"IÙÔÖÖâÍ7ßÄ¤I“Ìlí!#ùV¯Y?úÈ,ëÑìÅkˆ›8åKÄÍ¬“ÚúzŒ7/]¼ˆÙsæ0LÔ+n~§ÏÁ–íÛpøè³HïÊç†S.íÁë=>|øğáÃ‡>|øğáÃÇÏƒ¿q6ša räzf¦8DÊOI¦xaüøñ˜={6n»í6C¤Dâ”‡ÊP¯@sÿì>±÷mZ€`m3²³Vª43F2´MRx¥åÈ®|ZÚóÖ[oaôèÑffŠ ÒE3UŞÿğC4vn63PœøƒázöémÈí—òÒ+1uú4»_J<f]yó9Â,õÉÔÔ ¹Kç,™be-”Sğ*ÃBx½çÃ‡>|øğáÃ‡>|øøyğ7Î¬™’L&[Oô¹™R__ÿÓ“)ÑˆYsäøQôîßáxUÉ*”EÊlaÙ†ÅØ}l'Òİ’ˆT33ÑYş£wã€½2,¥E¸ÉäÓ¹sg³á¬™òŞ2¥5NÊªıPªkkrß’ÅØ¼m+^~å"fß­™)tïÕÓ,oİ‚Aƒo·Ë¯K./´UnÎıöòéÃ‡>|øğáÃ‡>|øøéaf¦ˆ q¬hE¦”••åÜãE¦È±¯©©1„C¨x9üœgí"Êw)\§òRÜµànlÜ±	Õ3¥C(‰wÂŠ-b×¡¨îF0@<D8Ê¸Í{v†‡Ò*Ì¬¯42Å!Tñî»ïbÚ´iæ¿ò-2eíÚµxóí·ÑĞÔdHÍHIfÒH¦)—°ÌBUaT×ÕbİÆ8uæ4jëëÌ½ƒâéıÏâò•×ğÂÁèÕ§§|n´UnÎ}>|øğáÃ‡>|øğáÃÇ/C¦¸	í™òÈ#rÄM¦¸	7äØg2™V2E„C{¿ó¬]D#fï‘åª®Âšmaæ’ˆ6FpÇ½ã±÷ì.Ÿ2ÁD%Â1‘(Úd–éò=JË‹œ¼Ò”Üô_ù9~ü8Ö¯_o‰V^•Ï={ö"$Æç‰tÊ,áI¤’æª*Ú7ÅüÅ0Á3EÇ#W*Í¾)‰T
+C†Ã±Ç±kï³)­—ŒÚ*7ç¾>|øğáÃ‡>|øğáã—ÅßŒ1¢u)®]ºt1dŠ³gŠ×2Aä‚®rìE68³R¼)D!1P„hÄ*ÊğÁ[ÑuDWlxvæ®¾O¿ü$Ï„XÃÄÓ4ÇÄAûdJ{2è™åçŞ{ïÅ•+WĞ½{wC®ôîİ/^Ä´éÓÍæ³ÚódààÛÍ¾'ZÆ3bÔH{ô1ã¨©«5Í?y™ÚC¤tiéjH…_öà8yú”!^¼dtĞV™9÷}øğáÃ‡>|øğáÃ‡¿,ÌÌ#Zâ£«N±Ñ)"HÚ"RÜc/âÅY"s=¾›ğD–L	DB(T¢"]I‹&à©‹û0æîÑˆÖFQ•a\ñˆ!R¢±8ß‰¢ôs2x‘B{2è™ÈåE{ÁìŞ½—.]Â®]»Ìé>=ôR*›PmÙlfÔ6ÔcôØ1xéâË8rü|æi\¼ôª9BY$‹ÈÍNÑÿ‡âÙçŸÃ»ï¿‡û—?hyÉè ­2sîûğáÃ‡>|øğáÃ‡>~Yü–ò”––BdâÄ‰¸óÎ;±yóæ?#™’%D¢Z6CÄ¢¨Œ®¡q`buQDãQDŒ‡ÏÌ¬”Ö)nLqˆAá4SgêÔ©˜>}:¦L™‚ºº:¦3dJ¯>½ÍÈéšj3ÃD{¢Lœ<	ÓgŞi®]»w3Ëx$§9cÇÇ¤©SĞ§__$Ó)³ïJ['ùm•™sß‡>|øğáÃ‡>|øğñËÂ):t0úí·ß@KtTòŸ•LÉ¢Êì‡C˜ÏÊÃˆ&¢ˆio¦%Äø¬˜LÑÉíŞiC3vTFÎF½Ê£6“Õ±ÈPK:!U1›Ïj_”²Šr”³Ü´wJ,™0Ğoó?‘0§şH]"Å'S|øğáÃ‡>|øğáÃ‡¿˜e>š™¢« â@¤~kóYgß7~I2%#Mè·ı/ˆH±ÿßªª´|Æ›¤¸¶ù§û8ù2›Óf‰7	â^ªãÜ×=íçâ'Œç]/´UfÎ}>|øğáÃ‡>|øğáÃÇ/C¦8$ŠH‡LqfcˆP)ÄŸ‹L
+Ÿ·…K¦¸—û8ù2( B
+É÷ık‘(‚û]/´UfÎıÿ{w»•8…aØQôq¹|A=ÿccº©¡IxÒ&m
+ï×r„´M¿ö     —õ`Å‘¸˜b_DëS®ùdÊXVL±ú¨şî;ÓŸÎkó{×{/Ç«W0éAÅ     €ùeSüâ‰ãÿiäßTLQ¹|ªM•CÛ     Ôõ`Ošøûi…û?…¢X’÷÷÷ãÇbLÜÁ4V4°œcÕ/:ØÒöQmæ¢ú     óz°‚ˆ+¨8öšÿ{Š\ì)	+¦¼½½¹'Tü'UÆ±¿Êó÷ğç¿ğ;S{=~Å—[L‰ûÍ‰qJbSâõUºÎJÆ0Glnœ!v±¹q†ØeÄæÆb—›gˆ]Flnœ!v±¹q†ØeÄæÆb—›gˆ]Flnœ!vZì±˜âOü§QüÂIÌ
+)ÆFùøø8|}}¾¿¿»İî°ßïŸŸŸÓìÍWã»È¾i³ß}vÿ6vÇñ\R•eO°ÜªO     p9gÅ”W<ñÙÇ‚¬­},h»İ–°¶V¼Ñì½Íh«•-SøÄÍ%èe©Kõ     .ãø)97èq!%~ÏıÛgú%-?Ç9{?íéÉúÍ‰õs^ZoŠ‹Ë‰     —wük>9ü›ü¾ı¸˜¢b      nÕèbŠbq~1%Î     pëÎŠ)~aD½ŞÇâ(¦     €{ö Š"&T11‹³öPH     ÷ªZ1ÅÅ¹§Rü/šMñó     Ü‚ÙŠ)9üü@më
+T^    Àï–]L¢Š%CT –õj}xHå  Àõ©ÿË¡r@©*ÅU(1*¶„ÊéSm çyÕÌ“§	šö*/   ®Ï
+#Ï…(¨ ¨%YL1ª¢
+î;QR¹âïOQT^_œp'Èã	SH"›Õ&éyİ}÷Ï³ãr˜ë$,ß®½ÊšìøgÇ¨R<,Ké¾Ì>ìŒ9WqÂ°pŸü³&>5×tş\cÏó%~ÏñÄíûj[)÷v¬(]ş)îmİ][o1Å¨F±T‘£/_Üf—÷Çíècœê¤°¢É6m½9ÍµÍºåŒ†¨±9j™sX[ÕW‰)ı;ş²”P¹.Ã.HJMÍá_åRy|ñ˜nZ¦*g•kˆÊƒßÁŸj?â·Ÿ‹w}ê8KZvs›fÑÕt?-ŸK-{·®u›q†¶ßùrùtNã÷œîk™Â±«e]7û˜O_ßEšv­nZ®tÃâı>WáúĞÔz¼-n‡Ç‰aáşqñ2”ˆ×A·lá1±>=Œ3XLÉ¡›¾X¿(’²Ù47»‚{ßïkˆ–k5ÒÚ<:Í	OèN°Í|:N”iÅ””)¯ğ`;Nƒgé8,Ş¨m=—pÌáEÏ°ö%Ìi¿Ûë*ş–Ñ®/¥]‡ã„ùUÿij}Qyòøãœ›ê¿„ÊiTì\TÿsQıŸ»æ~>,ŞæTãœsÎ?'4Ëjo Òìıî&ô¼}Js]Ğ´ï›eùÒ,O›3},ï_ßí2¦ó*]_jû–ğÇ9Ÿpß“ÛSÍ—MîÓõa³­~Î-ö3È?ÈæŒ¿»±Ê~GrË÷JÏ¥ZÔ\¨Í]¿ëyŸÏ]kª÷æà;JûucÕí3‘Süôcë\m¹¸e½7³SÜë'~¬ûF¶Ûm¯¸âPL¹o§âÈ©02FW@ñu”f.ıR^6¯‡×ÈËæ¥›s‹)FÍQ¥ôàœÃ?x5f\ÖFmë¹„c/@†´(aNû=¼Ğ»¬ù/š¦
+×—HJ„ùUÿij}Qyòøãœ›ê¿„ÊiTì\TÿuYí<ÒÛú¶Üj1eÓœwS‚}Ån.DÎN{n/¾¡ıÉ{>/»¹Rë&¹»1NÏÃc_&n§ıÒé¿áîÎjû–×Ï\ÂuS{"finance":{"version":5,"lang":"es-ES","meta":[{"status":"success"}],"marketTime
