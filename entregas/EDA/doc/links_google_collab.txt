@@ -1,0 +1,7 @@
+https://ichi.pro/es/tutorial-de-google-colab-101-con-python-consejos-trucos-y-preguntas-frecuentes-130333958546612
+
+https://www.google.com/search?q=google+colab+using+gce+vms&rlz=1C1CHZO_enES921ES921&biw=1536&bih=722&sxsrf=AOaemvKdWbrNq_aejP-d4dCuE2AyMXajzA%3A1641757547319&ei=azvbYf3vEsilkwWvlIvoCg&ved=0ahUKEwi90ai7t6X1AhXI0qQKHS_KAq04ChDh1QMIDg&uact=5&oq=google+colab+using+gce+vms&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsAM6BQgAEIAEOgUIABDLAToGCAAQFhAeOggIIRAWEB0QHjoHCCEQChCgAUoECEEYAEoECEYYAFCvBlihngFgiaEBaAFwAngAgAGmAYgBrwqSAQM4LjWYAQCgAQHIAQnAAQE&sclient=gws-wiz
+
+https://towardsdatascience.com/upgrade-your-memory-on-google-colab-for-free-1b8b18e8791d
+https://medium.com/@today.rafi/access-google-colab-24-or-32-gb-ram-for-free-9baca94502f3
+https://medium.com/the-agile-crafters-notebook-spanish/17-d%C3%ADas-ejecutando-google-colab-158c44080bf
