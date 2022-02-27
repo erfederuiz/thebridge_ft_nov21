@@ -1,0 +1,9 @@
+Alerta para cuando se acabe el free tier
+
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/tracking-free-tier-usage.html
+
+se fija la alarma del free tier
+se fija la alarma de presupuesto
+
+
+
